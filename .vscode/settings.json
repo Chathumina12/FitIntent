@@ -1,0 +1,15 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "files.exclude": {
+        "**/build": true,
+        "**/.gradle": true
+    },
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "android-intellisense.disable": false,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "android.home": "C:\\Users\\YourName\\AppData\\Local\\Android\\Sdk",
+    "android.emulatorPath": "C:\\Users\\YourName\\AppData\\Local\\Android\\Sdk\\emulator",
+    "emulator.emulatorPath": "C:\\Users\\YourName\\AppData\\Local\\Android\\Sdk\\emulator"
+}

@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/layout_activity_splash.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_gradient_background.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/drawable/gradient_background.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_workout.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/layout/fragment_workout.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_welcome2.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/layout/fragment_welcome2.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_nutrition.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/layout/fragment_nutrition.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_google.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_lock.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/anim_slide_out_left.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/anim_fade_in.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_fitintent_logo.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/drawable/ic_fitintent_logo.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_person.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_welcome3.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/layout/fragment_welcome3.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/anim_slide_in_right.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/anim_slide_out_right.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_quiz1.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/layout/fragment_quiz1.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/anim_fade_in_scale.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/anim/fade_in_scale.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_welcome1.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/layout/fragment_welcome1.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_signup.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/layout/fragment_signup.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/layout_activity_welcome.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_visibility_off.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/drawable/ic_visibility_off.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_email.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/layout_activity_auth.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_visibility.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/drawable/ic_visibility.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_dot_inactive.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/drawable/dot_inactive.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/anim_slide_in_left.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_dashboard.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_check_circle.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/drawable/ic_check_circle.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_dot_active.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/drawable/dot_active.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_login.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_arrow_forward.xml.flat",
+        "source": "com.campus.fitintent.app-main-59:/drawable/ic_arrow_forward.xml"
+    }
+]
