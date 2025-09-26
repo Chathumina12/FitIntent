@@ -136,6 +136,17 @@ object DateUtils {
     }
 
     /**
+<<<<<<< HEAD
+=======
+     * Format date in short format
+     */
+    fun formatDateShort(date: Date): String {
+        val shortDateFormat = SimpleDateFormat("MMM dd, yyyy", Locale.getDefault())
+        return shortDateFormat.format(date)
+    }
+
+    /**
+>>>>>>> 818ab1f (Updated)
      * Format time for display
      */
     fun formatTime(date: Date): String {

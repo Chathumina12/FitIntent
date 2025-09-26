@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/spacing_medium"
+    android:layout_marginVertical="@dimen/spacing_small"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation_small"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/spacing_medium">
+
+        <!-- Workout Icon -->
+        <ImageView
+            android:id="@+id/imageWorkoutIcon"
+            android:layout_width="@dimen/workout_icon_size"
+            android:layout_height="@dimen/workout_icon_size"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/circle_background_primary"
+            android:contentDescription="@string/workout_icon"
+            android:padding="@dimen/spacing_small"
+            android:src="@drawable/ic_fitness"
+            app:tint="@color/white" />
+
+        <!-- Content Layout -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/spacing_medium"
+            android:orientation="vertical">
+
+            <!-- Workout Name and Date Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/textWorkoutName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.FitIntent.Subtitle1"
+                    android:textColor="@color/text_primary"
+                    tools:text="Morning Yoga Flow" />
+
+                <TextView
+                    android:id="@+id/textDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.FitIntent.Caption"
+                    android:textColor="@color/text_secondary"
+                    tools:text="Dec 25, 2024" />
+
+            </LinearLayout>
+
+            <!-- Stats Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_small"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <!-- Duration -->
+                <TextView
+                    android:id="@+id/textDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/spacing_small"
+                    android:gravity="center_vertical"
+                    android:textAppearance="@style/TextAppearance.FitIntent.Body2"
+                    android:textColor="@color/text_secondary"
+                    app:drawableStartCompat="@drawable/ic_timer"
+                    app:drawableTint="@color/text_secondary"
+                    tools:text="20 min" />
+
+                <!-- Separator -->
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="12dp"
+                    android:layout_marginHorizontal="@dimen/spacing_medium"
+                    android:background="@color/divider" />
+
+                <!-- Calories -->
+                <TextView
+                    android:id="@+id/textCalories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/spacing_small"
+                    android:gravity="center_vertical"
+                    android:textAppearance="@style/TextAppearance.FitIntent.Body2"
+                    android:textColor="@color/text_secondary"
+                    app:drawableStartCompat="@drawable/ic_fire"
+                    app:drawableTint="@color/text_secondary"
+                    tools:text="150 cal" />
+
+                <!-- Completion Status -->
+                <TextView
+                    android:id="@+id/textCompletion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:textAppearance="@style/TextAppearance.FitIntent.Caption"
+                    android:textColor="@color/success"
+                    tools:text="100% complete" />
+
+            </LinearLayout>
+
+            <!-- Time Row -->
+            <TextView
+                android:id="@+id/textTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_tiny"
+                android:textAppearance="@style/TextAppearance.FitIntent.Caption"
+                android:textColor="@color/text_tertiary"
+                tools:text="Completed at 7:30 AM" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -132,12 +132,21 @@ class Converters {
     }
 
     @TypeConverter
+<<<<<<< HEAD
     fun fromAnswerType(value: AnswerType): String {
+=======
+    fun fromTipDifficulty(value: TipDifficulty): String {
+>>>>>>> 818ab1f (Updated)
         return value.name
     }
 
     @TypeConverter
+<<<<<<< HEAD
     fun toAnswerType(value: String): AnswerType {
         return AnswerType.valueOf(value)
+=======
+    fun toTipDifficulty(value: String): TipDifficulty {
+        return TipDifficulty.valueOf(value)
+>>>>>>> 818ab1f (Updated)
     }
 }

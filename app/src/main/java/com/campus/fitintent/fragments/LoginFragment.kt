@@ -17,7 +17,11 @@ import com.campus.fitintent.activities.MainActivity
 import com.campus.fitintent.activities.OnboardingActivity
 import com.campus.fitintent.databinding.FragmentLoginBinding
 import com.campus.fitintent.utils.Result
+<<<<<<< HEAD
 import com.campus.fitintent.utils.ViewModelFactory
+=======
+import com.campus.fitintent.viewmodels.ViewModelFactory
+>>>>>>> 818ab1f (Updated)
 import com.campus.fitintent.viewmodels.AuthViewModel
 import com.google.android.material.snackbar.Snackbar
 
@@ -42,7 +46,11 @@ class LoginFragment : Fragment() {
 
         // Initialize ViewModel
         val app = requireActivity().application as FitIntentApplication
+<<<<<<< HEAD
         val factory = ViewModelFactory(app.userRepository)
+=======
+        val factory = ViewModelFactory.getInstance(app)
+>>>>>>> 818ab1f (Updated)
         authViewModel = ViewModelProvider(this, factory)[AuthViewModel::class.java]
 
         setupUI()
@@ -128,7 +136,11 @@ class LoginFragment : Fragment() {
                     requireActivity().finish()
                 }
                 is Result.Error -> {
+<<<<<<< HEAD
                     val errorMessage = result.exception.message ?: getString(R.string.error_login_failed)
+=======
+                    val errorMessage = result.exception?.message ?: getString(R.string.error_login_failed)
+>>>>>>> 818ab1f (Updated)
                     Snackbar.make(binding.root, errorMessage, Snackbar.LENGTH_LONG)
                         .setAction(getString(R.string.retry)) { performLogin() }
                         .show()

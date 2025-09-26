@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "com.campus.fitintent.app-mergeDebugResources-55:/values-v18/values-v18.xml",
             "map": [
                 {
                     "source": "C:\\Users\\CHATHUMINA\\.gradle\\caches\\8.9\\transforms\\c2ea66cc51e40882bf0a63f8fa7f78ca\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+=======
+            "outputFile": "com.campus.fitintent.app-mergeDebugResources-57:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.9\\transforms\\c2ea66cc51e40882bf0a63f8fa7f78ca\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+>>>>>>> 818ab1f (Updated)
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

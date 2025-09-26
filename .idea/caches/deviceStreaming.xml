@@ -367,6 +367,7 @@
           <option name="screenY" value="384" />
         </PersistentDeviceSelectionData>
         <PersistentDeviceSelectionData>
+<<<<<<< HEAD
           <option name="api" value="35" />
           <option name="brand" value="motorola" />
           <option name="codename" value="eqe" />
@@ -379,6 +380,8 @@
           <option name="screenY" value="2712" />
         </PersistentDeviceSelectionData>
         <PersistentDeviceSelectionData>
+=======
+>>>>>>> 818ab1f (Updated)
           <option name="api" value="33" />
           <option name="brand" value="google" />
           <option name="codename" value="felix" />

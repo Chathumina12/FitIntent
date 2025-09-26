@@ -10,6 +10,7 @@
 10
 11    <!-- Permissions -->
 12    <uses-permission android:name="android.permission.INTERNET" />
+<<<<<<< HEAD
 12-->C:\Users\CHATHUMINA\AndroidStudioProjects\FitIntent\app\src\main\AndroidManifest.xml:6:5-67
 12-->C:\Users\CHATHUMINA\AndroidStudioProjects\FitIntent\app\src\main\AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.VIBRATE" />
@@ -261,3 +262,287 @@
 149    </application>
 150
 151</manifest>
+=======
+12-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:7:5-66
+13-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:7:22-63
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:8:5-77
+14-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+15-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+16-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:10:5-81
+16-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:10:22-78
+17
+18    <permission
+18-->[androidx.core:core:1.12.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\3490d39514fcc4e2c6a5aad307af7c04\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.campus.fitintent.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.12.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\3490d39514fcc4e2c6a5aad307af7c04\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.12.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\3490d39514fcc4e2c6a5aad307af7c04\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.campus.fitintent.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.12.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\3490d39514fcc4e2c6a5aad307af7c04\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.12.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\3490d39514fcc4e2c6a5aad307af7c04\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:12:5-106:19
+25        android:name="com.campus.fitintent.FitIntentApplication"
+25-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:13:9-45
+26        android:allowBackup="true"
+26-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:14:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.12.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\3490d39514fcc4e2c6a5aad307af7c04\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:15:9-65
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:16:9-54
+32        android:icon="@mipmap/ic_launcher"
+32-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:17:9-43
+33        android:label="@string/app_name"
+33-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:18:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:19:9-54
+35        android:supportsRtl="true"
+35-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:20:9-35
+36        android:theme="@style/Theme.FitIntent" >
+36-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:21:9-47
+37
+38        <!-- Splash Screen Activity -->
+39        <activity
+39-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:25:9-34:20
+40            android:name="com.campus.fitintent.activities.SplashActivity"
+40-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:26:13-54
+41            android:exported="true"
+41-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:27:13-36
+42            android:screenOrientation="portrait"
+42-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:28:13-49
+43            android:theme="@style/Theme.FitIntent.Splash" >
+43-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:29:13-58
+44            <intent-filter>
+44-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:30:13-33:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:31:17-69
+45-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:31:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:32:17-77
+47-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:32:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <!-- Welcome Activity -->
+52        <activity
+52-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:37:9-41:66
+53            android:name="com.campus.fitintent.activities.WelcomeActivity"
+53-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:38:13-55
+54            android:exported="false"
+54-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:39:13-37
+55            android:screenOrientation="portrait"
+55-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:40:13-49
+56            android:theme="@style/Theme.FitIntent.NoActionBar" />
+56-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:41:13-63
+57
+58        <!-- Authentication Activity -->
+59        <activity
+59-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:44:9-48:58
+60            android:name="com.campus.fitintent.activities.AuthActivity"
+60-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:45:13-52
+61            android:exported="false"
+61-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:46:13-37
+62            android:screenOrientation="portrait"
+62-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:47:13-49
+63            android:windowSoftInputMode="adjustResize" />
+63-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:48:13-55
+64
+65        <!-- Onboarding Activity -->
+66        <activity
+66-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:51:9-54:52
+67            android:name="com.campus.fitintent.activities.OnboardingActivity"
+67-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:52:13-58
+68            android:exported="false"
+68-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:53:13-37
+69            android:screenOrientation="portrait" />
+69-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:54:13-49
+70
+71        <!-- Main Activity -->
+72        <activity
+72-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:57:9-61:55
+73            android:name="com.campus.fitintent.activities.MainActivity"
+73-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:58:13-52
+74            android:exported="false"
+74-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:59:13-37
+75            android:screenOrientation="portrait"
+75-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:60:13-49
+76            android:windowSoftInputMode="adjustPan" />
+76-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:61:13-52
+77
+78        <!-- Workout Detail Activity -->
+79        <activity
+79-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:64:9-67:52
+80            android:name="com.campus.fitintent.activities.WorkoutDetailActivity"
+80-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:65:13-61
+81            android:exported="false"
+81-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:66:13-37
+82            android:screenOrientation="portrait" />
+82-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:67:13-49
+83
+84        <!-- Workout Timer Activity -->
+85        <activity
+85-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:70:9-73:52
+86            android:name="com.campus.fitintent.activities.WorkoutTimerActivity"
+86-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:71:13-60
+87            android:exported="false"
+87-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:72:13-37
+88            android:screenOrientation="portrait" />
+88-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:73:13-49
+89
+90        <!-- Edit Profile Activity -->
+91        <activity
+91-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:76:9-80:58
+92            android:name="com.campus.fitintent.activities.EditProfileActivity"
+92-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:77:13-59
+93            android:exported="false"
+93-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:78:13-37
+94            android:screenOrientation="portrait"
+94-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:79:13-49
+95            android:windowSoftInputMode="adjustResize" />
+95-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:80:13-55
+96
+97        <!-- Notification Settings Activity -->
+98        <activity
+98-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:83:9-86:52
+99            android:name="com.campus.fitintent.activities.NotificationSettingsActivity"
+99-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:84:13-68
+100            android:exported="false"
+100-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:85:13-37
+101            android:screenOrientation="portrait" />
+101-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:86:13-49
+102
+103        <!-- Onboarding Quiz Activity -->
+104        <activity
+104-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:89:9-92:52
+105            android:name="com.campus.fitintent.activities.OnboardingQuizActivity"
+105-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:90:13-62
+106            android:exported="false"
+106-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:91:13-37
+107            android:screenOrientation="portrait" />
+107-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:92:13-49
+108
+109        <!-- Notification Receiver -->
+110        <receiver
+110-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:95:9-98:40
+111            android:name="com.campus.fitintent.utils.NotificationReceiver"
+111-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:96:13-55
+112            android:enabled="true"
+112-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:97:13-35
+113            android:exported="false" />
+113-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:98:13-37
+114
+115        <!-- Habit Reminder Receiver -->
+116        <receiver
+116-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:101:9-104:40
+117            android:name="com.campus.fitintent.utils.HabitReminderReceiver"
+117-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:102:13-56
+118            android:enabled="true"
+118-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:103:13-35
+119            android:exported="false" />
+119-->D:\Work\Chathumina\FinTec\FitIntent\app\src\main\AndroidManifest.xml:104:13-37
+120
+121        <provider
+121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\47c506939329fe65c5bcbe85a3a1b8de\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+122            android:name="androidx.startup.InitializationProvider"
+122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\47c506939329fe65c5bcbe85a3a1b8de\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+123            android:authorities="com.campus.fitintent.debug.androidx-startup"
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\47c506939329fe65c5bcbe85a3a1b8de\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+124            android:exported="false" >
+124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\47c506939329fe65c5bcbe85a3a1b8de\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+125            <meta-data
+125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\47c506939329fe65c5bcbe85a3a1b8de\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+126                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\47c506939329fe65c5bcbe85a3a1b8de\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+127                android:value="androidx.startup" />
+127-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\47c506939329fe65c5bcbe85a3a1b8de\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+128            <meta-data
+128-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\01a760331bdf2afd792ee22d5b26893f\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+129                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+129-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\01a760331bdf2afd792ee22d5b26893f\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+130                android:value="androidx.startup" />
+130-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\01a760331bdf2afd792ee22d5b26893f\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+131            <meta-data
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+132                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+133                android:value="androidx.startup" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+134        </provider>
+135
+136        <uses-library
+136-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\bc9dc57be39aa29d55d6bdfc37db8cac\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+137            android:name="androidx.window.extensions"
+137-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\bc9dc57be39aa29d55d6bdfc37db8cac\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+138            android:required="false" />
+138-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\bc9dc57be39aa29d55d6bdfc37db8cac\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+139        <uses-library
+139-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\bc9dc57be39aa29d55d6bdfc37db8cac\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+140            android:name="androidx.window.sidecar"
+140-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\bc9dc57be39aa29d55d6bdfc37db8cac\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+141            android:required="false" />
+141-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\bc9dc57be39aa29d55d6bdfc37db8cac\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+142
+143        <service
+143-->[androidx.room:room-runtime:2.6.1] C:\Users\ASUS\.gradle\caches\8.9\transforms\966ef0f1be3dc2d2ddba17435047fd3c\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+144            android:name="androidx.room.MultiInstanceInvalidationService"
+144-->[androidx.room:room-runtime:2.6.1] C:\Users\ASUS\.gradle\caches\8.9\transforms\966ef0f1be3dc2d2ddba17435047fd3c\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+145            android:directBootAware="true"
+145-->[androidx.room:room-runtime:2.6.1] C:\Users\ASUS\.gradle\caches\8.9\transforms\966ef0f1be3dc2d2ddba17435047fd3c\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+146            android:exported="false" />
+146-->[androidx.room:room-runtime:2.6.1] C:\Users\ASUS\.gradle\caches\8.9\transforms\966ef0f1be3dc2d2ddba17435047fd3c\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+147
+148        <receiver
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+149            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+150            android:directBootAware="false"
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+151            android:enabled="true"
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+152            android:exported="true"
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+153            android:permission="android.permission.DUMP" >
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+154            <intent-filter>
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+155                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+156            </intent-filter>
+157            <intent-filter>
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+158                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+159            </intent-filter>
+160            <intent-filter>
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+161                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+162            </intent-filter>
+163            <intent-filter>
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+164                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.9\transforms\1cab69bf7a76a88580d5d3a8455c758a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+165            </intent-filter>
+166        </receiver>
+167    </application>
+168
+169</manifest>
+>>>>>>> 818ab1f (Updated)

@@ -5,11 +5,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
+<<<<<<< HEAD
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
+=======
+import android.widget.ImageView;
+import android.widget.ScrollView;
+>>>>>>> 818ab1f (Updated)
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -27,6 +32,7 @@ public final class FragmentSignupBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
+<<<<<<< HEAD
   public final TextInputEditText confirmPasswordInput;
 
   @NonNull
@@ -34,6 +40,9 @@ public final class FragmentSignupBinding implements ViewBinding {
 
   @NonNull
   public final ImageButton confirmPasswordVisibilityToggle;
+=======
+  public final MaterialButton continueButton;
+>>>>>>> 818ab1f (Updated)
 
   @NonNull
   public final TextInputEditText emailInput;
@@ -45,6 +54,7 @@ public final class FragmentSignupBinding implements ViewBinding {
   public final MaterialButton googleSignInButton;
 
   @NonNull
+<<<<<<< HEAD
   public final TextView loginLink;
 
   @NonNull
@@ -52,6 +62,9 @@ public final class FragmentSignupBinding implements ViewBinding {
 
   @NonNull
   public final TextInputLayout nameInputLayout;
+=======
+  public final ImageView logoImage;
+>>>>>>> 818ab1f (Updated)
 
   @NonNull
   public final TextInputEditText passwordInput;
@@ -60,6 +73,7 @@ public final class FragmentSignupBinding implements ViewBinding {
   public final TextInputLayout passwordInputLayout;
 
   @NonNull
+<<<<<<< HEAD
   public final ProgressBar passwordStrengthIndicator;
 
   @NonNull
@@ -115,6 +129,33 @@ public final class FragmentSignupBinding implements ViewBinding {
     this.signupButton = signupButton;
     this.termsCheckbox = termsCheckbox;
     this.termsLink = termsLink;
+=======
+  public final CheckBox staySignedInCheckbox;
+
+  @NonNull
+  public final TextInputEditText usernameInput;
+
+  @NonNull
+  public final TextInputLayout usernameInputLayout;
+
+  private FragmentSignupBinding(@NonNull ScrollView rootView,
+      @NonNull MaterialButton continueButton, @NonNull TextInputEditText emailInput,
+      @NonNull TextInputLayout emailInputLayout, @NonNull MaterialButton googleSignInButton,
+      @NonNull ImageView logoImage, @NonNull TextInputEditText passwordInput,
+      @NonNull TextInputLayout passwordInputLayout, @NonNull CheckBox staySignedInCheckbox,
+      @NonNull TextInputEditText usernameInput, @NonNull TextInputLayout usernameInputLayout) {
+    this.rootView = rootView;
+    this.continueButton = continueButton;
+    this.emailInput = emailInput;
+    this.emailInputLayout = emailInputLayout;
+    this.googleSignInButton = googleSignInButton;
+    this.logoImage = logoImage;
+    this.passwordInput = passwordInput;
+    this.passwordInputLayout = passwordInputLayout;
+    this.staySignedInCheckbox = staySignedInCheckbox;
+    this.usernameInput = usernameInput;
+    this.usernameInputLayout = usernameInputLayout;
+>>>>>>> 818ab1f (Updated)
   }
 
   @Override
@@ -144,6 +185,7 @@ public final class FragmentSignupBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+<<<<<<< HEAD
       id = R.id.confirmPasswordInput;
       TextInputEditText confirmPasswordInput = ViewBindings.findChildViewById(rootView, id);
       if (confirmPasswordInput == null) {
@@ -159,6 +201,11 @@ public final class FragmentSignupBinding implements ViewBinding {
       id = R.id.confirmPasswordVisibilityToggle;
       ImageButton confirmPasswordVisibilityToggle = ViewBindings.findChildViewById(rootView, id);
       if (confirmPasswordVisibilityToggle == null) {
+=======
+      id = R.id.continueButton;
+      MaterialButton continueButton = ViewBindings.findChildViewById(rootView, id);
+      if (continueButton == null) {
+>>>>>>> 818ab1f (Updated)
         break missingId;
       }
 
@@ -180,6 +227,7 @@ public final class FragmentSignupBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       id = R.id.loginLink;
       TextView loginLink = ViewBindings.findChildViewById(rootView, id);
       if (loginLink == null) {
@@ -195,6 +243,11 @@ public final class FragmentSignupBinding implements ViewBinding {
       id = R.id.nameInputLayout;
       TextInputLayout nameInputLayout = ViewBindings.findChildViewById(rootView, id);
       if (nameInputLayout == null) {
+=======
+      id = R.id.logoImage;
+      ImageView logoImage = ViewBindings.findChildViewById(rootView, id);
+      if (logoImage == null) {
+>>>>>>> 818ab1f (Updated)
         break missingId;
       }
 
@@ -210,6 +263,7 @@ public final class FragmentSignupBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       id = R.id.passwordStrengthIndicator;
       ProgressBar passwordStrengthIndicator = ViewBindings.findChildViewById(rootView, id);
       if (passwordStrengthIndicator == null) {
@@ -264,6 +318,29 @@ public final class FragmentSignupBinding implements ViewBinding {
           passwordInputLayout, passwordStrengthIndicator, passwordStrengthLayout,
           passwordStrengthText, passwordVisibilityToggle, progressBar, signupButton, termsCheckbox,
           termsLink);
+=======
+      id = R.id.staySignedInCheckbox;
+      CheckBox staySignedInCheckbox = ViewBindings.findChildViewById(rootView, id);
+      if (staySignedInCheckbox == null) {
+        break missingId;
+      }
+
+      id = R.id.usernameInput;
+      TextInputEditText usernameInput = ViewBindings.findChildViewById(rootView, id);
+      if (usernameInput == null) {
+        break missingId;
+      }
+
+      id = R.id.usernameInputLayout;
+      TextInputLayout usernameInputLayout = ViewBindings.findChildViewById(rootView, id);
+      if (usernameInputLayout == null) {
+        break missingId;
+      }
+
+      return new FragmentSignupBinding((ScrollView) rootView, continueButton, emailInput,
+          emailInputLayout, googleSignInButton, logoImage, passwordInput, passwordInputLayout,
+          staySignedInCheckbox, usernameInput, usernameInputLayout);
+>>>>>>> 818ab1f (Updated)
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

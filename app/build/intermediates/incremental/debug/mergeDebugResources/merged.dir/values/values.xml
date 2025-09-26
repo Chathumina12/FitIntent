@@ -643,6 +643,20 @@
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="androidx_core_ripple_material_light">#1f000000</color>
     <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
+<<<<<<< HEAD
+=======
+    <color name="auth_background">#000000</color>
+    <color name="auth_card_background">#333333</color>
+    <color name="auth_divider">#666666</color>
+    <color name="auth_google_background">#FFFFFF</color>
+    <color name="auth_google_text">#666666</color>
+    <color name="auth_input_background">#FFFFFF</color>
+    <color name="auth_input_placeholder">#999999</color>
+    <color name="auth_input_text">#000000</color>
+    <color name="auth_primary_red">#FF4444</color>
+    <color name="auth_text_primary">#FFFFFF</color>
+    <color name="auth_text_secondary">#CCCCCC</color>
+>>>>>>> 818ab1f (Updated)
     <color name="background">#000000</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
@@ -652,12 +666,20 @@
     <color name="badge_gold">#FFD700</color>
     <color name="badge_silver">#C0C0C0</color>
     <color name="black">#FF000000</color>
+<<<<<<< HEAD
+=======
+    <color name="blue_primary">#2196F3</color>
+>>>>>>> 818ab1f (Updated)
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
+<<<<<<< HEAD
+=======
+    <color name="brown_primary">#8D6E63</color>
+>>>>>>> 818ab1f (Updated)
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="button_red">#FF4444</color>
@@ -668,6 +690,10 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+<<<<<<< HEAD
+=======
+    <color name="cyan_primary">#00BCD4</color>
+>>>>>>> 818ab1f (Updated)
     <color name="dark_card">#1A1A1A</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
@@ -716,6 +742,10 @@
     <color name="foreground_material_light">@android:color/black</color>
     <color name="gradient_end">#8B75C4</color>
     <color name="gradient_start">#6750A4</color>
+<<<<<<< HEAD
+=======
+    <color name="green_primary">#4CAF50</color>
+>>>>>>> 818ab1f (Updated)
     <color name="habit_exercise">#4CAF50</color>
     <color name="habit_meditation">#9C27B0</color>
     <color name="habit_morning">#FFC107</color>
@@ -723,6 +753,10 @@
     <color name="habit_water">#03A9F4</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+<<<<<<< HEAD
+=======
+    <color name="indigo_primary">#3F51B5</color>
+>>>>>>> 818ab1f (Updated)
     <color name="info">#2196F3</color>
     <color name="input_field_background">#FFFFFF</color>
     <color name="input_field_text">#000000</color>
@@ -971,6 +1005,12 @@
     <color name="on_surface">#FFFFFF</color>
     <color name="on_surface_variant">#CCCCCC</color>
     <color name="on_tertiary">#FFFFFF</color>
+<<<<<<< HEAD
+=======
+    <color name="orange_primary">#FF9800</color>
+    <color name="outline">#333333</color>
+    <color name="pink_primary">#E91E63</color>
+>>>>>>> 818ab1f (Updated)
     <color name="primary">#FF4444</color>
     <color name="primary_dark">#CC3333</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
@@ -985,6 +1025,13 @@
     <color name="progress_background">#E0E0E0</color>
     <color name="progress_fill">#6750A4</color>
     <color name="progress_red">#FF4444</color>
+<<<<<<< HEAD
+=======
+    <color name="purple_primary">#9C27B0</color>
+    <color name="red">#FF4444</color>
+    <color name="red_container">#FFEBEE</color>
+    <color name="red_primary">#FF4444</color>
+>>>>>>> 818ab1f (Updated)
     <color name="ripple">#33000000</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
@@ -1003,20 +1050,37 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+<<<<<<< HEAD
+=======
+    <color name="teal_primary">#009688</color>
+>>>>>>> 818ab1f (Updated)
     <color name="tertiary">#FF4444</color>
     <color name="text_disabled">#666666</color>
     <color name="text_primary">#FFFFFF</color>
     <color name="text_secondary">#CCCCCC</color>
+<<<<<<< HEAD
+=======
+    <color name="text_tertiary">#999999</color>
+>>>>>>> 818ab1f (Updated)
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
     <color name="transparent">#00000000</color>
     <color name="warning">#FF9800</color>
     <color name="white">#FFFFFFFF</color>
     <color name="white_20">#33FFFFFF</color>
+<<<<<<< HEAD
+=======
+    <color name="white_70">#B3FFFFFF</color>
+>>>>>>> 818ab1f (Updated)
     <color name="workout_cardio">#2196F3</color>
     <color name="workout_flexibility">#9C27B0</color>
     <color name="workout_hiit">#FF9800</color>
     <color name="workout_strength">#F44336</color>
+<<<<<<< HEAD
+=======
+    <color name="yellow">#FFC107</color>
+    <color name="yellow_primary">#FFC107</color>
+>>>>>>> 818ab1f (Updated)
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -1099,6 +1163,33 @@
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="appcompat_dialog_background_inset">16dp</dimen>
+<<<<<<< HEAD
+=======
+    <dimen name="auth_bottom_link_margin_top">24dp</dimen>
+    <dimen name="auth_button_corner_radius">24dp</dimen>
+    <dimen name="auth_button_height">48dp</dimen>
+    <dimen name="auth_button_margin_top">16dp</dimen>
+    <dimen name="auth_button_text_size">16sp</dimen>
+    <dimen name="auth_card_corner_radius">20dp</dimen>
+    <dimen name="auth_card_margin_horizontal">24dp</dimen>
+    <dimen name="auth_card_margin_top">40dp</dimen>
+    <dimen name="auth_card_padding">32dp</dimen>
+    <dimen name="auth_checkbox_margin_top">16dp</dimen>
+    <dimen name="auth_divider_margin_vertical">16dp</dimen>
+    <dimen name="auth_header_margin_bottom">24dp</dimen>
+    <dimen name="auth_header_text_size">28sp</dimen>
+    <dimen name="auth_input_corner_radius">8dp</dimen>
+    <dimen name="auth_input_height">56dp</dimen>
+    <dimen name="auth_input_margin_vertical">8dp</dimen>
+    <dimen name="auth_input_padding_horizontal">16dp</dimen>
+    <dimen name="auth_input_text_size">16sp</dimen>
+    <dimen name="auth_link_text_size">14sp</dimen>
+    <dimen name="auth_logo_margin_top">80dp</dimen>
+    <dimen name="auth_logo_size">120dp</dimen>
+    <dimen name="auth_logo_text_margin_top">16dp</dimen>
+    <dimen name="auth_logo_text_size">24sp</dimen>
+    <dimen name="auth_secondary_text_size">14sp</dimen>
+>>>>>>> 818ab1f (Updated)
     <dimen name="avatar_size_large">64dp</dimen>
     <dimen name="avatar_size_medium">48dp</dimen>
     <dimen name="avatar_size_small">32dp</dimen>
@@ -1108,10 +1199,18 @@
     <dimen name="bottom_nav_height">56dp</dimen>
     <dimen name="bottom_sheet_corner_radius">16dp</dimen>
     <dimen name="bottom_sheet_peek_height">64dp</dimen>
+<<<<<<< HEAD
+=======
+    <dimen name="button_corner_radius">8dp</dimen>
+>>>>>>> 818ab1f (Updated)
     <dimen name="button_height">48dp</dimen>
     <dimen name="button_height_large">56dp</dimen>
     <dimen name="card_corner_radius">12dp</dimen>
     <dimen name="card_elevation">4dp</dimen>
+<<<<<<< HEAD
+=======
+    <dimen name="card_elevation_small">2dp</dimen>
+>>>>>>> 818ab1f (Updated)
     <dimen name="card_padding">16dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
@@ -1185,6 +1284,10 @@
     <dimen name="dialog_padding">24dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+<<<<<<< HEAD
+=======
+    <dimen name="elevation_small">2dp</dimen>
+>>>>>>> 818ab1f (Updated)
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="fab_size">56dp</dimen>
     <dimen name="fastscroll_default_thickness">8dp</dimen>
@@ -1858,6 +1961,10 @@
     <dimen name="progress_stroke_width">8dp</dimen>
     <dimen name="quiz_option_height">64dp</dimen>
     <dimen name="sliding_pane_detail_pane_width">300dp</dimen>
+<<<<<<< HEAD
+=======
+    <dimen name="spacing_extra_large">40dp</dimen>
+>>>>>>> 818ab1f (Updated)
     <dimen name="spacing_large">24dp</dimen>
     <dimen name="spacing_medium">16dp</dimen>
     <dimen name="spacing_small">8dp</dimen>
@@ -1888,6 +1995,10 @@
     <dimen name="tooltip_y_offset_non_touch">0dp</dimen>
     <dimen name="tooltip_y_offset_touch">16dp</dimen>
     <dimen name="workout_card_height">120dp</dimen>
+<<<<<<< HEAD
+=======
+    <dimen name="workout_icon_size">40dp</dimen>
+>>>>>>> 818ab1f (Updated)
     <dimen name="workout_image_height">160dp</dimen>
     <item name="material_ic_keyboard_arrow_next_black_24dp" type="drawable">@drawable/material_ic_keyboard_arrow_right_black_24dp</item>
     <item name="material_ic_keyboard_arrow_previous_black_24dp" type="drawable">@drawable/material_ic_keyboard_arrow_left_black_24dp</item>
@@ -1935,6 +2046,10 @@
     <item name="fragment_container_view_tag" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="ghost_view_holder" type="id"/>
+<<<<<<< HEAD
+=======
+    <item name="glide_custom_view_target_tag" type="id"/>
+>>>>>>> 818ab1f (Updated)
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="line1" type="id"/>
@@ -2079,10 +2194,24 @@
     <integer name="mtrl_view_visible">0</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+<<<<<<< HEAD
+=======
+    <plurals name="days_remaining">
+        <item quantity="one">%d day left</item>
+        <item quantity="other">%d days left</item>
+    </plurals>
+>>>>>>> 818ab1f (Updated)
     <plurals description="Plural form content description for number of new notifications [CHAR_LIMIT=NONE]" name="mtrl_badge_content_description">
     <item quantity="one"><ns2:g id="count">%d</ns2:g> new notification</item>
     <item quantity="other"><ns2:g id="count">%d</ns2:g> new notifications</item>
   </plurals>
+<<<<<<< HEAD
+=======
+    <plurals name="workout_count">
+        <item quantity="one">%d workout</item>
+        <item quantity="other">%d workouts</item>
+    </plurals>
+>>>>>>> 818ab1f (Updated)
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -2111,12 +2240,28 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns2:g example="Mail" id="application_name">%s</ns2:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="about">About</string>
+<<<<<<< HEAD
     <string name="add_habit">Add Habit</string>
     <string name="all">All</string>
+=======
+    <string name="about_app">About FitIntent</string>
+    <string name="about_app_description">FitIntent is your personal fitness companion designed to help build lasting healthy habits through personalized workouts, habit tracking, and gamification.\n\nVersion 1.0\nDeveloped with ❤️ for your wellness journey.</string>
+    <string name="about_fitintent">About FitIntent</string>
+    <string name="achievement_notifications">Achievement Notifications</string>
+    <string name="achievement_notifications_desc">Celebrate when you unlock badges and reach milestones</string>
+    <string name="add_habit">Add Habit</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="all">All</string>
+    <string name="all_nutrition_tips">All Nutrition Tips</string>
+>>>>>>> 818ab1f (Updated)
     <string name="all_tips">All Tips</string>
     <string name="already_have_account">Already have an account?</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
     <string name="app_name">FitIntent</string>
+<<<<<<< HEAD
+=======
+    <string name="app_preferences">App Preferences</string>
+>>>>>>> 818ab1f (Updated)
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="badge_consistency_desc">Exercise 7 days in a row</string>
     <string name="badge_consistency_king">Consistency King</string>
@@ -2127,8 +2272,15 @@
     <string name="badge_flexibility_pro">Flexibility Pro</string>
     <string name="badge_hydration_desc">Track water 14 days in a row</string>
     <string name="badge_hydration_hero">Hydration Hero</string>
+<<<<<<< HEAD
     <string name="badge_strength_desc">Complete 10 strength workouts</string>
     <string name="badge_strength_master">Strength Master</string>
+=======
+    <string name="badge_icon">Badge icon</string>
+    <string name="badge_strength_desc">Complete 10 strength workouts</string>
+    <string name="badge_strength_master">Strength Master</string>
+    <string name="badge_unlocked">Badge Unlocked!</string>
+>>>>>>> 818ab1f (Updated)
     <string name="badges">Badges</string>
     <string name="badges_earned">Badges Earned</string>
     <string name="benefits">Benefits</string>
@@ -2139,6 +2291,10 @@
     <string description="A description of an action that a user of an accessibility service can perform to expand a bottomsheet halfway to its full height. [CHAR LIMIT=25]" name="bottomsheet_action_expand_halfway">Expand halfway</string>
     <string description="An accessibility feedback when the bottom sheet drag handle is clicked [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
     <string description="The content description of bottom sheet drag handles [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_content_description">Drag handle</string>
+<<<<<<< HEAD
+=======
+    <string name="building_healthy_habits">You\'re building healthy habits!</string>
+>>>>>>> 818ab1f (Updated)
     <string name="call_notification_answer_action">Answer</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Decline</string>
@@ -2147,6 +2303,7 @@
     <string name="call_notification_ongoing_text">Ongoing call</string>
     <string name="call_notification_screening_text">Screening an incoming call</string>
     <string name="cancel">Cancel</string>
+<<<<<<< HEAD
     <string name="cardio">Cardio</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
@@ -2165,6 +2322,72 @@
     <string name="done">Done</string>
     <string name="dont_have_account">Don\'t have an account?</string>
     <string name="edit">Edit</string>
+=======
+    <string name="carbohydrates">Carbohydrates</string>
+    <string name="cardio">Cardio</string>
+    <string name="cardio_training">Cardio Training</string>
+    <string name="categories">Categories</string>
+    <string name="category_cardio">Cardio</string>
+    <string name="category_exercise">Exercise</string>
+    <string name="category_hydration">Hydration</string>
+    <string name="category_mindfulness">Mindfulness</string>
+    <string name="category_nutrition">Nutrition</string>
+    <string name="category_other">Other</string>
+    <string name="category_sleep">Sleep</string>
+    <string name="category_strength">Strength</string>
+    <string name="category_stretching">Stretching</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="choose_habit_to_add">Choose a habit to add</string>
+    <string name="choose_theme">Choose Theme</string>
+    <string name="clear_all_data">Clear All Data</string>
+    <string name="clear_data_confirm_message">This will permanently delete all your habits, progress, and settings. This action cannot be undone.</string>
+    <string name="clear_data_confirm_title">Clear All Data</string>
+    <string name="clear_data_desc">Permanently delete all app data - this cannot be undone</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="completed">Completed</string>
+    <string name="completion_rate">completion rate</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="congratulations_badge">Congratulations! You\'ve earned the %s badge.</string>
+    <string name="continue_last_workout">Continue your last workout</string>
+    <string name="continue_workout">Continue %s</string>
+    <string name="core_crusher">Core Crusher</string>
+    <string name="create_first_habit">Create First Habit</string>
+    <string name="current_level">Current Level</string>
+    <string name="current_streak">Current Streak</string>
+    <string name="daily_progress">Daily Progress</string>
+    <string name="daily_reminders">Daily Reminders</string>
+    <string name="daily_reminders_desc">Get motivated with daily progress reminders</string>
+    <string name="dark">Dark</string>
+    <string name="data_cleared">All data cleared successfully</string>
+    <string name="data_export_completed">Data exported successfully</string>
+    <string name="data_export_started">Data export started</string>
+    <string name="data_privacy">Data &amp; Privacy</string>
+    <string name="day_streak">day streak</string>
+    <string name="days">days</string>
+    <string name="days_active">Days Active</string>
+    <string name="days_streak">Days Streak</string>
+    <string name="delete">Delete</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="delete_habit">Delete Habit</string>
+    <string name="delete_habit_confirmation">Are you sure you want to delete \"%s\"? This action cannot be undone.</string>
+    <string name="dest_title">destination title</string>
+    <string name="difficulty_advanced">Advanced</string>
+    <string name="difficulty_beginner">Beginner</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_expert">Expert</string>
+    <string name="difficulty_intermediate">Intermediate</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="discover_new">Discover new</string>
+    <string name="done">Done</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="duration_format">%dmin</string>
+    <string name="edit">Edit</string>
+    <string name="edit_habit">Edit Habit</string>
+    <string name="edit_preferences">Edit Preferences</string>
+>>>>>>> 818ab1f (Updated)
     <string name="edit_profile">Edit Profile</string>
     <string name="email">Email</string>
     <string name="empty_badges">Keep going! You\'ll earn badges soon</string>
@@ -2183,24 +2406,62 @@
     <string name="error_signup_failed">Sign up failed. Please try again</string>
     <string name="error_something_wrong">Something went wrong. Please try again</string>
     <string name="exercises">Exercises</string>
+<<<<<<< HEAD
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="flexibility">Flexibility</string>
     <string name="flexibility_flow">Flexibility Flow</string>
+=======
+    <string name="expand_collapse">Expand/Collapse</string>
+    <string name="export">Export</string>
+    <string name="export_data">Export Data</string>
+    <string name="export_data_desc">Download all your progress and habit data</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="favorite_tip_singular">1 tip</string>
+    <string name="favorite_tips_plural">%d tips</string>
+    <string name="favorites">Favorites</string>
+    <string name="featured_workouts">Featured Workouts</string>
+    <string name="fiber">Fiber</string>
+    <string name="fiber_tips">Fiber Tips</string>
+    <string name="fitintent_data_export">FitIntent Data Export</string>
+    <string name="fitness_level">Fitness Level</string>
+    <string name="fitness_preferences">Fitness Preferences</string>
+    <string name="flexibility">Flexibility</string>
+    <string name="flexibility_flow">Flexibility Flow</string>
+    <string name="flexibility_training">Flexibility Training</string>
+    <string name="food_prep">Food Prep</string>
+>>>>>>> 818ab1f (Updated)
     <string name="forgot_password">Forgot Password?</string>
     <string name="frequency_1_2_week">1-2 times/week</string>
     <string name="frequency_3_5_week">3-5 times/week</string>
     <string name="frequency_daily">Daily</string>
     <string name="frequency_rarely">Rarely</string>
+<<<<<<< HEAD
     <string name="full_body_strength">Full Body Strength</string>
     <string name="full_name">Full Name</string>
     <string name="goal_gain_strength">Gain Strength</string>
     <string name="goal_lose_weight">Lose Weight</string>
+=======
+    <string name="full_body">Full Body</string>
+    <string name="full_body_strength">Full Body Strength</string>
+    <string name="full_name">Full Name</string>
+    <string name="general">General</string>
+    <string name="goal_gain_muscle">Gain Muscle</string>
+    <string name="goal_gain_strength">Gain Strength</string>
+    <string name="goal_general_health">General Health</string>
+    <string name="goal_improve_endurance">Improve Endurance</string>
+    <string name="goal_increase_flexibility">Increase Flexibility</string>
+    <string name="goal_lose_weight">Lose Weight</string>
+    <string name="goal_maintain_fitness">Maintain Fitness</string>
+>>>>>>> 818ab1f (Updated)
     <string name="goal_stay_active">Stay Active</string>
     <string name="good_afternoon">Good Afternoon</string>
     <string name="good_evening">Good Evening</string>
     <string name="good_morning">Good Morning</string>
+<<<<<<< HEAD
     <string name="habit_description">Description</string>
     <string name="habit_name">Habit Name</string>
     <string name="habits">Habits</string>
@@ -2213,6 +2474,38 @@
     <string name="level_intermediate">Intermediate</string>
     <string name="login">Login</string>
     <string name="logout">Logout</string>
+=======
+    <string name="great_job_habit_completed">Great job! Habit completed</string>
+    <string name="habit_completed_congratulations">Congratulations! Habit completed</string>
+    <string name="habit_created_successfully">Habit created successfully!</string>
+    <string name="habit_deleted">Habit deleted</string>
+    <string name="habit_description">Description</string>
+    <string name="habit_name">Habit Name</string>
+    <string name="habit_unmarked_completion">Habit completion unmarked</string>
+    <string name="habits">Habits</string>
+    <string name="healthy_fats">Healthy Fats</string>
+    <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hiit">HIIT</string>
+    <string name="hiit_training">HIIT Training</string>
+    <string name="hydration">Hydration</string>
+    <string name="hydration_tips">Hydration Tips</string>
+    <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
+    <string name="imperial">Imperial</string>
+    <string name="imperial_units">Imperial (lbs, ft)</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="keep_up_good_work">Keep up the good work!</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="level_advanced">Advanced</string>
+    <string name="level_beginner">Beginner</string>
+    <string name="level_icon">Level icon</string>
+    <string name="level_intermediate">Intermediate</string>
+    <string name="light">Light</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirm_message">Are you sure you want to logout? Your data will remain safe.</string>
+    <string name="logout_confirm_title">Logout Confirmation</string>
+    <string name="logout_confirmation">Are you sure you want to logout? You will need to sign in again to access your data.</string>
+>>>>>>> 818ab1f (Updated)
     <string name="longest_streak">Longest Streak</string>
     <string name="m3_exceed_max_badge_text_suffix" translatable="false"><ns2:g example="Some te" id="part of a long text">%1$s</ns2:g><ns2:g example="…" id="suffix">%2$s</ns2:g></string>
     <string name="m3_ref_typeface_brand_medium" translatable="false">sans-serif-medium</string>
@@ -2230,6 +2523,10 @@
     <string name="m3_sys_motion_easing_standard" translatable="false">cubic-bezier(0.2, 0, 0, 1)</string>
     <string name="m3_sys_motion_easing_standard_accelerate" translatable="false">cubic-bezier(0.3, 0, 1, 1)</string>
     <string name="m3_sys_motion_easing_standard_decelerate" translatable="false">cubic-bezier(0, 0, 0, 1)</string>
+<<<<<<< HEAD
+=======
+    <string name="manage">Manage</string>
+>>>>>>> 818ab1f (Updated)
     <string name="mark_complete">Mark Complete</string>
     <string name="material_clock_display_divider" translatable="false">:</string>
     <string description="Description for the toggle to choose between AM and PM [CHAR_LIMIT=NONE]" name="material_clock_toggle_content_description">Select AM or PM</string>
@@ -2253,9 +2550,20 @@
     <string description="Suffix for time in 12-hour standard, after noon. [CHAR_LIMIT=2]" name="material_timepicker_pm">PM</string>
     <string description="Title for the dialog with a time picker. [CHAR_LIMIT=32]" name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+<<<<<<< HEAD
     <string name="member_since">Member Since</string>
     <string name="metric">Metric</string>
     <string name="minutes_abbr">min</string>
+=======
+    <string name="meal_timing">Meal Timing</string>
+    <string name="member_since">Member Since</string>
+    <string name="member_since_format">Member since %s</string>
+    <string name="metric">Metric</string>
+    <string name="metric_units">Metric (kg, cm)</string>
+    <string name="minerals">Minerals</string>
+    <string name="minutes_abbr">min</string>
+    <string name="more_options">More options</string>
+>>>>>>> 818ab1f (Updated)
     <string name="morning_hiit">Morning HIIT</string>
     <string description="Content description for new notification (no number count) [CHAR_LIMIT=NONE]" name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_checkbox_button_icon_path_checked" translatable="false">M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z</string>
@@ -2325,22 +2633,54 @@
     <string name="mtrl_switch_track_path" translatable="false">M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16</string>
     <string description="Button text to indicate that the widget will ignore the user&apos;s selection [CHAR_LIMIT=16]" name="mtrl_timepicker_cancel">Cancel</string>
     <string description="Button text to indicate that the widget will save the user&apos;s selection [CHAR_LIMIT=16]" name="mtrl_timepicker_confirm">OK</string>
+<<<<<<< HEAD
+=======
+    <string name="my_habits">My Habits</string>
+>>>>>>> 818ab1f (Updated)
     <string name="nav_app_bar_navigate_up_description">Navigate up</string>
     <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
     <string name="nav_home">Home</string>
     <string name="nav_nutrition">Nutrition</string>
     <string name="nav_profile">Profile</string>
     <string name="nav_workouts">Workouts</string>
+<<<<<<< HEAD
     <string name="next">Next</string>
     <string name="no">No</string>
+=======
+    <string name="navigate_forward">Navigate Forward</string>
+    <string name="next">Next</string>
+    <string name="next_achievements">Next Achievements</string>
+    <string name="no">No</string>
+    <string name="no_achievements_yet">No achievements yet</string>
+    <string name="no_description">No description</string>
+    <string name="no_favorite_tips_yet">No favorite tips yet</string>
+    <string name="no_habits_description">Start your fitness journey by creating your first habit. Build consistency and watch your progress grow!</string>
+    <string name="no_habits_yet">No habits yet</string>
+    <string name="no_recent_activity">No recent activity</string>
+    <string name="no_tips_found">No tips found</string>
+    <string name="no_workouts_available">No workouts available</string>
+    <string name="not_set">Not Set</string>
+>>>>>>> 818ab1f (Updated)
     <string name="notification_badge_earned">Congratulations! You earned a new badge</string>
     <string name="notification_habit_reminder">Time to complete your habits!</string>
     <string name="notification_streak_alert">Don\'t break your streak!</string>
     <string name="notification_workout_reminder">Ready for your workout?</string>
     <string name="notifications">Notifications</string>
+<<<<<<< HEAD
     <string name="nutrition_tip">Nutrition Tip</string>
     <string name="nutrition_tips">Nutrition Tips</string>
     <string name="ok">OK</string>
+=======
+    <string name="nutrition">Nutrition</string>
+    <string name="nutrition_category_icon">Nutrition category icon</string>
+    <string name="nutrition_tip">Nutrition Tip</string>
+    <string name="nutrition_tip_icon">Nutrition tip icon</string>
+    <string name="nutrition_tips">Nutrition Tips</string>
+    <string name="ok">OK</string>
+    <string name="one_step_closer_to_goal">One step closer to your goal!</string>
+    <string name="opening_all_workouts">Opening all workouts</string>
+    <string name="opening_category_workouts">Opening %s workouts</string>
+>>>>>>> 818ab1f (Updated)
     <string name="or">OR</string>
     <string name="password">Password</string>
     <string name="password_toggle_content_description">Show password</string>
@@ -2349,16 +2689,39 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="pause">Pause</string>
+<<<<<<< HEAD
     <string name="pending">Pending</string>
     <string name="points">Points</string>
     <string name="privacy">Privacy</string>
     <string name="profile">Profile</string>
     <string name="progress_to_next">You need %d points until next reward</string>
+=======
+    <string name="pause_habit">Pause Habit</string>
+    <string name="paused">(Paused)</string>
+    <string name="pending">Pending</string>
+    <string name="percentage_format">%d%%</string>
+    <string name="pilates">Pilates</string>
+    <string name="points">Points</string>
+    <string name="points_earned">Points Earned</string>
+    <string name="points_earned_message">You earned %d points!</string>
+    <string name="points_to_next_level">%d points to next level</string>
+    <string name="preferred_workout">Preferred Workout</string>
+    <string name="primary_goal">Primary Goal</string>
+    <string name="privacy">Privacy</string>
+    <string name="profile">Profile</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="progress_overview">Progress Overview</string>
+    <string name="progress_to_next">You need %d points until next reward</string>
+    <string name="progress_to_next_level">Progress to next level</string>
+    <string name="protein">Protein</string>
+    <string name="protein_tips">Protein Tips</string>
+>>>>>>> 818ab1f (Updated)
     <string name="question_1">What\'s your main goal?</string>
     <string name="question_2">How often do you exercise?</string>
     <string name="question_3">What type of workouts do you prefer?</string>
     <string name="question_4">Current fitness level?</string>
     <string name="question_5">Available time per session?</string>
+<<<<<<< HEAD
     <string name="quick_workout">Quick Workout</string>
     <string name="quiz_title">Let\'s Personalize Your Experience</string>
     <string name="remember_me">Remember Me</string>
@@ -2369,35 +2732,96 @@
     <string name="rewards">Rewards</string>
     <string name="save">Save</string>
     <string name="search_menu_title">Search</string>
+=======
+    <string name="quick_start">Quick Start</string>
+    <string name="quick_workout">Quick Workout</string>
+    <string name="quiz_title">Let\'s Personalize Your Experience</string>
+    <string name="random_tip">Random Tip</string>
+    <string name="recent_achievements">Recent Achievements</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="recovery">Recovery</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="reminder_time">Reminder Time</string>
+    <string name="remove_picture">Remove Picture</string>
+    <string name="rest">Rest</string>
+    <string name="resume">Resume</string>
+    <string name="resume_habit">Resume Habit</string>
+    <string name="retry">Retry</string>
+    <string name="rewards">Rewards</string>
+    <string name="rewards_achievements">Rewards &amp; Achievements</string>
+    <string name="save">Save</string>
+    <string name="search_menu_title">Search</string>
+    <string name="search_nutrition_tips">Search nutrition tips</string>
+    <string name="search_workouts">Search workouts</string>
+>>>>>>> 818ab1f (Updated)
     <string name="searchbar_scrolling_view_behavior" translatable="false">
     com.google.android.material.search.SearchBar$ScrollingViewBehavior
   </string>
     <string description="Content description for the X button to clear text [CHAR_LIMIT=NONE]" name="searchview_clear_text_content_description">Clear text</string>
     <string description="Content description for the navigation button to return to the previous screen [CHAR_LIMIT=NONE]" name="searchview_navigation_content_description">Back</string>
     <string name="settings">Settings</string>
+<<<<<<< HEAD
     <string name="share">Share</string>
+=======
+    <string name="settings_saved">Settings saved</string>
+    <string name="share">Share</string>
+    <string name="share_data_export">Share Data Export</string>
+    <string name="share_tip">Share tip</string>
+>>>>>>> 818ab1f (Updated)
     <string description="Title of the side sheet&apos;s accessibility pane that is spoken by TalkBack when the side sheet appears on screen. [CHAR_LIMIT=NONE]" name="side_sheet_accessibility_pane_title">Side Sheet</string>
     <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
     <string name="sign_in_with_google">Sign in with Google</string>
     <string name="signup">Sign Up</string>
     <string name="skip">Skip</string>
+<<<<<<< HEAD
     <string name="start_workout">Start Workout</string>
     <string name="statistics">Statistics</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop">Stop</string>
     <string name="strength">Strength</string>
+=======
+    <string name="sports">Sports</string>
+    <string name="start">Start</string>
+    <string name="start_completing_activities">Start completing habits and workouts to earn your first badges!</string>
+    <string name="start_recommended_workout">Start a recommended workout</string>
+    <string name="start_workout">Start Workout</string>
+    <string name="start_your_first_workout">Start your first workout to see progress here</string>
+    <string name="starting_workout">Starting %s</string>
+    <string name="statistics">Statistics</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop">Stop</string>
+    <string name="streak_alerts">Streak Alerts</string>
+    <string name="streak_alerts_desc">Get notified about streak milestones and protection</string>
+    <string name="streak_summary">Streak Summary</string>
+    <string name="strength">Strength</string>
+    <string name="strength_training">Strength Training</string>
+>>>>>>> 818ab1f (Updated)
     <string name="success_habit_added">Habit added successfully</string>
     <string name="success_login">Welcome back!</string>
     <string name="success_profile_updated">Profile updated successfully</string>
     <string name="success_signup">Account created successfully!</string>
     <string name="success_workout_completed">Great job! Workout completed</string>
+<<<<<<< HEAD
     <string name="target_days">Target Days</string>
     <string name="terms">Terms of Service</string>
     <string name="terms_conditions">I agree to the Terms and Conditions</string>
+=======
+    <string name="supplements">Supplements</string>
+    <string name="system">System</string>
+    <string name="target_days">Target Days</string>
+    <string name="terms">Terms of Service</string>
+    <string name="terms_conditions">I agree to the Terms and Conditions</string>
+    <string name="theme">Theme</string>
+    <string name="theme_dark">Dark Theme</string>
+    <string name="theme_dialog_title">Choose Theme</string>
+    <string name="theme_light">Light Theme</string>
+    <string name="theme_system">Follow System</string>
+>>>>>>> 818ab1f (Updated)
     <string name="time_15_30">15-30 min</string>
     <string name="time_30_45">30-45 min</string>
     <string name="time_45_60">45-60 min</string>
     <string name="time_60_plus">60+ min</string>
+<<<<<<< HEAD
     <string name="tip_of_the_day">Tip of the Day</string>
     <string name="todays_activity">Today\'s Activity</string>
     <string name="total_points">Total Points</string>
@@ -2405,12 +2829,39 @@
     <string name="units">Units</string>
     <string name="version">Version</string>
     <string name="view_all">View All</string>
+=======
+    <string name="time_availability">Time Availability</string>
+    <string name="time_picker_title">Set Reminder Time</string>
+    <string name="tip_added_to_favorites">Tip added to favorites</string>
+    <string name="tip_of_the_day">Tip of the Day</string>
+    <string name="tip_removed_from_favorites">Tip removed from favorites</string>
+    <string name="today_completed">Today Completed</string>
+    <string name="todays_activity">Today\'s Activity</string>
+    <string name="todays_tip">Today\'s Tip</string>
+    <string name="total_points">Total Points</string>
+    <string name="total_workouts">Total Workouts</string>
+    <string name="try_different_category">Try a different category or check back later for new tips</string>
+    <string name="undo">Undo</string>
+    <string name="units">Units</string>
+    <string name="units_dialog_title">Choose Units</string>
+    <string name="user_level_format">Level %d</string>
+    <string name="version">Version</string>
+    <string name="view">View</string>
+    <string name="view_all">View All</string>
+    <string name="viewing_workout">Viewing %s</string>
+    <string name="vitamin_tips">Vitamin Tips</string>
+    <string name="vitamins">Vitamins</string>
+    <string name="weekly_goal">Weekly Goal</string>
+    <string name="weekly_streak_milestone">Amazing! %d day streak milestone!</string>
+    <string name="weight_management">Weight Management</string>
+>>>>>>> 818ab1f (Updated)
     <string name="welcome_desc_1">Monitor your fitness journey with detailed analytics and progress tracking</string>
     <string name="welcome_desc_2">Build lasting habits with our 21-day challenge system and earn rewards</string>
     <string name="welcome_desc_3">Transform your lifestyle one habit at a time with personalized guidance</string>
     <string name="welcome_title_1">Track progress. See results.</string>
     <string name="welcome_title_2">Stay motivated. Reach goals.</string>
     <string name="welcome_title_3">Build habit. Own your day.</string>
+<<<<<<< HEAD
     <string name="workout_cardio">Cardio</string>
     <string name="workout_completed">Workout Completed!</string>
     <string name="workout_flexibility">Flexibility</string>
@@ -2421,6 +2872,65 @@
     <string name="your_badges">Your Badges</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
+=======
+    <string name="workout_activity_details">%1$d min • %2$d calories burned</string>
+    <string name="workout_cardio">Cardio</string>
+    <string name="workout_categories">Workout Categories</string>
+    <string name="workout_completed">Workout Completed!</string>
+    <string name="workout_completed_title">Completed %s</string>
+    <string name="workout_flexibility">Flexibility</string>
+    <string name="workout_hiit">HIIT</string>
+    <string name="workout_icon">Workout icon</string>
+    <string name="workout_strength">Strength Training</string>
+    <string name="workouts">Workouts</string>
+    <string name="yes">Yes</string>
+    <string name="yoga">Yoga</string>
+    <string name="your_badges">Your Badges</string>
+    <string name="your_favorite_tips">Your Favorite Tips</string>
+    <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
+    <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
+    <style name="AlertDialog.Body.Text" parent="MaterialAlertDialog.Material3.Body.Text">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:lineHeight">@dimen/line_height_medium</item>
+    </style>
+    <style name="AlertDialog.Button.Negative" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/text_secondary</item>
+    </style>
+    <style name="AlertDialog.Button.Neutral" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/text_secondary</item>
+    </style>
+    <style name="AlertDialog.Button.Positive" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/primary</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/primary</item>
+    </style>
+    <style name="AlertDialog.Dark" parent="ThemeOverlay.Material3.Dialog.Alert">
+        <item name="dialogCornerRadius">@dimen/dialog_corner_radius</item>
+        <item name="android:backgroundTint">@color/surface</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/AlertDialog.Title.Text</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/AlertDialog.Body.Text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AlertDialog.Button.Positive</item>
+        <item name="buttonBarNegativeButtonStyle">@style/AlertDialog.Button.Negative</item>
+        <item name="buttonBarNeutralButtonStyle">@style/AlertDialog.Button.Neutral</item>
+    </style>
+    <style name="AlertDialog.Title.Text" parent="MaterialAlertDialog.Material3.Title.Text">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+>>>>>>> 818ab1f (Updated)
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="Animation.AppCompat.Tooltip" parent="Base.Animation.AppCompat.Tooltip"/>
@@ -5819,6 +6329,22 @@
     <style name="BottomSheetStyle" parent="Widget.Material3.BottomSheet">
         <item name="android:background">@drawable/bottom_sheet_background</item>
     </style>
+<<<<<<< HEAD
+=======
+    <style name="Button.Profile.Edit" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="iconTint">@color/primary</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/primary</item>
+    </style>
+    <style name="Button.Profile.Logout" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/error</item>
+        <item name="iconTint">@color/white</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+>>>>>>> 818ab1f (Updated)
     <style name="CardView" parent="Base.CardView">
     </style>
     <style name="CardView.Dark">
@@ -5827,6 +6353,17 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
+<<<<<<< HEAD
+=======
+    <style name="CardView.Profile" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="strokeColor">@color/divider</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="contentPadding">@dimen/card_padding</item>
+    </style>
+>>>>>>> 818ab1f (Updated)
     <style name="MaterialAlertDialog.Material3" parent="MaterialAlertDialog.MaterialComponents">
     <item name="backgroundTint">@macro/m3_comp_dialog_container_color</item>
     <item name="enforceMaterialTheme">true</item>
@@ -6227,6 +6764,12 @@
     <item name="cornerFamily">rounded</item>
     <item name="cornerSize">4dp</item>
   </style>
+<<<<<<< HEAD
+=======
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+>>>>>>> 818ab1f (Updated)
     <style name="ShapeAppearanceOverlay.Material3.Button" parent="">
     <item name="cornerSize">50%</item>
   </style>
@@ -6412,6 +6955,14 @@
         <item name="android:textColor">@color/text_primary</item>
         <item name="android:fontFamily">@font/roboto_medium</item>
     </style>
+<<<<<<< HEAD
+=======
+    <style name="TextAppearance.FitIntent.Subtitle1" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+>>>>>>> 818ab1f (Updated)
     <style name="TextAppearance.M3.Sys.Typescale.BodyLarge" parent="TextAppearance.AppCompat.Body2">
     <item name="fontFamily">@string/m3_ref_typeface_plain_regular</item>
     <item name="android:fontFamily">@string/m3_ref_typeface_plain_regular</item>
@@ -6659,6 +7210,32 @@
     <style name="TextAppearance.MaterialComponents.Tooltip" parent="TextAppearance.MaterialComponents.Body2">
     <item name="android:textColor">?attr/colorOnPrimary</item>
   </style>
+<<<<<<< HEAD
+=======
+    <style name="TextAppearance.Profile.SectionTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Profile.StatLabel" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="TextAppearance.Profile.StatValue" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_headline</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Profile.UserEmail" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+    <style name="TextAppearance.Profile.UserName" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_xxlarge</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+>>>>>>> 818ab1f (Updated)
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
@@ -6763,6 +7340,12 @@
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
+<<<<<<< HEAD
+=======
+    <style name="Theme.FitIntent.NoActionBar" parent="Theme.FitIntent">
+        
+    </style>
+>>>>>>> 818ab1f (Updated)
     <style name="Theme.FitIntent.Splash" parent="Theme.FitIntent">
         <item name="android:windowBackground">@drawable/splash_background</item>
         <item name="android:windowFullscreen">true</item>
@@ -7676,6 +8259,46 @@
     <item name="shapeAppearance">@null</item>
     <item name="shapeAppearanceOverlay">@null</item>
   </style>
+<<<<<<< HEAD
+=======
+    <style name="Widget.FitIntent.Auth.Button.Google" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/auth_google_text</item>
+        <item name="backgroundTint">@color/auth_google_background</item>
+        <item name="cornerRadius">@dimen/auth_input_corner_radius</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/auth_button_text_size</item>
+        <item name="elevation">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+    <style name="Widget.FitIntent.Auth.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/auth_primary_red</item>
+        <item name="cornerRadius">@dimen/auth_button_corner_radius</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/auth_button_text_size</item>
+        <item name="elevation">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+    <style name="Widget.FitIntent.Auth.CardView" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/auth_card_background</item>
+        <item name="cardCornerRadius">@dimen/auth_card_corner_radius</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+    <style name="Widget.FitIntent.Auth.TextInputLayout" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/auth_input_background</item>
+        <item name="boxCornerRadiusTopStart">@dimen/auth_input_corner_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/auth_input_corner_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/auth_input_corner_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/auth_input_corner_radius</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="hintTextColor">@color/auth_input_placeholder</item>
+        <item name="android:textColorHint">@color/auth_input_placeholder</item>
+    </style>
+>>>>>>> 818ab1f (Updated)
     <style name="Widget.FitIntent.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
         <item name="itemIconTint">@color/bottom_nav_color_selector</item>
         <item name="itemTextColor">@color/bottom_nav_color_selector</item>
@@ -9600,11 +10223,19 @@
     <declare-styleable name="ActionBar">
         
         <attr name="navigationMode">
+<<<<<<< HEAD
             <!-- Normal static title text -->
             <enum name="normal" value="0"/>
             <!-- The action bar will use a selection list for navigation. -->
             <enum name="listMode" value="1"/>
             <!-- The action bar will use a series of horizontal tabs for navigation. -->
+=======
+            
+            <enum name="normal" value="0"/>
+            
+            <enum name="listMode" value="1"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="tabMode" value="2"/>
         </attr>
         
@@ -9789,6 +10420,7 @@
   </declare-styleable>
     <declare-styleable name="AppBarLayout_Layout">
     <attr name="layout_scrollFlags">
+<<<<<<< HEAD
       <!-- Disable scrolling on the view. This flag should not be combined with any of the other
            scroll flags. -->
       <flag name="noScroll" value="0x0"/>
@@ -9819,15 +10451,42 @@
 
       <!-- An additional flag to be used with 'snap'. If set, the view will be snapped to its
            top and bottom margins, as opposed to the edges of the view itself. -->
+=======
+      
+      <flag name="noScroll" value="0x0"/>
+
+      
+      <flag name="scroll" value="0x1"/>
+
+      
+      <flag name="exitUntilCollapsed" value="0x2"/>
+
+      
+      <flag name="enterAlways" value="0x4"/>
+
+      
+      <flag name="enterAlwaysCollapsed" value="0x8"/>
+
+      
+      <flag name="snap" value="0x10"/>
+
+      
+>>>>>>> 818ab1f (Updated)
       <flag name="snapMargins" value="0x20"/>
     </attr>
 
     <attr format="enum" name="layout_scrollEffect">
+<<<<<<< HEAD
       <!-- No effect will be applied to this child when its parent
            AppBarLayout's offset changes.-->
       <enum name="none" value="0"/>
       <!-- This view will be compressed (masked and parallaxed) when it reaches
            the top of the screen and continues to scroll out of view.-->
+=======
+      
+      <enum name="none" value="0"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="compress" value="1"/>
     </attr>
 
@@ -9847,6 +10506,7 @@
 
         
         <attr name="tintMode">
+<<<<<<< HEAD
             <!-- The tint is drawn on top of the drawable.
                  [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
@@ -9863,6 +10523,19 @@
             <enum name="screen" value="15"/>
             <!-- Combines the tint and icon color and alpha channels, clamping the
                  result to valid color values. Saturate(S + D) -->
+=======
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -9874,6 +10547,7 @@
         <attr format="color" name="tickMarkTint"/>
         
         <attr name="tickMarkTintMode">
+<<<<<<< HEAD
             <!-- The tint is drawn on top of the drawable.
                  [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
@@ -9890,6 +10564,19 @@
             <enum name="screen" value="15"/>
             <!-- Combines the tint and drawable color and alpha channels, clamping the
                  result to valid color values. Saturate(S + D) -->
+=======
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -9910,10 +10597,16 @@
         <attr name="android:textAppearance"/>
         
         <attr format="enum" name="autoSizeTextType">
+<<<<<<< HEAD
             <!-- No auto-sizing (default). -->
             <enum name="none" value="0"/>
             <!-- Uniform horizontal and vertical text size scaling to fit within the
             container. -->
+=======
+            
+            <enum name="none" value="0"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="uniform" value="1"/>
         </attr>
         
@@ -9945,6 +10638,7 @@
         <attr format="color" name="drawableTint"/>
         
         <attr name="drawableTintMode">
+<<<<<<< HEAD
             <!-- The tint is drawn on top of the drawable.
                  [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
@@ -9961,6 +10655,19 @@
             <enum name="screen" value="15"/>
             <!-- Combines the tint and drawable color and alpha channels, clamping the
                  result to valid color values. Saturate(S + D) -->
+=======
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="add" value="16"/>
         </attr>
         
@@ -10353,6 +11060,7 @@
     <attr format="string" name="badgeText"/>
     <attr format="integer" name="number"/>
     <attr name="badgeGravity">
+<<<<<<< HEAD
       <!-- Gravity.TOP | Gravity.END -->
       <enum name="TOP_END" value="8388661"/>
       <!-- Gravity.TOP | Gravity.START -->
@@ -10360,6 +11068,15 @@
       <!-- Gravity.BOTTOM | Gravity.END -->
       <enum name="BOTTOM_END" value="8388693"/>
       <!-- Gravity.BOTTOM | Gravity.START -->
+=======
+      
+      <enum name="TOP_END" value="8388661"/>
+      
+      <enum name="TOP_START" value="8388659"/>
+      
+      <enum name="BOTTOM_END" value="8388693"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="BOTTOM_START" value="8388691"/>
     </attr>
     
@@ -10375,11 +11092,17 @@
 
     
     <attr name="offsetAlignmentMode">
+<<<<<<< HEAD
       <!-- The offsets begin at the edge of the anchor. -->
       <enum name="edge" value="0"/>
       <!-- Follows the legacy offset alignment behavior. The horizontal offset begins at a variable
            permanent inset from the edge of the anchor, and the vertical offset begins at the center
            of the badge aligned with the edge of the anchor. -->
+=======
+      
+      <enum name="edge" value="0"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="legacy" value="1"/>
     </attr>
 
@@ -10409,6 +11132,7 @@
     <attr name="trackColor"/>
     
     <attr name="showAnimationBehavior">
+<<<<<<< HEAD
       <!-- No animation used; appears immediately. -->
       <enum name="none" value="0"/>
       <!--
@@ -10420,10 +11144,18 @@
         Expands from the top edge to the bottom edge for the linear type;
         expands from the outer edge to the inner edge for the circular type.
       -->
+=======
+      
+      <enum name="none" value="0"/>
+      
+      <enum name="outward" value="1"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="inward" value="2"/>
     </attr>
     
     <attr name="hideAnimationBehavior">
+<<<<<<< HEAD
       <!-- No animation used; disappears immediately. -->
       <enum name="none" value="0"/>
       <!--
@@ -10435,6 +11167,13 @@
         Collapses from the top edge to the bottom edge for the linear type;
         collapses from the outer edge to the inner edge for the circular type.
       -->
+=======
+      
+      <enum name="none" value="0"/>
+      
+      <enum name="outward" value="1"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="inward" value="2"/>
     </attr>
     
@@ -10451,23 +11190,41 @@
     <attr name="elevation"/>
     
     <attr name="fabAlignmentMode">
+<<<<<<< HEAD
       <!-- Mode that aligns the fab to the center. -->
       <enum name="center" value="0"/>
       <!-- Mode that aligns the fab to the end. -->
+=======
+      
+      <enum name="center" value="0"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="end" value="1"/>
     </attr>
     
     <attr name="fabAnchorMode">
+<<<<<<< HEAD
       <!-- Mode that anchors the fab embedded inside the BottomAppBar. -->
       <enum name="embed" value="0"/>
       <!-- Mode that anchors the fab to be cradled within the top edge of the BottomAppBar. -->
+=======
+      
+      <enum name="embed" value="0"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="cradle" value="1"/>
     </attr>
     
     <attr name="fabAnimationMode">
+<<<<<<< HEAD
       <!-- Mode that scales the fab down to a point, moves it, then scales the fab back to its normal size. -->
       <enum name="scale" value="0"/>
       <!-- Mode that slides the fab from one alignment mode to the next. -->
+=======
+      
+      <enum name="scale" value="0"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="slide" value="1"/>
     </attr>
     
@@ -10492,10 +11249,16 @@
     <attr name="paddingRightSystemWindowInsets"/>
     
     <attr name="menuAlignmentMode">
+<<<<<<< HEAD
       <!-- Mode that aligns the menu automatically to avoid the FAB. Menu will be aligned at the end
            when the FAB is center aligned, and start when the FAB is end aligned. -->
       <enum name="auto" value="0"/>
       <!-- Mode that aligns the menu to the start. -->
+=======
+      
+      <enum name="auto" value="0"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="start" value="1"/>
     </attr>
   </declare-styleable>
@@ -10514,7 +11277,11 @@
     <declare-styleable name="BottomSheetBehavior_Layout">
     
     <attr format="dimension" name="behavior_peekHeight">
+<<<<<<< HEAD
       <!-- Peek at the 16:9 ratio keyline of its parent -->
+=======
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="auto" value="-1"/>
     </attr>
     
@@ -10539,6 +11306,7 @@
     <attr name="backgroundTint"/>
     
     <attr name="behavior_saveFlags">
+<<<<<<< HEAD
       <!-- This flag will preserve the peekHeight on configuration change. -->
       <flag name="peekHeight" value="0x1"/>
       <!-- This flag will preserve the fitToContents boolean value on configuration change. -->
@@ -10552,6 +11320,19 @@
       <!-- This flag will not preserve the aforementioned values on configuration change. The only
            value preserved will be the positional state, e.g. collapsed, hidden, expanded, etc.
            This is the default behavior. -->
+=======
+      
+      <flag name="peekHeight" value="0x1"/>
+      
+      <flag name="fitToContents" value="0x2"/>
+      
+      <flag name="hideable" value="0x4"/>
+      
+      <flag name="skipCollapsed" value="0x8"/>
+      
+      <flag name="all" value="-1"/>
+      
+>>>>>>> 818ab1f (Updated)
       <flag name="none" value="0"/>
     </attr>
     
@@ -10628,6 +11409,7 @@
 
         
         <attr name="checkMarkTintMode">
+<<<<<<< HEAD
             <!-- The tint is drawn on top of the drawable.
                  [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
@@ -10644,6 +11426,19 @@
             <enum name="screen" value="15"/>
             <!-- Combines the tint and icon color and alpha channels, clamping the
                  result to valid color values. Saturate(S + D) -->
+=======
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -10814,6 +11609,7 @@
     <attr format="dimension" name="indicatorInset"/>
     
     <attr name="indicatorDirectionCircular">
+<<<<<<< HEAD
       <!--
         In the indeterminate mode, the spinner will spin clockwise; in the
         determinate mode, the indicator will progress from the top (12 o'clock)
@@ -10825,6 +11621,11 @@
         the determinate mode, the indicator will progress from the top (12
         o'clock) counter-clockwise.
       -->
+=======
+      
+      <enum name="clockwise" value="0"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="counterclockwise" value="1"/>
     </attr>
   </declare-styleable>
@@ -10881,6 +11682,7 @@
 
     
     <attr name="collapsedTitleGravity">
+<<<<<<< HEAD
       <!-- Push title to the top of its container, not changing its size. -->
       <flag name="top" value="0x30"/>
       <!-- Push title to the bottom of its container, not changing its size. -->
@@ -10900,11 +11702,33 @@
       <!-- Push title to the beginning of its container, not changing its size. -->
       <flag name="start" value="0x00800003"/>
       <!-- Push title to the end of its container, not changing its size. -->
+=======
+      
+      <flag name="top" value="0x30"/>
+      
+      <flag name="bottom" value="0x50"/>
+      
+      <flag name="left" value="0x03"/>
+      
+      <flag name="right" value="0x05"/>
+      
+      <flag name="center_vertical" value="0x10"/>
+      
+      <flag name="fill_vertical" value="0x70"/>
+      
+      <flag name="center_horizontal" value="0x01"/>
+      
+      <flag name="center" value="0x11"/>
+      
+      <flag name="start" value="0x00800003"/>
+      
+>>>>>>> 818ab1f (Updated)
       <flag name="end" value="0x00800005"/>
     </attr>
 
     
     <attr name="expandedTitleGravity">
+<<<<<<< HEAD
       <!-- Push title to the top of its container, not changing its size. -->
       <flag name="top" value="0x30"/>
       <!-- Push title to the bottom of its container, not changing its size. -->
@@ -10924,6 +11748,27 @@
       <!-- Push title to the beginning of its container, not changing its size. -->
       <flag name="start" value="0x00800003"/>
       <!-- Push title to the end of its container, not changing its size. -->
+=======
+      
+      <flag name="top" value="0x30"/>
+      
+      <flag name="bottom" value="0x50"/>
+      
+      <flag name="left" value="0x03"/>
+      
+      <flag name="right" value="0x05"/>
+      
+      <flag name="center_vertical" value="0x10"/>
+      
+      <flag name="fill_vertical" value="0x70"/>
+      
+      <flag name="center_horizontal" value="0x01"/>
+      
+      <flag name="center" value="0x11"/>
+      
+      <flag name="start" value="0x00800003"/>
+      
+>>>>>>> 818ab1f (Updated)
       <flag name="end" value="0x00800005"/>
     </attr>
 
@@ -10933,9 +11778,15 @@
     <attr name="title"/>
     
     <attr name="titleCollapseMode">
+<<<<<<< HEAD
       <!-- The expanded title will continuously scale and translate to its final collapsed position. -->
       <enum name="scale" value="0"/>
       <!-- The expanded title will fade out and translate, and the collapsed title will fade in. -->
+=======
+      
+      <enum name="scale" value="0"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="fade" value="1"/>
     </attr>
     
@@ -10950,12 +11801,20 @@
   </declare-styleable>
     <declare-styleable name="CollapsingToolbarLayout_Layout">
     <attr name="layout_collapseMode">
+<<<<<<< HEAD
       <!-- The view will act as normal with no collapsing behavior. -->
       <enum name="none" value="0"/>
       <!-- The view will pin in place. -->
       <enum name="pin" value="1"/>
       <!-- The view will scroll in a parallax fashion. See the
            layout_collapseParallaxMultiplier attribute to change the multiplier. -->
+=======
+      
+      <enum name="none" value="0"/>
+      
+      <enum name="pin" value="1"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="parallax" value="2"/>
     </attr>
 
@@ -10981,6 +11840,7 @@
 
         
         <attr name="buttonTintMode">
+<<<<<<< HEAD
             <!-- The tint is drawn on top of the drawable.
                  [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
@@ -10997,6 +11857,19 @@
             <enum name="screen" value="15"/>
             <!-- Combines the tint and icon color and alpha channels, clamping the
                  result to valid color values. Saturate(S + D) -->
+=======
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -11614,6 +12487,7 @@
 
         
         <attr name="layout_anchorGravity">
+<<<<<<< HEAD
             <!-- Push object to the top of its container, not changing its size. -->
             <flag name="top" value="0x30"/>
             <!-- Push object to the bottom of its container, not changing its size. -->
@@ -11647,11 +12521,41 @@
             <!-- Push object to the beginning of its container, not changing its size. -->
             <flag name="start" value="0x00800003"/>
             <!-- Push object to the end of its container, not changing its size. -->
+=======
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+>>>>>>> 818ab1f (Updated)
             <flag name="end" value="0x00800005"/>
         </attr>
 
         
         <attr format="enum" name="layout_insetEdge">
+<<<<<<< HEAD
             <!-- Don't inset. -->
             <enum name="none" value="0x0"/>
             <!-- Inset the top edge. -->
@@ -11665,10 +12569,26 @@
             <!-- Inset the start edge. -->
             <enum name="start" value="0x00800003"/>
             <!-- Inset the end edge. -->
+=======
+            
+            <enum name="none" value="0x0"/>
+            
+            <enum name="top" value="0x30"/>
+            
+            <enum name="bottom" value="0x50"/>
+            
+            <enum name="left" value="0x03"/>
+            
+            <enum name="right" value="0x05"/>
+            
+            <enum name="start" value="0x00800003"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="end" value="0x00800005"/>
         </attr>
         
         <attr name="layout_dodgeInsetEdges">
+<<<<<<< HEAD
             <!-- Don't dodge any edges -->
             <flag name="none" value="0x0"/>
             <!-- Dodge the top inset edge. -->
@@ -11684,6 +12604,23 @@
             <!-- Dodge the end inset edge. -->
             <flag name="end" value="0x00800005"/>
             <!-- Dodge all the inset edges. -->
+=======
+            
+            <flag name="none" value="0x0"/>
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+            
+>>>>>>> 818ab1f (Updated)
             <flag name="all" value="0x77"/>
         </attr>
     </declare-styleable>
@@ -11730,11 +12667,19 @@
     <attr name="elevation"/>
     
     <attr name="extendStrategy">
+<<<<<<< HEAD
       <!-- Strategy to extend FAB back to the width it shrunk from. -->
       <enum name="auto" value="0"/>
       <!-- Strategy to extend FAB to wrap content. -->
       <enum name="wrap_content" value="1"/>
       <!-- Strategy to extend FAB to match parent. -->
+=======
+      
+      <enum name="auto" value="0"/>
+      
+      <enum name="wrap_content" value="1"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="match_parent" value="2"/>
     </attr>
     
@@ -11766,11 +12711,19 @@
 
     
     <attr name="fabSize">
+<<<<<<< HEAD
       <!-- A size which will change based on the window size. -->
       <enum name="auto" value="-1"/>
       <!-- The normal sized button. -->
       <enum name="normal" value="0"/>
       <!-- The mini sized button. -->
+=======
+      
+      <enum name="auto" value="-1"/>
+      
+      <enum name="normal" value="0"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="mini" value="1"/>
     </attr>
     
@@ -11819,6 +12772,7 @@
         <attr format="reference" name="fontProviderCerts"/>
         
         <attr name="fontProviderFetchStrategy">
+<<<<<<< HEAD
             <!-- The blocking font fetch works as follows.
               First, check the local cache, then if the requested font is not cached, request the
               font from the provider and wait until it is finished.  You can change the length of
@@ -11830,12 +12784,21 @@
               request the font and continue with layout inflation. Once the font fetch succeeds, the
               target text view will be refreshed with the downloaded font data. The
               fontProviderFetchTimeout will be ignored if async loading is specified. -->
+=======
+            
+            <enum name="blocking" value="0"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="async" value="1"/>
         </attr>
         
         <attr format="integer" name="fontProviderFetchTimeout">
+<<<<<<< HEAD
             <!-- A special value for the timeout. In this case, the blocking font fetching will not
               timeout and wait until a reply is received from the font provider. -->
+=======
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="forever" value="-1"/>
         </attr>
         
@@ -12193,6 +13156,7 @@
     <declare-styleable name="LinearProgressIndicator">
     
     <attr name="indeterminateAnimationType">
+<<<<<<< HEAD
       <!--
         The track will be filled with three adjacent segments in iterative different colors.
         This type is only available when there are three or more indicator
@@ -12202,10 +13166,16 @@
       <!--
         There will be two disjoint segments in the same color per cycle. The color iterates between cycles.
       -->
+=======
+      
+      <enum name="contiguous" value="0"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="disjoint" value="1"/>
     </attr>
     
     <attr name="indicatorDirectionLinear">
+<<<<<<< HEAD
       <!-- Animated from the left end to the right end of the track. -->
       <enum name="leftToRight" value="0"/>
       <!-- Animated from the right end to the left end of the track. -->
@@ -12219,6 +13189,15 @@
         Animated from the end position to the start position of the track.
         This will be same as the rightToLeft for API before 17.
       -->
+=======
+      
+      <enum name="leftToRight" value="0"/>
+      
+      <enum name="rightToLeft" value="1"/>
+      
+      <enum name="startToEnd" value="2"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="endToStart" value="3"/>
     </attr>
   </declare-styleable>
@@ -12279,6 +13258,7 @@
     <attr format="dimension" name="iconPadding"/>
     
     <attr name="iconGravity">
+<<<<<<< HEAD
       <!-- Push icon to the start of the button. -->
       <flag name="start" value="0x1"/>
       <!-- Push the icon to the start of the text keeping a distance equal to
@@ -12293,6 +13273,19 @@
       <flag name="top" value="0x10"/>
       <!-- Push the icon to the top of the text keeping a distance equal to
            {@code iconPadding} from the text. -->
+=======
+      
+      <flag name="start" value="0x1"/>
+      
+      <flag name="textStart" value="0x2"/>
+      
+      <flag name="end" value="0x3"/>
+      
+      <flag name="textEnd" value="0x4"/>
+      
+      <flag name="top" value="0x10"/>
+      
+>>>>>>> 818ab1f (Updated)
       <flag name="textTop" value="0x20"/>
     </attr>
     
@@ -12365,6 +13358,7 @@
     <attr format="dimension" name="checkedIconMargin"/>
     
     <attr name="checkedIconGravity">
+<<<<<<< HEAD
       <!-- Gravity.TOP | Gravity.END -->
       <enum name="TOP_END" value="8388661"/>
       <!-- Gravity.TOP | Gravity.START -->
@@ -12372,6 +13366,15 @@
       <!-- Gravity.BOTTOM | Gravity.END -->
       <enum name="BOTTOM_END" value="8388693"/>
       <!-- Gravity.BOTTOM | Gravity.START -->
+=======
+      
+      <enum name="TOP_END" value="8388661"/>
+      
+      <enum name="TOP_START" value="8388659"/>
+      
+      <enum name="BOTTOM_END" value="8388693"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="BOTTOM_START" value="8388691"/>
     </attr>
     
@@ -12401,6 +13404,7 @@
     <attr format="reference|color" name="buttonIconTint"/>
     
     <attr name="buttonIconTintMode">
+<<<<<<< HEAD
       <!-- The tint is drawn on top of the drawable.
            [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
@@ -12417,6 +13421,19 @@
       <enum name="screen" value="15"/>
       <!-- Combines the tint and drawable color and alpha channels, clamping the
            result to valid color values. Saturate(S + D) -->
+=======
+      
+      <enum name="src_over" value="3"/>
+      
+      <enum name="src_in" value="5"/>
+      
+      <enum name="src_atop" value="9"/>
+      
+      <enum name="multiply" value="14"/>
+      
+      <enum name="screen" value="15"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="add" value="16"/>
     </attr>
     
@@ -12427,11 +13444,19 @@
     <attr format="string" name="errorAccessibilityLabel"/>
     
     <attr name="checkedState">
+<<<<<<< HEAD
       <!-- The unchecked state of the checkbox. -->
       <enum name="unchecked" value="0"/>
       <!-- The checked state of the checkbox. -->
       <enum name="checked" value="1"/>
       <!-- The indeterminate state of the checkbox. -->
+=======
+      
+      <enum name="unchecked" value="0"/>
+      
+      <enum name="checked" value="1"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="indeterminate" value="2"/>
     </attr>
   </declare-styleable>
@@ -12472,6 +13497,7 @@
     <attr format="color" name="thumbIconTint"/>
     
     <attr name="thumbIconTintMode">
+<<<<<<< HEAD
       <!-- The tint is drawn on top of the drawable.
            [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
@@ -12488,6 +13514,19 @@
       <enum name="screen" value="15"/>
       <!-- Combines the tint and drawable color and alpha channels, clamping the
            result to valid color values. Saturate(S + D) -->
+=======
+      
+      <enum name="src_over" value="3"/>
+      
+      <enum name="src_in" value="5"/>
+      
+      <enum name="src_atop" value="9"/>
+      
+      <enum name="multiply" value="14"/>
+      
+      <enum name="screen" value="15"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="add" value="16"/>
     </attr>
     
@@ -12498,6 +13537,7 @@
     <attr format="color" name="trackDecorationTint"/>
     
     <attr name="trackDecorationTintMode">
+<<<<<<< HEAD
       <!-- The tint is drawn on top of the drawable.
            [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
@@ -12514,6 +13554,19 @@
       <enum name="screen" value="15"/>
       <!-- Combines the tint and drawable color and alpha channels, clamping the
            result to valid color values. Saturate(S + D) -->
+=======
+      
+      <enum name="src_over" value="3"/>
+      
+      <enum name="src_in" value="5"/>
+      
+      <enum name="src_atop" value="9"/>
+      
+      <enum name="multiply" value="14"/>
+      
+      <enum name="screen" value="15"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="add" value="16"/>
     </attr>
   </declare-styleable>
@@ -12545,6 +13598,7 @@
     <attr format="boolean" name="logoAdjustViewBounds"/>
     
     <attr name="logoScaleType">
+<<<<<<< HEAD
       <!-- Scale using the image matrix when drawing. See
            {@link android.widget.ImageView#setImageMatrix(Matrix)}. -->
       <enum name="matrix" value="0"/>
@@ -12566,6 +13620,23 @@
            dimensions (width and height) of the image will be equal to or less than the
            corresponding dimension of the view (minus padding). The image is then centered in
            the view. -->
+=======
+      
+      <enum name="matrix" value="0"/>
+      
+      <enum name="fitXY" value="1"/>
+      
+      <enum name="fitStart" value="2"/>
+      
+      <enum name="fitCenter" value="3"/>
+      
+      <enum name="fitEnd" value="4"/>
+      
+      <enum name="center" value="5"/>
+      
+      <enum name="centerCrop" value="6"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="centerInside" value="7"/>
     </attr>
   </declare-styleable>
@@ -12653,6 +13724,7 @@
 
         
         <attr name="showAsAction">
+<<<<<<< HEAD
             <!-- Never show this item in an action bar, show it in the overflow menu instead.
                  Mutually exclusive with "ifRoom" and "always". -->
             <flag name="never" value="0"/>
@@ -12671,6 +13743,17 @@
             <!-- This item's action view collapses to a normal menu
                  item. When expanded, the action view takes over a
                  larger segment of its container. -->
+=======
+            
+            <flag name="never" value="0"/>
+            
+            <flag name="ifRoom" value="1"/>
+            
+            <flag name="always" value="2"/>
+            
+            <flag name="withText" value="4"/>
+            
+>>>>>>> 818ab1f (Updated)
             <flag name="collapseActionView" value="8"/>
         </attr>
 
@@ -12694,6 +13777,7 @@
 
         
         <attr name="iconTintMode">
+<<<<<<< HEAD
             <!-- The tint is drawn on top of the icon.
                  [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
@@ -12710,6 +13794,19 @@
             <enum name="screen" value="15"/>
             <!-- Combines the tint and icon color and alpha channels, clamping the
                  result to valid color values. Saturate(S + D) -->
+=======
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="add" value="16"/>
         </attr>
 
@@ -12888,6 +13985,7 @@
     <attr name="menu"/>
     
     <attr name="labelVisibilityMode">
+<<<<<<< HEAD
       <!-- Label behaves as "labeled" when there are 3 items or less, or "selected" when there are
            4 items or more. -->
       <enum name="auto" value="-1"/>
@@ -12896,6 +13994,15 @@
       <!-- Label is shown on all navigation items. -->
       <enum name="labeled" value="1"/>
       <!-- Label is not shown on any navigation items. -->
+=======
+      
+      <enum name="auto" value="-1"/>
+      
+      <enum name="selected" value="0"/>
+      
+      <enum name="labeled" value="1"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="unlabeled" value="2"/>
     </attr>
     
@@ -12935,6 +14042,7 @@
     <attr name="headerLayout"/>
    
     <attr name="menuGravity">
+<<<<<<< HEAD
       <!-- Navigation rail destinations will be aligned as a group at the top. This is the default behavior. -->
       <!-- Gravity.TOP | Gravity.CENTER_HORIZONTAL-->
       <enum name="top" value="49"/>
@@ -12943,6 +14051,16 @@
       <enum name="center" value="17"/>
       <!-- Navigation rail destinations will be aligned as a group at the bottom. -->
       <!-- Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL -->
+=======
+      
+      
+      <enum name="top" value="49"/>
+      
+      
+      <enum name="center" value="17"/>
+      
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="bottom" value="81"/>
     </attr>
     
@@ -13261,6 +14379,7 @@
     <attr format="dimension" name="haloRadius"/>
     
     <attr name="labelBehavior">
+<<<<<<< HEAD
       <!-- Mode that draws the label floating above the bounds of this view. -->
       <enum name="floating" value="0"/>
       <!-- Mode that draws the label within the bounds of the view. -->
@@ -13268,6 +14387,15 @@
       <!-- Mode that prevents the label from being drawn. -->
       <enum name="gone" value="2"/>
       <!-- Mode that always draws the label. -->
+=======
+      
+      <enum name="floating" value="0"/>
+      
+      <enum name="withinBounds" value="1"/>
+      
+      <enum name="gone" value="2"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="visible" value="3"/>
     </attr>
     
@@ -13319,9 +14447,15 @@
     <attr format="dimension" name="maxActionInlineWidth"/>
     
     <attr format="enum" name="animationMode">
+<<<<<<< HEAD
       <!-- Mode that corresponds to the slide in and out animations. -->
       <enum name="slide" value="0"/>
       <!-- Mode that corresponds to the fade in and out animations. -->
+=======
+      
+      <enum name="slide" value="0"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="fade" value="1"/>
     </attr>
     
@@ -13404,6 +14538,13 @@
     <declare-styleable name="StateSet">
         <attr format="reference" name="defaultState"/>
     </declare-styleable>
+<<<<<<< HEAD
+=======
+    <declare-styleable name="SwipeRefreshLayout">
+        
+        <attr format="color" name="swipeRefreshLayoutProgressSpinnerBackgroundColor"/>
+    </declare-styleable>
+>>>>>>> 818ab1f (Updated)
     <declare-styleable name="SwitchCompat">
         
         <attr name="android:thumb"/>
@@ -13411,6 +14552,7 @@
         <attr format="color" name="thumbTint"/>
         
         <attr name="thumbTintMode">
+<<<<<<< HEAD
             <!-- The tint is drawn on top of the drawable.
                  [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
@@ -13427,6 +14569,19 @@
             <enum name="screen" value="15"/>
             <!-- Combines the tint and drawable color and alpha channels, clamping the
                  result to valid color values. Saturate(S + D) -->
+=======
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="add" value="16"/>
         </attr>
         
@@ -13435,6 +14590,7 @@
         <attr format="color" name="trackTint"/>
         
         <attr name="trackTintMode">
+<<<<<<< HEAD
             <!-- The tint is drawn on top of the drawable.
                  [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
@@ -13451,6 +14607,19 @@
             <enum name="screen" value="15"/>
             <!-- Combines the tint and drawable color and alpha channels, clamping the
                  result to valid color values. Saturate(S + D) -->
+=======
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="add" value="16"/>
         </attr>
         
@@ -13495,6 +14664,7 @@
     <attr format="reference" name="tabIndicator"/>
     
     <attr name="tabIndicatorGravity">
+<<<<<<< HEAD
       <!-- Align indicator to the bottom of this tab layout. -->
       <enum name="bottom" value="0"/>
       <!-- Align indicator along the center of this tab layout. -->
@@ -13502,6 +14672,15 @@
       <!-- Align indicator to the top of this tab layout. -->
       <enum name="top" value="2"/>
       <!-- Stretch indicator to match the height and width of a tab item in this layout. -->
+=======
+      
+      <enum name="bottom" value="0"/>
+      
+      <enum name="center" value="1"/>
+      
+      <enum name="top" value="2"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="stretch" value="3"/>
     </attr>
     
@@ -13510,6 +14689,7 @@
     <attr format="boolean" name="tabIndicatorFullWidth"/>
     
     <attr name="tabIndicatorAnimationMode">
+<<<<<<< HEAD
       <!-- Animate the selection indicator's left and right bounds in step with
            each other. -->
       <enum name="linear" value="0"/>
@@ -13521,6 +14701,13 @@
       <!-- Animate the selection indicator by sequentially fading it out from
            its current destination and then fading it in at its new
            destination. -->
+=======
+      
+      <enum name="linear" value="0"/>
+      
+      <enum name="elastic" value="1"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="fade" value="2"/>
     </attr>
     
@@ -13667,6 +14854,7 @@
     <attr format="reference" name="errorIconTint"/>
     
     <attr name="errorIconTintMode">
+<<<<<<< HEAD
       <!-- The tint is drawn on top of the drawable.
            [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
@@ -13680,6 +14868,17 @@
            the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
       <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+=======
+      
+      <enum name="src_over" value="3"/>
+      
+      <enum name="src_in" value="5"/>
+      
+      <enum name="src_atop" value="9"/>
+      
+      <enum name="multiply" value="14"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="screen" value="15"/>
     </attr>
 
@@ -13731,6 +14930,7 @@
     <attr format="color" name="startIconTint"/>
     
     <attr name="startIconTintMode">
+<<<<<<< HEAD
       <!-- The tint is drawn on top of the drawable.
            [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
@@ -13744,12 +14944,24 @@
            the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
       <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+=======
+      
+      <enum name="src_over" value="3"/>
+      
+      <enum name="src_in" value="5"/>
+      
+      <enum name="src_atop" value="9"/>
+      
+      <enum name="multiply" value="14"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="screen" value="15"/>
     </attr>
     
     <attr format="dimension" name="startIconMinSize"/>
     
     <attr name="startIconScaleType">
+<<<<<<< HEAD
       <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#FILL}. -->
       <enum name="fitXY" value="0"/>
       <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#START}. -->
@@ -13768,10 +14980,26 @@
            dimensions (width and height) of the image will be equal to or less than the
            corresponding dimension of the view (minus padding). The image is then centered in
            the view. -->
+=======
+      
+      <enum name="fitXY" value="0"/>
+      
+      <enum name="fitStart" value="1"/>
+      
+      <enum name="fitCenter" value="2"/>
+      
+      <enum name="fitEnd" value="3"/>
+      
+      <enum name="center" value="4"/>
+      
+      <enum name="centerCrop" value="5"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="centerInside" value="6"/>
     </attr>
     
     <attr name="endIconMode">
+<<<<<<< HEAD
       <!-- The view will display a custom icon specified by the user. -->
       <enum name="custom" value="-1"/>
       <!-- No end icon. -->
@@ -13781,6 +15009,17 @@
       <!-- The view will display a clear text button while the EditText contains input. -->
       <enum name="clear_text" value="2"/>
       <!-- The view will display a toggle that displays/hides a dropdown menu. -->
+=======
+      
+      <enum name="custom" value="-1"/>
+      
+      <enum name="none" value="0"/>
+      
+      <enum name="password_toggle" value="1"/>
+      
+      <enum name="clear_text" value="2"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="dropdown_menu" value="3"/>
     </attr>
     
@@ -13793,6 +15032,7 @@
     <attr format="color" name="endIconTint"/>
     
     <attr name="endIconTintMode">
+<<<<<<< HEAD
       <!-- The tint is drawn on top of the drawable.
            [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
@@ -13806,12 +15046,24 @@
            the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
       <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+=======
+      
+      <enum name="src_over" value="3"/>
+      
+      <enum name="src_in" value="5"/>
+      
+      <enum name="src_atop" value="9"/>
+      
+      <enum name="multiply" value="14"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="screen" value="15"/>
     </attr>
     
     <attr format="dimension" name="endIconMinSize"/>
     
     <attr name="endIconScaleType">
+<<<<<<< HEAD
       <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#FILL}. -->
       <enum name="fitXY" value="0"/>
       <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#START}. -->
@@ -13830,16 +15082,39 @@
            dimensions (width and height) of the image will be equal to or less than the
            corresponding dimension of the view (minus padding). The image is then centered in
            the view. -->
+=======
+      
+      <enum name="fitXY" value="0"/>
+      
+      <enum name="fitStart" value="1"/>
+      
+      <enum name="fitCenter" value="2"/>
+      
+      <enum name="fitEnd" value="3"/>
+      
+      <enum name="center" value="4"/>
+      
+      <enum name="centerCrop" value="5"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="centerInside" value="6"/>
     </attr>
 
     
     <attr name="boxBackgroundMode">
+<<<<<<< HEAD
       <!-- Specifies that there should be no box set on the text input area. -->
       <enum name="none" value="0"/>
       <!-- Filled box mode for the text input box. -->
       <enum name="filled" value="1"/>
       <!-- Outline box mode for the text input box. -->
+=======
+      
+      <enum name="none" value="0"/>
+      
+      <enum name="filled" value="1"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="outline" value="2"/>
     </attr>
     
@@ -13878,6 +15153,7 @@
     <attr format="color" name="passwordToggleTint"/>
     
     <attr name="passwordToggleTintMode">
+<<<<<<< HEAD
       <!-- The tint is drawn on top of the drawable.
            [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
@@ -13891,6 +15167,17 @@
            the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
       <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+=======
+      
+      <enum name="src_over" value="3"/>
+      
+      <enum name="src_in" value="5"/>
+      
+      <enum name="src_atop" value="9"/>
+      
+      <enum name="multiply" value="14"/>
+      
+>>>>>>> 818ab1f (Updated)
       <enum name="screen" value="15"/>
     </attr>
   </declare-styleable>
@@ -13928,11 +15215,19 @@
         <attr name="contentInsetEndWithActions"/>
         <attr format="dimension" name="maxButtonHeight"/>
         <attr name="buttonGravity">
+<<<<<<< HEAD
             <!-- Place object in the vertical center of its container, not changing its size. -->
             <flag name="center_vertical" value="0x10"/>
             <!-- Push object to the top of its container, not changing its size. -->
             <flag name="top" value="0x30"/>
             <!-- Push object to the bottom of its container, not changing its size. -->
+=======
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="top" value="0x30"/>
+            
+>>>>>>> 818ab1f (Updated)
             <flag name="bottom" value="0x50"/>
         </attr>
         
@@ -14065,6 +15360,7 @@
 
         
         <attr name="backgroundTintMode">
+<<<<<<< HEAD
             <!-- The tint is drawn on top of the drawable.
                  [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
@@ -14081,6 +15377,19 @@
             <enum name="screen" value="15"/>
             <!-- Combines the tint and icon color and alpha channels, clamping the
                  result to valid color values. Saturate(S + D) -->
+=======
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+>>>>>>> 818ab1f (Updated)
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>

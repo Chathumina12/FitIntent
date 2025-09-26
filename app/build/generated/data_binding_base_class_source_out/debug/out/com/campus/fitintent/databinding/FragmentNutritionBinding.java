@@ -4,23 +4,40 @@ package com.campus.fitintent.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+=======
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+>>>>>>> 818ab1f (Updated)
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.campus.fitintent.R;
 import com.google.android.material.button.MaterialButton;
+<<<<<<< HEAD
+=======
+import com.google.android.material.card.MaterialCardView;
+import com.google.android.material.chip.Chip;
+import com.google.android.material.chip.ChipGroup;
+import com.google.android.material.progressindicator.CircularProgressIndicator;
+>>>>>>> 818ab1f (Updated)
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class FragmentNutritionBinding implements ViewBinding {
   @NonNull
+<<<<<<< HEAD
   private final ScrollView rootView;
 
   @NonNull
@@ -84,11 +101,111 @@ public final class FragmentNutritionBinding implements ViewBinding {
     this.viewAllMeals = viewAllMeals;
     this.waterProgressLayout = waterProgressLayout;
     this.waterText = waterText;
+=======
+  private final CoordinatorLayout rootView;
+
+  @NonNull
+  public final MaterialButton btnFavoriteTodaysTip;
+
+  @NonNull
+  public final MaterialButton btnSearch;
+
+  @NonNull
+  public final MaterialCardView cardRandomTip;
+
+  @NonNull
+  public final MaterialCardView cardTodaysTip;
+
+  @NonNull
+  public final MaterialCardView cardViewFavorites;
+
+  @NonNull
+  public final Chip chipCategoryAll;
+
+  @NonNull
+  public final Chip chipCategoryFiber;
+
+  @NonNull
+  public final Chip chipCategoryHydration;
+
+  @NonNull
+  public final Chip chipCategoryProtein;
+
+  @NonNull
+  public final Chip chipCategoryVitamins;
+
+  @NonNull
+  public final ChipGroup chipGroupCategories;
+
+  @NonNull
+  public final Chip chipTodaysTipCategory;
+
+  @NonNull
+  public final ImageView imgTodaysTipIcon;
+
+  @NonNull
+  public final LinearLayout layoutEmptyState;
+
+  @NonNull
+  public final CircularProgressIndicator progressLoading;
+
+  @NonNull
+  public final RecyclerView recyclerViewTips;
+
+  @NonNull
+  public final TextView tvFavoritesCount;
+
+  @NonNull
+  public final TextView tvSectionTitle;
+
+  @NonNull
+  public final TextView tvTodaysTipDescription;
+
+  @NonNull
+  public final TextView tvTodaysTipTitle;
+
+  private FragmentNutritionBinding(@NonNull CoordinatorLayout rootView,
+      @NonNull MaterialButton btnFavoriteTodaysTip, @NonNull MaterialButton btnSearch,
+      @NonNull MaterialCardView cardRandomTip, @NonNull MaterialCardView cardTodaysTip,
+      @NonNull MaterialCardView cardViewFavorites, @NonNull Chip chipCategoryAll,
+      @NonNull Chip chipCategoryFiber, @NonNull Chip chipCategoryHydration,
+      @NonNull Chip chipCategoryProtein, @NonNull Chip chipCategoryVitamins,
+      @NonNull ChipGroup chipGroupCategories, @NonNull Chip chipTodaysTipCategory,
+      @NonNull ImageView imgTodaysTipIcon, @NonNull LinearLayout layoutEmptyState,
+      @NonNull CircularProgressIndicator progressLoading, @NonNull RecyclerView recyclerViewTips,
+      @NonNull TextView tvFavoritesCount, @NonNull TextView tvSectionTitle,
+      @NonNull TextView tvTodaysTipDescription, @NonNull TextView tvTodaysTipTitle) {
+    this.rootView = rootView;
+    this.btnFavoriteTodaysTip = btnFavoriteTodaysTip;
+    this.btnSearch = btnSearch;
+    this.cardRandomTip = cardRandomTip;
+    this.cardTodaysTip = cardTodaysTip;
+    this.cardViewFavorites = cardViewFavorites;
+    this.chipCategoryAll = chipCategoryAll;
+    this.chipCategoryFiber = chipCategoryFiber;
+    this.chipCategoryHydration = chipCategoryHydration;
+    this.chipCategoryProtein = chipCategoryProtein;
+    this.chipCategoryVitamins = chipCategoryVitamins;
+    this.chipGroupCategories = chipGroupCategories;
+    this.chipTodaysTipCategory = chipTodaysTipCategory;
+    this.imgTodaysTipIcon = imgTodaysTipIcon;
+    this.layoutEmptyState = layoutEmptyState;
+    this.progressLoading = progressLoading;
+    this.recyclerViewTips = recyclerViewTips;
+    this.tvFavoritesCount = tvFavoritesCount;
+    this.tvSectionTitle = tvSectionTitle;
+    this.tvTodaysTipDescription = tvTodaysTipDescription;
+    this.tvTodaysTipTitle = tvTodaysTipTitle;
+>>>>>>> 818ab1f (Updated)
   }
 
   @Override
   @NonNull
+<<<<<<< HEAD
   public ScrollView getRoot() {
+=======
+  public CoordinatorLayout getRoot() {
+>>>>>>> 818ab1f (Updated)
     return rootView;
   }
 
@@ -113,6 +230,7 @@ public final class FragmentNutritionBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+<<<<<<< HEAD
       id = R.id.addWaterButton;
       MaterialButton addWaterButton = ViewBindings.findChildViewById(rootView, id);
       if (addWaterButton == null) {
@@ -195,6 +313,134 @@ public final class FragmentNutritionBinding implements ViewBinding {
           calorieProgressText, caloriesText, mealsRecyclerView, proteinProgressBar,
           proteinProgressText, proteinText, tipsRecyclerView, trackMealButton, viewAllMeals,
           waterProgressLayout, waterText);
+=======
+      id = R.id.btnFavoriteTodaysTip;
+      MaterialButton btnFavoriteTodaysTip = ViewBindings.findChildViewById(rootView, id);
+      if (btnFavoriteTodaysTip == null) {
+        break missingId;
+      }
+
+      id = R.id.btnSearch;
+      MaterialButton btnSearch = ViewBindings.findChildViewById(rootView, id);
+      if (btnSearch == null) {
+        break missingId;
+      }
+
+      id = R.id.cardRandomTip;
+      MaterialCardView cardRandomTip = ViewBindings.findChildViewById(rootView, id);
+      if (cardRandomTip == null) {
+        break missingId;
+      }
+
+      id = R.id.cardTodaysTip;
+      MaterialCardView cardTodaysTip = ViewBindings.findChildViewById(rootView, id);
+      if (cardTodaysTip == null) {
+        break missingId;
+      }
+
+      id = R.id.cardViewFavorites;
+      MaterialCardView cardViewFavorites = ViewBindings.findChildViewById(rootView, id);
+      if (cardViewFavorites == null) {
+        break missingId;
+      }
+
+      id = R.id.chipCategoryAll;
+      Chip chipCategoryAll = ViewBindings.findChildViewById(rootView, id);
+      if (chipCategoryAll == null) {
+        break missingId;
+      }
+
+      id = R.id.chipCategoryFiber;
+      Chip chipCategoryFiber = ViewBindings.findChildViewById(rootView, id);
+      if (chipCategoryFiber == null) {
+        break missingId;
+      }
+
+      id = R.id.chipCategoryHydration;
+      Chip chipCategoryHydration = ViewBindings.findChildViewById(rootView, id);
+      if (chipCategoryHydration == null) {
+        break missingId;
+      }
+
+      id = R.id.chipCategoryProtein;
+      Chip chipCategoryProtein = ViewBindings.findChildViewById(rootView, id);
+      if (chipCategoryProtein == null) {
+        break missingId;
+      }
+
+      id = R.id.chipCategoryVitamins;
+      Chip chipCategoryVitamins = ViewBindings.findChildViewById(rootView, id);
+      if (chipCategoryVitamins == null) {
+        break missingId;
+      }
+
+      id = R.id.chipGroupCategories;
+      ChipGroup chipGroupCategories = ViewBindings.findChildViewById(rootView, id);
+      if (chipGroupCategories == null) {
+        break missingId;
+      }
+
+      id = R.id.chipTodaysTipCategory;
+      Chip chipTodaysTipCategory = ViewBindings.findChildViewById(rootView, id);
+      if (chipTodaysTipCategory == null) {
+        break missingId;
+      }
+
+      id = R.id.imgTodaysTipIcon;
+      ImageView imgTodaysTipIcon = ViewBindings.findChildViewById(rootView, id);
+      if (imgTodaysTipIcon == null) {
+        break missingId;
+      }
+
+      id = R.id.layoutEmptyState;
+      LinearLayout layoutEmptyState = ViewBindings.findChildViewById(rootView, id);
+      if (layoutEmptyState == null) {
+        break missingId;
+      }
+
+      id = R.id.progressLoading;
+      CircularProgressIndicator progressLoading = ViewBindings.findChildViewById(rootView, id);
+      if (progressLoading == null) {
+        break missingId;
+      }
+
+      id = R.id.recyclerViewTips;
+      RecyclerView recyclerViewTips = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerViewTips == null) {
+        break missingId;
+      }
+
+      id = R.id.tvFavoritesCount;
+      TextView tvFavoritesCount = ViewBindings.findChildViewById(rootView, id);
+      if (tvFavoritesCount == null) {
+        break missingId;
+      }
+
+      id = R.id.tvSectionTitle;
+      TextView tvSectionTitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvSectionTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.tvTodaysTipDescription;
+      TextView tvTodaysTipDescription = ViewBindings.findChildViewById(rootView, id);
+      if (tvTodaysTipDescription == null) {
+        break missingId;
+      }
+
+      id = R.id.tvTodaysTipTitle;
+      TextView tvTodaysTipTitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvTodaysTipTitle == null) {
+        break missingId;
+      }
+
+      return new FragmentNutritionBinding((CoordinatorLayout) rootView, btnFavoriteTodaysTip,
+          btnSearch, cardRandomTip, cardTodaysTip, cardViewFavorites, chipCategoryAll,
+          chipCategoryFiber, chipCategoryHydration, chipCategoryProtein, chipCategoryVitamins,
+          chipGroupCategories, chipTodaysTipCategory, imgTodaysTipIcon, layoutEmptyState,
+          progressLoading, recyclerViewTips, tvFavoritesCount, tvSectionTitle,
+          tvTodaysTipDescription, tvTodaysTipTitle);
+>>>>>>> 818ab1f (Updated)
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

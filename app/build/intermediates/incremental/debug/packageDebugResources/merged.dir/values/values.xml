@@ -1,23 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <color name="accent">#FF4444</color>
+<<<<<<< HEAD
+=======
+    <color name="auth_background">#000000</color>
+    <color name="auth_card_background">#333333</color>
+    <color name="auth_divider">#666666</color>
+    <color name="auth_google_background">#FFFFFF</color>
+    <color name="auth_google_text">#666666</color>
+    <color name="auth_input_background">#FFFFFF</color>
+    <color name="auth_input_placeholder">#999999</color>
+    <color name="auth_input_text">#000000</color>
+    <color name="auth_primary_red">#FF4444</color>
+    <color name="auth_text_primary">#FFFFFF</color>
+    <color name="auth_text_secondary">#CCCCCC</color>
+>>>>>>> 818ab1f (Updated)
     <color name="background">#000000</color>
     <color name="badge_bronze">#CD7F32</color>
     <color name="badge_gold">#FFD700</color>
     <color name="badge_silver">#C0C0C0</color>
     <color name="black">#FF000000</color>
+<<<<<<< HEAD
     <color name="button_red">#FF4444</color>
     <color name="card_background">#1A1A1A</color>
+=======
+    <color name="blue_primary">#2196F3</color>
+    <color name="brown_primary">#8D6E63</color>
+    <color name="button_red">#FF4444</color>
+    <color name="card_background">#1A1A1A</color>
+    <color name="cyan_primary">#00BCD4</color>
+>>>>>>> 818ab1f (Updated)
     <color name="dark_card">#1A1A1A</color>
     <color name="divider">#333333</color>
     <color name="error">#F44336</color>
     <color name="gradient_end">#8B75C4</color>
     <color name="gradient_start">#6750A4</color>
+<<<<<<< HEAD
+=======
+    <color name="green_primary">#4CAF50</color>
+>>>>>>> 818ab1f (Updated)
     <color name="habit_exercise">#4CAF50</color>
     <color name="habit_meditation">#9C27B0</color>
     <color name="habit_morning">#FFC107</color>
     <color name="habit_reading">#FF5722</color>
     <color name="habit_water">#03A9F4</color>
+<<<<<<< HEAD
+=======
+    <color name="indigo_primary">#3F51B5</color>
+>>>>>>> 818ab1f (Updated)
     <color name="info">#2196F3</color>
     <color name="input_field_background">#FFFFFF</color>
     <color name="input_field_text">#000000</color>
@@ -27,12 +57,25 @@
     <color name="on_surface">#FFFFFF</color>
     <color name="on_surface_variant">#CCCCCC</color>
     <color name="on_tertiary">#FFFFFF</color>
+<<<<<<< HEAD
+=======
+    <color name="orange_primary">#FF9800</color>
+    <color name="outline">#333333</color>
+    <color name="pink_primary">#E91E63</color>
+>>>>>>> 818ab1f (Updated)
     <color name="primary">#FF4444</color>
     <color name="primary_dark">#CC3333</color>
     <color name="primary_variant">#FF6666</color>
     <color name="progress_background">#E0E0E0</color>
     <color name="progress_fill">#6750A4</color>
     <color name="progress_red">#FF4444</color>
+<<<<<<< HEAD
+=======
+    <color name="purple_primary">#9C27B0</color>
+    <color name="red">#FF4444</color>
+    <color name="red_container">#FFEBEE</color>
+    <color name="red_primary">#FF4444</color>
+>>>>>>> 818ab1f (Updated)
     <color name="ripple">#33000000</color>
     <color name="secondary">#333333</color>
     <color name="secondary_variant">#555555</color>
@@ -41,18 +84,59 @@
     <color name="success_light">#1B4CAF50</color>
     <color name="surface">#111111</color>
     <color name="surface_variant">#222222</color>
+<<<<<<< HEAD
+=======
+    <color name="teal_primary">#009688</color>
+>>>>>>> 818ab1f (Updated)
     <color name="tertiary">#FF4444</color>
     <color name="text_disabled">#666666</color>
     <color name="text_primary">#FFFFFF</color>
     <color name="text_secondary">#CCCCCC</color>
+<<<<<<< HEAD
+=======
+    <color name="text_tertiary">#999999</color>
+>>>>>>> 818ab1f (Updated)
     <color name="transparent">#00000000</color>
     <color name="warning">#FF9800</color>
     <color name="white">#FFFFFFFF</color>
     <color name="white_20">#33FFFFFF</color>
+<<<<<<< HEAD
+=======
+    <color name="white_70">#B3FFFFFF</color>
+>>>>>>> 818ab1f (Updated)
     <color name="workout_cardio">#2196F3</color>
     <color name="workout_flexibility">#9C27B0</color>
     <color name="workout_hiit">#FF9800</color>
     <color name="workout_strength">#F44336</color>
+<<<<<<< HEAD
+=======
+    <color name="yellow">#FFC107</color>
+    <color name="yellow_primary">#FFC107</color>
+    <dimen name="auth_bottom_link_margin_top">24dp</dimen>
+    <dimen name="auth_button_corner_radius">24dp</dimen>
+    <dimen name="auth_button_height">48dp</dimen>
+    <dimen name="auth_button_margin_top">16dp</dimen>
+    <dimen name="auth_button_text_size">16sp</dimen>
+    <dimen name="auth_card_corner_radius">20dp</dimen>
+    <dimen name="auth_card_margin_horizontal">24dp</dimen>
+    <dimen name="auth_card_margin_top">40dp</dimen>
+    <dimen name="auth_card_padding">32dp</dimen>
+    <dimen name="auth_checkbox_margin_top">16dp</dimen>
+    <dimen name="auth_divider_margin_vertical">16dp</dimen>
+    <dimen name="auth_header_margin_bottom">24dp</dimen>
+    <dimen name="auth_header_text_size">28sp</dimen>
+    <dimen name="auth_input_corner_radius">8dp</dimen>
+    <dimen name="auth_input_height">56dp</dimen>
+    <dimen name="auth_input_margin_vertical">8dp</dimen>
+    <dimen name="auth_input_padding_horizontal">16dp</dimen>
+    <dimen name="auth_input_text_size">16sp</dimen>
+    <dimen name="auth_link_text_size">14sp</dimen>
+    <dimen name="auth_logo_margin_top">80dp</dimen>
+    <dimen name="auth_logo_size">120dp</dimen>
+    <dimen name="auth_logo_text_margin_top">16dp</dimen>
+    <dimen name="auth_logo_text_size">24sp</dimen>
+    <dimen name="auth_secondary_text_size">14sp</dimen>
+>>>>>>> 818ab1f (Updated)
     <dimen name="avatar_size_large">64dp</dimen>
     <dimen name="avatar_size_medium">48dp</dimen>
     <dimen name="avatar_size_small">32dp</dimen>
@@ -62,10 +146,18 @@
     <dimen name="bottom_nav_height">56dp</dimen>
     <dimen name="bottom_sheet_corner_radius">16dp</dimen>
     <dimen name="bottom_sheet_peek_height">64dp</dimen>
+<<<<<<< HEAD
+=======
+    <dimen name="button_corner_radius">8dp</dimen>
+>>>>>>> 818ab1f (Updated)
     <dimen name="button_height">48dp</dimen>
     <dimen name="button_height_large">56dp</dimen>
     <dimen name="card_corner_radius">12dp</dimen>
     <dimen name="card_elevation">4dp</dimen>
+<<<<<<< HEAD
+=======
+    <dimen name="card_elevation_small">2dp</dimen>
+>>>>>>> 818ab1f (Updated)
     <dimen name="card_padding">16dp</dimen>
     <dimen name="corner_radius_circular">999dp</dimen>
     <dimen name="corner_radius_large">12dp</dimen>
@@ -75,6 +167,10 @@
     <dimen name="dashboard_header_height">200dp</dimen>
     <dimen name="dialog_corner_radius">16dp</dimen>
     <dimen name="dialog_padding">24dp</dimen>
+<<<<<<< HEAD
+=======
+    <dimen name="elevation_small">2dp</dimen>
+>>>>>>> 818ab1f (Updated)
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="fab_size">56dp</dimen>
     <dimen name="habit_card_height">80dp</dimen>
@@ -103,6 +199,10 @@
     <dimen name="progress_circle_size">200dp</dimen>
     <dimen name="progress_stroke_width">8dp</dimen>
     <dimen name="quiz_option_height">64dp</dimen>
+<<<<<<< HEAD
+=======
+    <dimen name="spacing_extra_large">40dp</dimen>
+>>>>>>> 818ab1f (Updated)
     <dimen name="spacing_large">24dp</dimen>
     <dimen name="spacing_medium">16dp</dimen>
     <dimen name="spacing_small">8dp</dimen>
@@ -125,6 +225,7 @@
     <dimen name="tip_card_min_height">100dp</dimen>
     <dimen name="toolbar_height">56dp</dimen>
     <dimen name="workout_card_height">120dp</dimen>
+<<<<<<< HEAD
     <dimen name="workout_image_height">160dp</dimen>
     <string name="about">About</string>
     <string name="add_habit">Add Habit</string>
@@ -132,6 +233,32 @@
     <string name="all_tips">All Tips</string>
     <string name="already_have_account">Already have an account?</string>
     <string name="app_name">FitIntent</string>
+=======
+    <dimen name="workout_icon_size">40dp</dimen>
+    <dimen name="workout_image_height">160dp</dimen>
+    <plurals name="days_remaining">
+        <item quantity="one">%d day left</item>
+        <item quantity="other">%d days left</item>
+    </plurals>
+    <plurals name="workout_count">
+        <item quantity="one">%d workout</item>
+        <item quantity="other">%d workouts</item>
+    </plurals>
+    <string name="about">About</string>
+    <string name="about_app">About FitIntent</string>
+    <string name="about_app_description">FitIntent is your personal fitness companion designed to help build lasting healthy habits through personalized workouts, habit tracking, and gamification.\n\nVersion 1.0\nDeveloped with ❤️ for your wellness journey.</string>
+    <string name="about_fitintent">About FitIntent</string>
+    <string name="achievement_notifications">Achievement Notifications</string>
+    <string name="achievement_notifications_desc">Celebrate when you unlock badges and reach milestones</string>
+    <string name="add_habit">Add Habit</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="all">All</string>
+    <string name="all_nutrition_tips">All Nutrition Tips</string>
+    <string name="all_tips">All Tips</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="app_name">FitIntent</string>
+    <string name="app_preferences">App Preferences</string>
+>>>>>>> 818ab1f (Updated)
     <string name="badge_consistency_desc">Exercise 7 days in a row</string>
     <string name="badge_consistency_king">Consistency King</string>
     <string name="badge_early_bird">Early Bird</string>
@@ -141,12 +268,20 @@
     <string name="badge_flexibility_pro">Flexibility Pro</string>
     <string name="badge_hydration_desc">Track water 14 days in a row</string>
     <string name="badge_hydration_hero">Hydration Hero</string>
+<<<<<<< HEAD
     <string name="badge_strength_desc">Complete 10 strength workouts</string>
     <string name="badge_strength_master">Strength Master</string>
+=======
+    <string name="badge_icon">Badge icon</string>
+    <string name="badge_strength_desc">Complete 10 strength workouts</string>
+    <string name="badge_strength_master">Strength Master</string>
+    <string name="badge_unlocked">Badge Unlocked!</string>
+>>>>>>> 818ab1f (Updated)
     <string name="badges">Badges</string>
     <string name="badges_earned">Badges Earned</string>
     <string name="benefits">Benefits</string>
     <string name="bookmark">Bookmark</string>
+<<<<<<< HEAD
     <string name="cancel">Cancel</string>
     <string name="cardio">Cardio</string>
     <string name="completed">Completed</string>
@@ -161,6 +296,69 @@
     <string name="done">Done</string>
     <string name="dont_have_account">Don\'t have an account?</string>
     <string name="edit">Edit</string>
+=======
+    <string name="building_healthy_habits">You\'re building healthy habits!</string>
+    <string name="cancel">Cancel</string>
+    <string name="carbohydrates">Carbohydrates</string>
+    <string name="cardio">Cardio</string>
+    <string name="cardio_training">Cardio Training</string>
+    <string name="categories">Categories</string>
+    <string name="category_cardio">Cardio</string>
+    <string name="category_exercise">Exercise</string>
+    <string name="category_hydration">Hydration</string>
+    <string name="category_mindfulness">Mindfulness</string>
+    <string name="category_nutrition">Nutrition</string>
+    <string name="category_other">Other</string>
+    <string name="category_sleep">Sleep</string>
+    <string name="category_strength">Strength</string>
+    <string name="category_stretching">Stretching</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="choose_habit_to_add">Choose a habit to add</string>
+    <string name="choose_theme">Choose Theme</string>
+    <string name="clear_all_data">Clear All Data</string>
+    <string name="clear_data_confirm_message">This will permanently delete all your habits, progress, and settings. This action cannot be undone.</string>
+    <string name="clear_data_confirm_title">Clear All Data</string>
+    <string name="clear_data_desc">Permanently delete all app data - this cannot be undone</string>
+    <string name="completed">Completed</string>
+    <string name="completion_rate">completion rate</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="congratulations_badge">Congratulations! You\'ve earned the %s badge.</string>
+    <string name="continue_last_workout">Continue your last workout</string>
+    <string name="continue_workout">Continue %s</string>
+    <string name="core_crusher">Core Crusher</string>
+    <string name="create_first_habit">Create First Habit</string>
+    <string name="current_level">Current Level</string>
+    <string name="current_streak">Current Streak</string>
+    <string name="daily_progress">Daily Progress</string>
+    <string name="daily_reminders">Daily Reminders</string>
+    <string name="daily_reminders_desc">Get motivated with daily progress reminders</string>
+    <string name="dark">Dark</string>
+    <string name="data_cleared">All data cleared successfully</string>
+    <string name="data_export_completed">Data exported successfully</string>
+    <string name="data_export_started">Data export started</string>
+    <string name="data_privacy">Data &amp; Privacy</string>
+    <string name="day_streak">day streak</string>
+    <string name="days">days</string>
+    <string name="days_active">Days Active</string>
+    <string name="days_streak">Days Streak</string>
+    <string name="delete">Delete</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="delete_habit">Delete Habit</string>
+    <string name="delete_habit_confirmation">Are you sure you want to delete \"%s\"? This action cannot be undone.</string>
+    <string name="difficulty_advanced">Advanced</string>
+    <string name="difficulty_beginner">Beginner</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_expert">Expert</string>
+    <string name="difficulty_intermediate">Intermediate</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="discover_new">Discover new</string>
+    <string name="done">Done</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="duration_format">%dmin</string>
+    <string name="edit">Edit</string>
+    <string name="edit_habit">Edit Habit</string>
+    <string name="edit_preferences">Edit Preferences</string>
+>>>>>>> 818ab1f (Updated)
     <string name="edit_profile">Edit Profile</string>
     <string name="email">Email</string>
     <string name="empty_badges">Keep going! You\'ll earn badges soon</string>
@@ -175,21 +373,56 @@
     <string name="error_signup_failed">Sign up failed. Please try again</string>
     <string name="error_something_wrong">Something went wrong. Please try again</string>
     <string name="exercises">Exercises</string>
+<<<<<<< HEAD
     <string name="flexibility">Flexibility</string>
     <string name="flexibility_flow">Flexibility Flow</string>
+=======
+    <string name="expand_collapse">Expand/Collapse</string>
+    <string name="export">Export</string>
+    <string name="export_data">Export Data</string>
+    <string name="export_data_desc">Download all your progress and habit data</string>
+    <string name="favorite_tip_singular">1 tip</string>
+    <string name="favorite_tips_plural">%d tips</string>
+    <string name="favorites">Favorites</string>
+    <string name="featured_workouts">Featured Workouts</string>
+    <string name="fiber">Fiber</string>
+    <string name="fiber_tips">Fiber Tips</string>
+    <string name="fitintent_data_export">FitIntent Data Export</string>
+    <string name="fitness_level">Fitness Level</string>
+    <string name="fitness_preferences">Fitness Preferences</string>
+    <string name="flexibility">Flexibility</string>
+    <string name="flexibility_flow">Flexibility Flow</string>
+    <string name="flexibility_training">Flexibility Training</string>
+    <string name="food_prep">Food Prep</string>
+>>>>>>> 818ab1f (Updated)
     <string name="forgot_password">Forgot Password?</string>
     <string name="frequency_1_2_week">1-2 times/week</string>
     <string name="frequency_3_5_week">3-5 times/week</string>
     <string name="frequency_daily">Daily</string>
     <string name="frequency_rarely">Rarely</string>
+<<<<<<< HEAD
     <string name="full_body_strength">Full Body Strength</string>
     <string name="full_name">Full Name</string>
     <string name="goal_gain_strength">Gain Strength</string>
     <string name="goal_lose_weight">Lose Weight</string>
+=======
+    <string name="full_body">Full Body</string>
+    <string name="full_body_strength">Full Body Strength</string>
+    <string name="full_name">Full Name</string>
+    <string name="general">General</string>
+    <string name="goal_gain_muscle">Gain Muscle</string>
+    <string name="goal_gain_strength">Gain Strength</string>
+    <string name="goal_general_health">General Health</string>
+    <string name="goal_improve_endurance">Improve Endurance</string>
+    <string name="goal_increase_flexibility">Increase Flexibility</string>
+    <string name="goal_lose_weight">Lose Weight</string>
+    <string name="goal_maintain_fitness">Maintain Fitness</string>
+>>>>>>> 818ab1f (Updated)
     <string name="goal_stay_active">Stay Active</string>
     <string name="good_afternoon">Good Afternoon</string>
     <string name="good_evening">Good Evening</string>
     <string name="good_morning">Good Morning</string>
+<<<<<<< HEAD
     <string name="habit_description">Description</string>
     <string name="habit_name">Habit Name</string>
     <string name="habits">Habits</string>
@@ -205,17 +438,76 @@
     <string name="metric">Metric</string>
     <string name="minutes_abbr">min</string>
     <string name="morning_hiit">Morning HIIT</string>
+=======
+    <string name="great_job_habit_completed">Great job! Habit completed</string>
+    <string name="habit_completed_congratulations">Congratulations! Habit completed</string>
+    <string name="habit_created_successfully">Habit created successfully!</string>
+    <string name="habit_deleted">Habit deleted</string>
+    <string name="habit_description">Description</string>
+    <string name="habit_name">Habit Name</string>
+    <string name="habit_unmarked_completion">Habit completion unmarked</string>
+    <string name="habits">Habits</string>
+    <string name="healthy_fats">Healthy Fats</string>
+    <string name="hiit">HIIT</string>
+    <string name="hiit_training">HIIT Training</string>
+    <string name="hydration">Hydration</string>
+    <string name="hydration_tips">Hydration Tips</string>
+    <string name="imperial">Imperial</string>
+    <string name="imperial_units">Imperial (lbs, ft)</string>
+    <string name="keep_up_good_work">Keep up the good work!</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="level_advanced">Advanced</string>
+    <string name="level_beginner">Beginner</string>
+    <string name="level_icon">Level icon</string>
+    <string name="level_intermediate">Intermediate</string>
+    <string name="light">Light</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirm_message">Are you sure you want to logout? Your data will remain safe.</string>
+    <string name="logout_confirm_title">Logout Confirmation</string>
+    <string name="logout_confirmation">Are you sure you want to logout? You will need to sign in again to access your data.</string>
+    <string name="longest_streak">Longest Streak</string>
+    <string name="manage">Manage</string>
+    <string name="mark_complete">Mark Complete</string>
+    <string name="meal_timing">Meal Timing</string>
+    <string name="member_since">Member Since</string>
+    <string name="member_since_format">Member since %s</string>
+    <string name="metric">Metric</string>
+    <string name="metric_units">Metric (kg, cm)</string>
+    <string name="minerals">Minerals</string>
+    <string name="minutes_abbr">min</string>
+    <string name="more_options">More options</string>
+    <string name="morning_hiit">Morning HIIT</string>
+    <string name="my_habits">My Habits</string>
+>>>>>>> 818ab1f (Updated)
     <string name="nav_home">Home</string>
     <string name="nav_nutrition">Nutrition</string>
     <string name="nav_profile">Profile</string>
     <string name="nav_workouts">Workouts</string>
+<<<<<<< HEAD
     <string name="next">Next</string>
     <string name="no">No</string>
+=======
+    <string name="navigate_forward">Navigate Forward</string>
+    <string name="next">Next</string>
+    <string name="next_achievements">Next Achievements</string>
+    <string name="no">No</string>
+    <string name="no_achievements_yet">No achievements yet</string>
+    <string name="no_description">No description</string>
+    <string name="no_favorite_tips_yet">No favorite tips yet</string>
+    <string name="no_habits_description">Start your fitness journey by creating your first habit. Build consistency and watch your progress grow!</string>
+    <string name="no_habits_yet">No habits yet</string>
+    <string name="no_recent_activity">No recent activity</string>
+    <string name="no_tips_found">No tips found</string>
+    <string name="no_workouts_available">No workouts available</string>
+    <string name="not_set">Not Set</string>
+>>>>>>> 818ab1f (Updated)
     <string name="notification_badge_earned">Congratulations! You earned a new badge</string>
     <string name="notification_habit_reminder">Time to complete your habits!</string>
     <string name="notification_streak_alert">Don\'t break your streak!</string>
     <string name="notification_workout_reminder">Ready for your workout?</string>
     <string name="notifications">Notifications</string>
+<<<<<<< HEAD
     <string name="nutrition_tip">Nutrition Tip</string>
     <string name="nutrition_tips">Nutrition Tips</string>
     <string name="ok">OK</string>
@@ -227,11 +519,45 @@
     <string name="privacy">Privacy</string>
     <string name="profile">Profile</string>
     <string name="progress_to_next">You need %d points until next reward</string>
+=======
+    <string name="nutrition">Nutrition</string>
+    <string name="nutrition_category_icon">Nutrition category icon</string>
+    <string name="nutrition_tip">Nutrition Tip</string>
+    <string name="nutrition_tip_icon">Nutrition tip icon</string>
+    <string name="nutrition_tips">Nutrition Tips</string>
+    <string name="ok">OK</string>
+    <string name="one_step_closer_to_goal">One step closer to your goal!</string>
+    <string name="opening_all_workouts">Opening all workouts</string>
+    <string name="opening_category_workouts">Opening %s workouts</string>
+    <string name="or">OR</string>
+    <string name="password">Password</string>
+    <string name="pause">Pause</string>
+    <string name="pause_habit">Pause Habit</string>
+    <string name="paused">(Paused)</string>
+    <string name="pending">Pending</string>
+    <string name="percentage_format">%d%%</string>
+    <string name="pilates">Pilates</string>
+    <string name="points">Points</string>
+    <string name="points_earned">Points Earned</string>
+    <string name="points_earned_message">You earned %d points!</string>
+    <string name="points_to_next_level">%d points to next level</string>
+    <string name="preferred_workout">Preferred Workout</string>
+    <string name="primary_goal">Primary Goal</string>
+    <string name="privacy">Privacy</string>
+    <string name="profile">Profile</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="progress_overview">Progress Overview</string>
+    <string name="progress_to_next">You need %d points until next reward</string>
+    <string name="progress_to_next_level">Progress to next level</string>
+    <string name="protein">Protein</string>
+    <string name="protein_tips">Protein Tips</string>
+>>>>>>> 818ab1f (Updated)
     <string name="question_1">What\'s your main goal?</string>
     <string name="question_2">How often do you exercise?</string>
     <string name="question_3">What type of workouts do you prefer?</string>
     <string name="question_4">Current fitness level?</string>
     <string name="question_5">Available time per session?</string>
+<<<<<<< HEAD
     <string name="quick_workout">Quick Workout</string>
     <string name="quiz_title">Let\'s Personalize Your Experience</string>
     <string name="remember_me">Remember Me</string>
@@ -250,18 +576,75 @@
     <string name="statistics">Statistics</string>
     <string name="stop">Stop</string>
     <string name="strength">Strength</string>
+=======
+    <string name="quick_start">Quick Start</string>
+    <string name="quick_workout">Quick Workout</string>
+    <string name="quiz_title">Let\'s Personalize Your Experience</string>
+    <string name="random_tip">Random Tip</string>
+    <string name="recent_achievements">Recent Achievements</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="recovery">Recovery</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="reminder_time">Reminder Time</string>
+    <string name="remove_picture">Remove Picture</string>
+    <string name="rest">Rest</string>
+    <string name="resume">Resume</string>
+    <string name="resume_habit">Resume Habit</string>
+    <string name="retry">Retry</string>
+    <string name="rewards">Rewards</string>
+    <string name="rewards_achievements">Rewards &amp; Achievements</string>
+    <string name="save">Save</string>
+    <string name="search_nutrition_tips">Search nutrition tips</string>
+    <string name="search_workouts">Search workouts</string>
+    <string name="settings">Settings</string>
+    <string name="settings_saved">Settings saved</string>
+    <string name="share">Share</string>
+    <string name="share_data_export">Share Data Export</string>
+    <string name="share_tip">Share tip</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="signup">Sign Up</string>
+    <string name="skip">Skip</string>
+    <string name="sports">Sports</string>
+    <string name="start">Start</string>
+    <string name="start_completing_activities">Start completing habits and workouts to earn your first badges!</string>
+    <string name="start_recommended_workout">Start a recommended workout</string>
+    <string name="start_workout">Start Workout</string>
+    <string name="start_your_first_workout">Start your first workout to see progress here</string>
+    <string name="starting_workout">Starting %s</string>
+    <string name="statistics">Statistics</string>
+    <string name="stop">Stop</string>
+    <string name="streak_alerts">Streak Alerts</string>
+    <string name="streak_alerts_desc">Get notified about streak milestones and protection</string>
+    <string name="streak_summary">Streak Summary</string>
+    <string name="strength">Strength</string>
+    <string name="strength_training">Strength Training</string>
+>>>>>>> 818ab1f (Updated)
     <string name="success_habit_added">Habit added successfully</string>
     <string name="success_login">Welcome back!</string>
     <string name="success_profile_updated">Profile updated successfully</string>
     <string name="success_signup">Account created successfully!</string>
     <string name="success_workout_completed">Great job! Workout completed</string>
+<<<<<<< HEAD
     <string name="target_days">Target Days</string>
     <string name="terms">Terms of Service</string>
     <string name="terms_conditions">I agree to the Terms and Conditions</string>
+=======
+    <string name="supplements">Supplements</string>
+    <string name="system">System</string>
+    <string name="target_days">Target Days</string>
+    <string name="terms">Terms of Service</string>
+    <string name="terms_conditions">I agree to the Terms and Conditions</string>
+    <string name="theme">Theme</string>
+    <string name="theme_dark">Dark Theme</string>
+    <string name="theme_dialog_title">Choose Theme</string>
+    <string name="theme_light">Light Theme</string>
+    <string name="theme_system">Follow System</string>
+>>>>>>> 818ab1f (Updated)
     <string name="time_15_30">15-30 min</string>
     <string name="time_30_45">30-45 min</string>
     <string name="time_45_60">45-60 min</string>
     <string name="time_60_plus">60+ min</string>
+<<<<<<< HEAD
     <string name="tip_of_the_day">Tip of the Day</string>
     <string name="todays_activity">Today\'s Activity</string>
     <string name="total_points">Total Points</string>
@@ -269,12 +652,39 @@
     <string name="units">Units</string>
     <string name="version">Version</string>
     <string name="view_all">View All</string>
+=======
+    <string name="time_availability">Time Availability</string>
+    <string name="time_picker_title">Set Reminder Time</string>
+    <string name="tip_added_to_favorites">Tip added to favorites</string>
+    <string name="tip_of_the_day">Tip of the Day</string>
+    <string name="tip_removed_from_favorites">Tip removed from favorites</string>
+    <string name="today_completed">Today Completed</string>
+    <string name="todays_activity">Today\'s Activity</string>
+    <string name="todays_tip">Today\'s Tip</string>
+    <string name="total_points">Total Points</string>
+    <string name="total_workouts">Total Workouts</string>
+    <string name="try_different_category">Try a different category or check back later for new tips</string>
+    <string name="undo">Undo</string>
+    <string name="units">Units</string>
+    <string name="units_dialog_title">Choose Units</string>
+    <string name="user_level_format">Level %d</string>
+    <string name="version">Version</string>
+    <string name="view">View</string>
+    <string name="view_all">View All</string>
+    <string name="viewing_workout">Viewing %s</string>
+    <string name="vitamin_tips">Vitamin Tips</string>
+    <string name="vitamins">Vitamins</string>
+    <string name="weekly_goal">Weekly Goal</string>
+    <string name="weekly_streak_milestone">Amazing! %d day streak milestone!</string>
+    <string name="weight_management">Weight Management</string>
+>>>>>>> 818ab1f (Updated)
     <string name="welcome_desc_1">Monitor your fitness journey with detailed analytics and progress tracking</string>
     <string name="welcome_desc_2">Build lasting habits with our 21-day challenge system and earn rewards</string>
     <string name="welcome_desc_3">Transform your lifestyle one habit at a time with personalized guidance</string>
     <string name="welcome_title_1">Track progress. See results.</string>
     <string name="welcome_title_2">Stay motivated. Reach goals.</string>
     <string name="welcome_title_3">Build habit. Own your day.</string>
+<<<<<<< HEAD
     <string name="workout_cardio">Cardio</string>
     <string name="workout_completed">Workout Completed!</string>
     <string name="workout_flexibility">Flexibility</string>
@@ -286,6 +696,90 @@
     <style name="BottomSheetStyle" parent="Widget.Material3.BottomSheet">
         <item name="android:background">@drawable/bottom_sheet_background</item>
     </style>
+=======
+    <string name="workout_activity_details">%1$d min • %2$d calories burned</string>
+    <string name="workout_cardio">Cardio</string>
+    <string name="workout_categories">Workout Categories</string>
+    <string name="workout_completed">Workout Completed!</string>
+    <string name="workout_completed_title">Completed %s</string>
+    <string name="workout_flexibility">Flexibility</string>
+    <string name="workout_hiit">HIIT</string>
+    <string name="workout_icon">Workout icon</string>
+    <string name="workout_strength">Strength Training</string>
+    <string name="workouts">Workouts</string>
+    <string name="yes">Yes</string>
+    <string name="yoga">Yoga</string>
+    <string name="your_badges">Your Badges</string>
+    <string name="your_favorite_tips">Your Favorite Tips</string>
+    <style name="AlertDialog.Body.Text" parent="MaterialAlertDialog.Material3.Body.Text">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:lineHeight">@dimen/line_height_medium</item>
+    </style>
+    <style name="AlertDialog.Button.Negative" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/text_secondary</item>
+    </style>
+    <style name="AlertDialog.Button.Neutral" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/text_secondary</item>
+    </style>
+    <style name="AlertDialog.Button.Positive" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/primary</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/primary</item>
+    </style>
+    <style name="AlertDialog.Dark" parent="ThemeOverlay.Material3.Dialog.Alert">
+        <item name="dialogCornerRadius">@dimen/dialog_corner_radius</item>
+        <item name="android:backgroundTint">@color/surface</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/AlertDialog.Title.Text</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/AlertDialog.Body.Text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AlertDialog.Button.Positive</item>
+        <item name="buttonBarNegativeButtonStyle">@style/AlertDialog.Button.Negative</item>
+        <item name="buttonBarNeutralButtonStyle">@style/AlertDialog.Button.Neutral</item>
+    </style>
+    <style name="AlertDialog.Title.Text" parent="MaterialAlertDialog.Material3.Title.Text">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="BottomSheetStyle" parent="Widget.Material3.BottomSheet">
+        <item name="android:background">@drawable/bottom_sheet_background</item>
+    </style>
+    <style name="Button.Profile.Edit" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="iconTint">@color/primary</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/primary</item>
+    </style>
+    <style name="Button.Profile.Logout" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/error</item>
+        <item name="iconTint">@color/white</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+    <style name="CardView.Profile" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="strokeColor">@color/divider</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="contentPadding">@dimen/card_padding</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+>>>>>>> 818ab1f (Updated)
     <style name="TextAppearance.FitIntent.Body1" parent="TextAppearance.Material3.BodyLarge">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/text_primary</item>
@@ -321,6 +815,37 @@
         <item name="android:textColor">@color/text_primary</item>
         <item name="android:fontFamily">@font/roboto_medium</item>
     </style>
+<<<<<<< HEAD
+=======
+    <style name="TextAppearance.FitIntent.Subtitle1" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Profile.SectionTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Profile.StatLabel" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="TextAppearance.Profile.StatValue" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_headline</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Profile.UserEmail" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+    <style name="TextAppearance.Profile.UserName" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_xxlarge</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+>>>>>>> 818ab1f (Updated)
     <style name="Theme.FitIntent" parent="Theme.Material3.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/primary</item>
@@ -367,11 +892,57 @@
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
+<<<<<<< HEAD
+=======
+    <style name="Theme.FitIntent.NoActionBar" parent="Theme.FitIntent">
+        
+    </style>
+>>>>>>> 818ab1f (Updated)
     <style name="Theme.FitIntent.Splash" parent="Theme.FitIntent">
         <item name="android:windowBackground">@drawable/splash_background</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
+<<<<<<< HEAD
+=======
+    <style name="Widget.FitIntent.Auth.Button.Google" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/auth_google_text</item>
+        <item name="backgroundTint">@color/auth_google_background</item>
+        <item name="cornerRadius">@dimen/auth_input_corner_radius</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/auth_button_text_size</item>
+        <item name="elevation">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+    <style name="Widget.FitIntent.Auth.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/auth_primary_red</item>
+        <item name="cornerRadius">@dimen/auth_button_corner_radius</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/auth_button_text_size</item>
+        <item name="elevation">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+    <style name="Widget.FitIntent.Auth.CardView" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/auth_card_background</item>
+        <item name="cardCornerRadius">@dimen/auth_card_corner_radius</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+    <style name="Widget.FitIntent.Auth.TextInputLayout" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/auth_input_background</item>
+        <item name="boxCornerRadiusTopStart">@dimen/auth_input_corner_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/auth_input_corner_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/auth_input_corner_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/auth_input_corner_radius</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="hintTextColor">@color/auth_input_placeholder</item>
+        <item name="android:textColorHint">@color/auth_input_placeholder</item>
+    </style>
+>>>>>>> 818ab1f (Updated)
     <style name="Widget.FitIntent.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
         <item name="itemIconTint">@color/bottom_nav_color_selector</item>
         <item name="itemTextColor">@color/bottom_nav_color_selector</item>

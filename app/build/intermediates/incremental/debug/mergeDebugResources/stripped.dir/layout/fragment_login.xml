@@ -4,12 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
+<<<<<<< HEAD
     android:background="@color/background">
+=======
+    android:background="@color/auth_background">
+>>>>>>> 818ab1f (Updated)
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+<<<<<<< HEAD
         android:padding="@dimen/padding_large"
         android:gravity="center_horizontal">
 
@@ -210,4 +215,180 @@
 
     </LinearLayout>
 
+=======
+        android:gravity="center_horizontal">
+
+        <!-- Logo Section -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="@dimen/auth_logo_size"
+            android:layout_height="@dimen/auth_logo_size"
+            android:src="@drawable/ic_fitintent_logo"
+            android:contentDescription="@string/app_name"
+            android:layout_marginTop="@dimen/auth_logo_margin_top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FITINTENT"
+            android:textSize="@dimen/auth_logo_text_size"
+            android:textColor="@color/auth_text_primary"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="@dimen/auth_logo_text_margin_top"
+            android:letterSpacing="0.1" />
+
+        <!-- Auth Card Container -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/auth_card_margin_horizontal"
+            android:layout_marginTop="@dimen/auth_card_margin_top"
+            android:layout_marginBottom="32dp"
+            style="@style/Widget.FitIntent.Auth.CardView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/auth_card_padding">
+
+                <!-- Header -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Log in"
+                    android:textSize="@dimen/auth_header_text_size"
+                    android:textColor="@color/auth_text_primary"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/auth_header_margin_bottom" />
+
+                <!-- Email Input -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/emailInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email or Mobile number"
+                    style="@style/Widget.FitIntent.Auth.TextInputLayout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/emailInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/auth_input_height"
+                        android:textColor="@color/auth_input_text"
+                        android:textSize="@dimen/auth_input_text_size"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Password Input -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/passwordInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:layout_marginTop="@dimen/auth_input_margin_vertical"
+                    style="@style/Widget.FitIntent.Auth.TextInputLayout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/passwordInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/auth_input_height"
+                        android:textColor="@color/auth_input_text"
+                        android:textSize="@dimen/auth_input_text_size"
+                        android:inputType="textPassword"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Divider -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/auth_divider_margin_vertical"
+                    android:layout_marginBottom="@dimen/auth_divider_margin_vertical"
+                    android:gravity="center_vertical">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/auth_divider" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="or"
+                        android:textColor="@color/auth_text_secondary"
+                        android:textSize="@dimen/auth_secondary_text_size"
+                        android:paddingHorizontal="16dp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/auth_divider" />
+                </LinearLayout>
+
+                <!-- Google Sign In Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/googleSignInButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/auth_button_height"
+                    android:text="Continue with google"
+                    style="@style/Widget.FitIntent.Auth.Button.Google"
+                    app:icon="@drawable/ic_google"
+                    app:iconGravity="textStart"
+                    app:iconTint="@null" />
+
+                <!-- Stay Logged In Checkbox -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/auth_checkbox_margin_top"
+                    android:layout_gravity="start"
+                    android:gravity="center_vertical">
+
+                    <CheckBox
+                        android:id="@+id/stayLoggedInCheckbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/auth_text_secondary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stay Logged in"
+                        android:textColor="@color/auth_text_secondary"
+                        android:textSize="@dimen/auth_secondary_text_size"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <!-- Continue Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/continueButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/auth_button_height"
+                    android:text="Continue"
+                    style="@style/Widget.FitIntent.Auth.Button.Primary"
+                    android:layout_marginTop="@dimen/auth_button_margin_top" />
+
+                <!-- Bottom Link -->
+                <TextView
+                    android:id="@+id/signUpLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Don't have an account? Sign in"
+                    android:textColor="@color/auth_text_secondary"
+                    android:textSize="@dimen/auth_link_text_size"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/auth_bottom_link_margin_top"
+                    android:background="?attr/selectableItemBackground"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+>>>>>>> 818ab1f (Updated)
 </ScrollView>

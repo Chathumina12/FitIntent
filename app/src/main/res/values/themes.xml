@@ -64,6 +64,14 @@
         <item name="android:background">@drawable/bottom_sheet_background</item>
     </style>
 
+<<<<<<< HEAD
+=======
+    <!-- NoActionBar Theme -->
+    <style name="Theme.FitIntent.NoActionBar" parent="Theme.FitIntent">
+        <!-- Inherits all properties from base theme -->
+    </style>
+
+>>>>>>> 818ab1f (Updated)
     <!-- Text Styles -->
     <style name="TextAppearance.FitIntent.Headline1" parent="TextAppearance.Material3.HeadlineLarge">
         <item name="android:textSize">32sp</item>
@@ -178,4 +186,49 @@
         <item name="buttonTint">@color/primary</item>
         <item name="android:textColor">@color/text_primary</item>
     </style>
+<<<<<<< HEAD
+=======
+
+    <!-- Authentication Styles -->
+    <style name="Widget.FitIntent.Auth.TextInputLayout" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/auth_input_background</item>
+        <item name="boxCornerRadiusTopStart">@dimen/auth_input_corner_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/auth_input_corner_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/auth_input_corner_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/auth_input_corner_radius</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="hintTextColor">@color/auth_input_placeholder</item>
+        <item name="android:textColorHint">@color/auth_input_placeholder</item>
+    </style>
+
+    <style name="Widget.FitIntent.Auth.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/auth_primary_red</item>
+        <item name="cornerRadius">@dimen/auth_button_corner_radius</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/auth_button_text_size</item>
+        <item name="elevation">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Widget.FitIntent.Auth.Button.Google" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/auth_google_text</item>
+        <item name="backgroundTint">@color/auth_google_background</item>
+        <item name="cornerRadius">@dimen/auth_input_corner_radius</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/auth_button_text_size</item>
+        <item name="elevation">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Widget.FitIntent.Auth.CardView" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/auth_card_background</item>
+        <item name="cardCornerRadius">@dimen/auth_card_corner_radius</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+>>>>>>> 818ab1f (Updated)
 </resources>

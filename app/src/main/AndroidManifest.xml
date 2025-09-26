@@ -72,6 +72,28 @@
             android:exported="false"
             android:screenOrientation="portrait" />
 
+<<<<<<< HEAD
+=======
+        <!-- Edit Profile Activity -->
+        <activity
+            android:name=".activities.EditProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Notification Settings Activity -->
+        <activity
+            android:name=".activities.NotificationSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Onboarding Quiz Activity -->
+        <activity
+            android:name=".activities.OnboardingQuizActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+>>>>>>> 818ab1f (Updated)
         <!-- Notification Receiver -->
         <receiver
             android:name=".utils.NotificationReceiver"

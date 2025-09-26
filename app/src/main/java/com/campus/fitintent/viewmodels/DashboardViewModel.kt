@@ -4,8 +4,15 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+<<<<<<< HEAD
 import com.campus.fitintent.models.*
 import com.campus.fitintent.repository.UserRepository
+=======
+import androidx.lifecycle.map
+import com.campus.fitintent.models.*
+import com.campus.fitintent.repository.UserRepository
+import com.campus.fitintent.utils.Result
+>>>>>>> 818ab1f (Updated)
 import kotlinx.coroutines.launch
 
 data class DailyProgress(
@@ -22,6 +29,14 @@ class DashboardViewModel(
     private val _currentUser = MutableLiveData<User?>()
     val currentUser: LiveData<User?> = _currentUser
 
+<<<<<<< HEAD
+=======
+    // User name property for UI binding
+    val name: LiveData<String> = currentUser.map { user ->
+        user?.fullName?.split(" ")?.firstOrNull() ?: "User"
+    }
+
+>>>>>>> 818ab1f (Updated)
     private val _dailyProgress = MutableLiveData<DailyProgress>()
     val dailyProgress: LiveData<DailyProgress> = _dailyProgress
 
@@ -45,6 +60,7 @@ class DashboardViewModel(
         viewModelScope.launch {
             try {
                 // Load current user
+<<<<<<< HEAD
                 val user = userRepository.getCurrentUser()
                 _currentUser.value = user
 
@@ -66,6 +82,45 @@ class DashboardViewModel(
                 }
             } catch (e: Exception) {
                 // Handle error
+=======
+                val userResult = userRepository.getCurrentUser()
+
+                when (userResult) {
+                    is Result.Success -> {
+                        val user = userResult.data
+                        _currentUser.value = user
+
+                        // Load user's points (placeholder - points system not implemented yet)
+                        _totalPoints.value = 0
+
+                        // Load current streak
+                        loadCurrentStreak(user.id)
+
+                        // Load daily progress
+                        loadDailyProgress(user.id)
+
+                        // Load today's habits
+                        loadTodaysHabits(user.id)
+
+                        // Load recent achievements
+                        loadRecentAchievements(user.id)
+                    }
+                    is Result.Error -> {
+                        // Handle error - user not found or not logged in
+                        _currentUser.value = null
+                        _totalPoints.value = 0
+                    }
+                    else -> {
+                        // Handle loading state if needed
+                        _currentUser.value = null
+                        _totalPoints.value = 0
+                    }
+                }
+            } catch (e: Exception) {
+                // Handle error
+                _currentUser.value = null
+                _totalPoints.value = 0
+>>>>>>> 818ab1f (Updated)
             }
         }
     }
@@ -104,9 +159,16 @@ class DashboardViewModel(
                 category = HabitCategory.EXERCISE,
                 targetDays = 21,
                 completedDays = 7,
+<<<<<<< HEAD
                 isActive = true,
                 createdAt = System.currentTimeMillis(),
                 updatedAt = System.currentTimeMillis()
+=======
+                currentStreak = 7,
+                isActive = true,
+                createdAt = java.util.Date(System.currentTimeMillis()),
+                updatedAt = java.util.Date(System.currentTimeMillis())
+>>>>>>> 818ab1f (Updated)
             ),
             Habit(
                 id = 2,
@@ -116,9 +178,16 @@ class DashboardViewModel(
                 category = HabitCategory.HYDRATION,
                 targetDays = 21,
                 completedDays = 5,
+<<<<<<< HEAD
                 isActive = true,
                 createdAt = System.currentTimeMillis(),
                 updatedAt = System.currentTimeMillis()
+=======
+                currentStreak = 3,
+                isActive = true,
+                createdAt = java.util.Date(System.currentTimeMillis()),
+                updatedAt = java.util.Date(System.currentTimeMillis())
+>>>>>>> 818ab1f (Updated)
             ),
             Habit(
                 id = 3,
@@ -128,9 +197,16 @@ class DashboardViewModel(
                 category = HabitCategory.NUTRITION,
                 targetDays = 21,
                 completedDays = 10,
+<<<<<<< HEAD
                 isActive = true,
                 createdAt = System.currentTimeMillis(),
                 updatedAt = System.currentTimeMillis()
+=======
+                currentStreak = 5,
+                isActive = true,
+                createdAt = java.util.Date(System.currentTimeMillis()),
+                updatedAt = java.util.Date(System.currentTimeMillis())
+>>>>>>> 818ab1f (Updated)
             )
         )
         _todaysHabits.value = mockHabits
@@ -144,19 +220,37 @@ class DashboardViewModel(
                 id = 1,
                 name = "Week Warrior",
                 description = "7 day streak",
+<<<<<<< HEAD
                 iconResource = "ic_badge_streak",
                 pointsRequired = 100,
                 category = BadgeCategory.STREAK,
                 unlockedAt = System.currentTimeMillis()
+=======
+                type = BadgeType.STREAK,
+                rarity = BadgeRarity.COMMON,
+                iconResId = "ic_badge_streak",
+                targetProgress = 7,
+                createdAt = java.util.Date(System.currentTimeMillis()),
+                updatedAt = java.util.Date(System.currentTimeMillis())
+>>>>>>> 818ab1f (Updated)
             ),
             Badge(
                 id = 2,
                 name = "Early Bird",
                 description = "5 morning workouts",
+<<<<<<< HEAD
                 iconResource = "ic_badge_morning",
                 pointsRequired = 50,
                 category = BadgeCategory.WORKOUT,
                 unlockedAt = System.currentTimeMillis()
+=======
+                type = BadgeType.WORKOUT,
+                rarity = BadgeRarity.COMMON,
+                iconResId = "ic_badge_morning",
+                targetProgress = 5,
+                createdAt = java.util.Date(System.currentTimeMillis()),
+                updatedAt = java.util.Date(System.currentTimeMillis())
+>>>>>>> 818ab1f (Updated)
             )
         )
         _recentAchievements.value = mockBadges

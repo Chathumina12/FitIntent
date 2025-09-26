@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_medium"
+    app:cardCornerRadius="@dimen/corner_radius_large"
+    app:cardElevation="@dimen/card_elevation"
+    app:strokeColor="@color/outline"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_large">
+
+        <!-- Tip Category Icon -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardCategoryIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:cardCornerRadius="@dimen/corner_radius_large"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/green_primary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imgCategoryIcon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_nutrition"
+                app:tint="@color/on_primary"
+                android:contentDescription="@string/nutrition_category_icon"
+                tools:src="@drawable/ic_nutrition" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Tip Content -->
+        <LinearLayout
+            android:id="@+id/layoutTipContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/spacing_medium"
+            android:layout_marginEnd="@dimen/spacing_small"
+            app:layout_constraintStart_toEndOf="@id/cardCategoryIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/layoutActions"
+            app:layout_constraintBottom_toTopOf="@id/layoutTipDetails">
+
+            <!-- Tip Title -->
+            <TextView
+                android:id="@+id/tvTipTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Your Day with Water"
+                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                android:textColor="@color/on_background"
+                android:textStyle="bold"
+                android:maxLines="2"
+                android:ellipsize="end"
+                tools:text="Start Your Day with Water" />
+
+            <!-- Tip Description -->
+            <TextView
+                android:id="@+id/tvTipDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drink a glass of water immediately after waking up to kickstart your metabolism and rehydrate your body after hours of sleep."
+                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                android:textColor="@color/on_surface_variant"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:layout_marginTop="@dimen/spacing_tiny"
+                tools:text="Drink a glass of water immediately after waking up to kickstart your metabolism and rehydrate your body after hours of sleep." />
+
+        </LinearLayout>
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:id="@+id/layoutActions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <!-- Favorite Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFavorite"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/ic_favorite_border"
+                app:iconTint="@color/on_surface_variant"
+                android:contentDescription="@string/add_to_favorites" />
+
+            <!-- Share Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnShare"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/ic_share"
+                app:iconTint="@color/on_surface_variant"
+                android:contentDescription="@string/share_tip" />
+
+        </LinearLayout>
+
+        <!-- Tip Details -->
+        <LinearLayout
+            android:id="@+id/layoutTipDetails"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/spacing_medium"
+            app:layout_constraintStart_toEndOf="@id/cardCategoryIcon"
+            app:layout_constraintTop_toBottomOf="@id/layoutTipContent"
+            app:layout_constraintEnd_toStartOf="@id/layoutActions"
+            app:layout_constraintBottom_toTopOf="@id/layoutBenefits">
+
+            <!-- Category Chip -->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HYDRATION"
+                style="@style/Widget.Material3.Chip.Assist"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="11sp"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipStrokeColor="@color/outline"
+                app:chipStrokeWidth="1dp"
+                app:ensureMinTouchTargetSize="false"
+                android:layout_marginEnd="@dimen/spacing_small"
+                tools:text="HYDRATION" />
+
+            <!-- Difficulty Indicator -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginEnd="@dimen/spacing_small">
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/ic_star"
+                    app:tint="@color/orange_primary"
+                    android:layout_marginEnd="2dp" />
+
+                <TextView
+                    android:id="@+id/tvDifficulty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Easy"
+                    android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+                    android:textColor="@color/on_surface_variant"
+                    tools:text="Easy" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Benefits Section (Expandable) -->
+        <LinearLayout
+            android:id="@+id/layoutBenefits"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:visibility="gone"
+            app:layout_constraintStart_toEndOf="@id/cardCategoryIcon"
+            app:layout_constraintTop_toBottomOf="@id/layoutTipDetails"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:visibility="visible">
+
+            <!-- Benefits Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/benefits"
+                android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+                android:textColor="@color/on_background"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/spacing_tiny" />
+
+            <!-- Benefits Description -->
+            <TextView
+                android:id="@+id/tvBenefits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boosts metabolism, improves brain function, helps with weight management"
+                android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+                android:textColor="@color/on_surface_variant"
+                android:maxLines="3"
+                android:ellipsize="end"
+                tools:text="Boosts metabolism, improves brain function, helps with weight management" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

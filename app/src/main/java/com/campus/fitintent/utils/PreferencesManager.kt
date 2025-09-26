@@ -53,6 +53,21 @@ class PreferencesManager(context: Context) {
         }
     }
 
+<<<<<<< HEAD
+=======
+    fun clearSession() {
+        clearUserSession()
+    }
+
+    fun getTheme(): Int {
+        return encryptedPrefs.getInt(KEY_THEME, 0) // 0 = dark, 1 = light, 2 = system
+    }
+
+    fun setTheme(theme: Int) {
+        encryptedPrefs.edit().putInt(KEY_THEME, theme).apply()
+    }
+
+>>>>>>> 818ab1f (Updated)
     // App settings
     fun setNotificationsEnabled(enabled: Boolean) {
         encryptedPrefs.edit().putBoolean(KEY_NOTIFICATIONS_ENABLED, enabled).apply()
@@ -160,6 +175,58 @@ class PreferencesManager(context: Context) {
         return encryptedPrefs.getBoolean("feature_$feature", defaultValue)
     }
 
+<<<<<<< HEAD
+=======
+    // Notification settings
+    fun setAchievementNotificationsEnabled(enabled: Boolean) {
+        encryptedPrefs.edit().putBoolean(KEY_ACHIEVEMENT_NOTIFICATIONS, enabled).apply()
+    }
+
+    fun areAchievementNotificationsEnabled(): Boolean {
+        return encryptedPrefs.getBoolean(KEY_ACHIEVEMENT_NOTIFICATIONS, true)
+    }
+
+    fun setStreakAlertsEnabled(enabled: Boolean) {
+        encryptedPrefs.edit().putBoolean(KEY_STREAK_ALERTS, enabled).apply()
+    }
+
+    fun areStreakAlertsEnabled(): Boolean {
+        return encryptedPrefs.getBoolean(KEY_STREAK_ALERTS, true)
+    }
+
+    fun setCurrentStreak(streak: Int) {
+        encryptedPrefs.edit().putInt(KEY_CURRENT_STREAK, streak).apply()
+    }
+
+    fun getCurrentStreak(): Int {
+        return encryptedPrefs.getInt(KEY_CURRENT_STREAK, 0)
+    }
+
+    fun setThemePreference(theme: String) {
+        encryptedPrefs.edit().putString(KEY_THEME_PREFERENCE, theme).apply()
+    }
+
+    fun getThemePreference(): String {
+        return encryptedPrefs.getString(KEY_THEME_PREFERENCE, "system") ?: "system"
+    }
+
+    fun setUnitsPreference(units: String) {
+        encryptedPrefs.edit().putString(KEY_UNITS_PREFERENCE, units).apply()
+    }
+
+    fun getUnitsPreference(): String {
+        return encryptedPrefs.getString(KEY_UNITS_PREFERENCE, "metric") ?: "metric"
+    }
+
+    fun setDailyReminderEnabled(enabled: Boolean) {
+        encryptedPrefs.edit().putBoolean(KEY_DAILY_REMINDER_ENABLED, enabled).apply()
+    }
+
+    fun isDailyReminderEnabled(): Boolean {
+        return encryptedPrefs.getBoolean(KEY_DAILY_REMINDER_ENABLED, true)
+    }
+
+>>>>>>> 818ab1f (Updated)
     companion object {
         private const val PREFS_NAME = "fitintent_secure_prefs"
 
@@ -171,8 +238,20 @@ class PreferencesManager(context: Context) {
         // Keys for app settings
         private const val KEY_NOTIFICATIONS_ENABLED = "notifications_enabled"
         private const val KEY_DARK_MODE = "dark_mode"
+<<<<<<< HEAD
         private const val KEY_REMINDER_TIME = "reminder_time"
         private const val KEY_METRIC_UNITS = "metric_units"
+=======
+        private const val KEY_THEME = "theme"
+        private const val KEY_REMINDER_TIME = "reminder_time"
+        private const val KEY_METRIC_UNITS = "metric_units"
+        private const val KEY_ACHIEVEMENT_NOTIFICATIONS = "achievement_notifications_enabled"
+        private const val KEY_STREAK_ALERTS = "streak_alerts_enabled"
+        private const val KEY_CURRENT_STREAK = "current_streak"
+        private const val KEY_THEME_PREFERENCE = "theme_preference"
+        private const val KEY_UNITS_PREFERENCE = "units_preference"
+        private const val KEY_DAILY_REMINDER_ENABLED = "daily_reminder_enabled"
+>>>>>>> 818ab1f (Updated)
 
         // Keys for daily goals
         private const val KEY_DAILY_CALORIE_GOAL = "daily_calorie_goal"
@@ -185,5 +264,90 @@ class PreferencesManager(context: Context) {
         private const val KEY_APP_OPEN_COUNT = "app_open_count"
         private const val KEY_LAST_OPEN_DATE = "last_open_date"
         private const val KEY_FIRST_LAUNCH = "first_launch"
+<<<<<<< HEAD
+=======
+
+        // Static convenience methods for settings that need Context
+        @JvmStatic
+        fun setAchievementNotificationsEnabled(context: Context, enabled: Boolean) {
+            PreferencesManager(context).setAchievementNotificationsEnabled(enabled)
+        }
+
+        @JvmStatic
+        fun areAchievementNotificationsEnabled(context: Context): Boolean {
+            return PreferencesManager(context).areAchievementNotificationsEnabled()
+        }
+
+        @JvmStatic
+        fun setStreakAlertsEnabled(context: Context, enabled: Boolean) {
+            PreferencesManager(context).setStreakAlertsEnabled(enabled)
+        }
+
+        @JvmStatic
+        fun areStreakAlertsEnabled(context: Context): Boolean {
+            return PreferencesManager(context).areStreakAlertsEnabled()
+        }
+
+        @JvmStatic
+        fun getCurrentStreak(context: Context): Int {
+            return PreferencesManager(context).getCurrentStreak()
+        }
+
+        @JvmStatic
+        fun setCurrentStreak(context: Context, streak: Int) {
+            PreferencesManager(context).setCurrentStreak(streak)
+        }
+
+        @JvmStatic
+        fun getThemePreference(context: Context): String {
+            return PreferencesManager(context).getThemePreference()
+        }
+
+        @JvmStatic
+        fun setThemePreference(context: Context, theme: String) {
+            PreferencesManager(context).setThemePreference(theme)
+        }
+
+        @JvmStatic
+        fun getUnitsPreference(context: Context): String {
+            return PreferencesManager(context).getUnitsPreference()
+        }
+
+        @JvmStatic
+        fun setUnitsPreference(context: Context, units: String) {
+            PreferencesManager(context).setUnitsPreference(units)
+        }
+
+        @JvmStatic
+        fun isDailyReminderEnabled(context: Context): Boolean {
+            return PreferencesManager(context).isDailyReminderEnabled()
+        }
+
+        @JvmStatic
+        fun setDailyReminderEnabled(context: Context, enabled: Boolean) {
+            PreferencesManager(context).setDailyReminderEnabled(enabled)
+        }
+
+        @JvmStatic
+        fun setDailyReminderTime(context: Context, hour: Int, minute: Int) {
+            val timeString = String.format("%02d:%02d", hour, minute)
+            PreferencesManager(context).setReminderTime(timeString)
+        }
+
+        @JvmStatic
+        fun getDailyReminderTime(context: Context): Pair<Int, Int> {
+            val timeString = PreferencesManager(context).getReminderTime()
+            val parts = timeString.split(":")
+            return if (parts.size == 2) {
+                try {
+                    Pair(parts[0].toInt(), parts[1].toInt())
+                } catch (e: NumberFormatException) {
+                    Pair(8, 0) // Default to 8:00 AM
+                }
+            } else {
+                Pair(8, 0) // Default to 8:00 AM
+            }
+        }
+>>>>>>> 818ab1f (Updated)
     }
 }

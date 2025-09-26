@@ -2,6 +2,12 @@ package com.campus.fitintent.repository
 
 import com.campus.fitintent.database.dao.UserDao
 import com.campus.fitintent.models.User
+<<<<<<< HEAD
+=======
+import com.campus.fitintent.models.Gender
+import com.campus.fitintent.models.ActivityLevel
+import com.campus.fitintent.models.FitnessGoal
+>>>>>>> 818ab1f (Updated)
 import com.campus.fitintent.utils.PreferencesManager
 import com.campus.fitintent.utils.Result
 import com.campus.fitintent.utils.ValidationUtils
@@ -276,4 +282,55 @@ class UserRepository(
     fun isOnboardingComplete(): Boolean {
         return preferencesManager.isOnboardingComplete()
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * Get user by email address
+     */
+    suspend fun getUserByEmail(email: String): User? = withContext(Dispatchers.IO) {
+        try {
+            userDao.getActiveUserByEmail(email.lowercase())
+        } catch (e: Exception) {
+            null
+        }
+    }
+
+    /**
+     * Create new user (alias for register)
+     */
+    suspend fun createUser(
+        email: String,
+        password: String,
+        username: String,
+        fullName: String
+    ): Result<User> {
+        return register(email, password, username, fullName)
+    }
+
+    /**
+     * Save user session
+     */
+    suspend fun saveUserSession(user: User): Boolean {
+        return try {
+            preferencesManager.saveUserId(user.id)
+            preferencesManager.saveUserEmail(user.email)
+            true
+        } catch (e: Exception) {
+            false
+        }
+    }
+
+    /**
+     * Clear user session
+     */
+    suspend fun clearUserSession(): Boolean {
+        return try {
+            preferencesManager.clearUserSession()
+            true
+        } catch (e: Exception) {
+            false
+        }
+    }
+>>>>>>> 818ab1f (Updated)
 }

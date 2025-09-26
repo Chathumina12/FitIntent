@@ -4,22 +4,35 @@ package com.campus.fitintent.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+=======
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+>>>>>>> 818ab1f (Updated)
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.campus.fitintent.R;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.card.MaterialCardView;
+<<<<<<< HEAD
+=======
+import com.google.android.material.progressindicator.CircularProgressIndicator;
+>>>>>>> 818ab1f (Updated)
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class FragmentWorkoutBinding implements ViewBinding {
   @NonNull
+<<<<<<< HEAD
   private final ScrollView rootView;
 
   @NonNull
@@ -60,11 +73,98 @@ public final class FragmentWorkoutBinding implements ViewBinding {
     this.strengthCard = strengthCard;
     this.viewAllWorkouts = viewAllWorkouts;
     this.workoutsRecyclerView = workoutsRecyclerView;
+=======
+  private final CoordinatorLayout rootView;
+
+  @NonNull
+  public final MaterialButton btnQuickStart;
+
+  @NonNull
+  public final MaterialButton btnSearch;
+
+  @NonNull
+  public final MaterialButton btnViewAllWorkouts;
+
+  @NonNull
+  public final MaterialCardView cardCardio;
+
+  @NonNull
+  public final MaterialCardView cardFlexibility;
+
+  @NonNull
+  public final MaterialCardView cardHiit;
+
+  @NonNull
+  public final MaterialCardView cardQuickStart;
+
+  @NonNull
+  public final MaterialCardView cardStrength;
+
+  @NonNull
+  public final LinearLayout layoutEmptyActivity;
+
+  @NonNull
+  public final CircularProgressIndicator progressLoading;
+
+  @NonNull
+  public final RecyclerView recyclerViewFeaturedWorkouts;
+
+  @NonNull
+  public final RecyclerView recyclerViewRecentActivity;
+
+  @NonNull
+  public final TextView tvCardioCount;
+
+  @NonNull
+  public final TextView tvFlexibilityCount;
+
+  @NonNull
+  public final TextView tvHiitCount;
+
+  @NonNull
+  public final TextView tvQuickStartDesc;
+
+  @NonNull
+  public final TextView tvStrengthCount;
+
+  private FragmentWorkoutBinding(@NonNull CoordinatorLayout rootView,
+      @NonNull MaterialButton btnQuickStart, @NonNull MaterialButton btnSearch,
+      @NonNull MaterialButton btnViewAllWorkouts, @NonNull MaterialCardView cardCardio,
+      @NonNull MaterialCardView cardFlexibility, @NonNull MaterialCardView cardHiit,
+      @NonNull MaterialCardView cardQuickStart, @NonNull MaterialCardView cardStrength,
+      @NonNull LinearLayout layoutEmptyActivity, @NonNull CircularProgressIndicator progressLoading,
+      @NonNull RecyclerView recyclerViewFeaturedWorkouts,
+      @NonNull RecyclerView recyclerViewRecentActivity, @NonNull TextView tvCardioCount,
+      @NonNull TextView tvFlexibilityCount, @NonNull TextView tvHiitCount,
+      @NonNull TextView tvQuickStartDesc, @NonNull TextView tvStrengthCount) {
+    this.rootView = rootView;
+    this.btnQuickStart = btnQuickStart;
+    this.btnSearch = btnSearch;
+    this.btnViewAllWorkouts = btnViewAllWorkouts;
+    this.cardCardio = cardCardio;
+    this.cardFlexibility = cardFlexibility;
+    this.cardHiit = cardHiit;
+    this.cardQuickStart = cardQuickStart;
+    this.cardStrength = cardStrength;
+    this.layoutEmptyActivity = layoutEmptyActivity;
+    this.progressLoading = progressLoading;
+    this.recyclerViewFeaturedWorkouts = recyclerViewFeaturedWorkouts;
+    this.recyclerViewRecentActivity = recyclerViewRecentActivity;
+    this.tvCardioCount = tvCardioCount;
+    this.tvFlexibilityCount = tvFlexibilityCount;
+    this.tvHiitCount = tvHiitCount;
+    this.tvQuickStartDesc = tvQuickStartDesc;
+    this.tvStrengthCount = tvStrengthCount;
+>>>>>>> 818ab1f (Updated)
   }
 
   @Override
   @NonNull
+<<<<<<< HEAD
   public ScrollView getRoot() {
+=======
+  public CoordinatorLayout getRoot() {
+>>>>>>> 818ab1f (Updated)
     return rootView;
   }
 
@@ -89,6 +189,7 @@ public final class FragmentWorkoutBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+<<<<<<< HEAD
       id = R.id.cardioCard;
       MaterialCardView cardioCard = ViewBindings.findChildViewById(rootView, id);
       if (cardioCard == null) {
@@ -140,6 +241,115 @@ public final class FragmentWorkoutBinding implements ViewBinding {
       return new FragmentWorkoutBinding((ScrollView) rootView, cardioCard, flexibilityCard,
           quickStartButton, quickStartCard, recentActivityRecyclerView, strengthCard,
           viewAllWorkouts, workoutsRecyclerView);
+=======
+      id = R.id.btnQuickStart;
+      MaterialButton btnQuickStart = ViewBindings.findChildViewById(rootView, id);
+      if (btnQuickStart == null) {
+        break missingId;
+      }
+
+      id = R.id.btnSearch;
+      MaterialButton btnSearch = ViewBindings.findChildViewById(rootView, id);
+      if (btnSearch == null) {
+        break missingId;
+      }
+
+      id = R.id.btnViewAllWorkouts;
+      MaterialButton btnViewAllWorkouts = ViewBindings.findChildViewById(rootView, id);
+      if (btnViewAllWorkouts == null) {
+        break missingId;
+      }
+
+      id = R.id.cardCardio;
+      MaterialCardView cardCardio = ViewBindings.findChildViewById(rootView, id);
+      if (cardCardio == null) {
+        break missingId;
+      }
+
+      id = R.id.cardFlexibility;
+      MaterialCardView cardFlexibility = ViewBindings.findChildViewById(rootView, id);
+      if (cardFlexibility == null) {
+        break missingId;
+      }
+
+      id = R.id.cardHiit;
+      MaterialCardView cardHiit = ViewBindings.findChildViewById(rootView, id);
+      if (cardHiit == null) {
+        break missingId;
+      }
+
+      id = R.id.cardQuickStart;
+      MaterialCardView cardQuickStart = ViewBindings.findChildViewById(rootView, id);
+      if (cardQuickStart == null) {
+        break missingId;
+      }
+
+      id = R.id.cardStrength;
+      MaterialCardView cardStrength = ViewBindings.findChildViewById(rootView, id);
+      if (cardStrength == null) {
+        break missingId;
+      }
+
+      id = R.id.layoutEmptyActivity;
+      LinearLayout layoutEmptyActivity = ViewBindings.findChildViewById(rootView, id);
+      if (layoutEmptyActivity == null) {
+        break missingId;
+      }
+
+      id = R.id.progressLoading;
+      CircularProgressIndicator progressLoading = ViewBindings.findChildViewById(rootView, id);
+      if (progressLoading == null) {
+        break missingId;
+      }
+
+      id = R.id.recyclerViewFeaturedWorkouts;
+      RecyclerView recyclerViewFeaturedWorkouts = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerViewFeaturedWorkouts == null) {
+        break missingId;
+      }
+
+      id = R.id.recyclerViewRecentActivity;
+      RecyclerView recyclerViewRecentActivity = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerViewRecentActivity == null) {
+        break missingId;
+      }
+
+      id = R.id.tvCardioCount;
+      TextView tvCardioCount = ViewBindings.findChildViewById(rootView, id);
+      if (tvCardioCount == null) {
+        break missingId;
+      }
+
+      id = R.id.tvFlexibilityCount;
+      TextView tvFlexibilityCount = ViewBindings.findChildViewById(rootView, id);
+      if (tvFlexibilityCount == null) {
+        break missingId;
+      }
+
+      id = R.id.tvHiitCount;
+      TextView tvHiitCount = ViewBindings.findChildViewById(rootView, id);
+      if (tvHiitCount == null) {
+        break missingId;
+      }
+
+      id = R.id.tvQuickStartDesc;
+      TextView tvQuickStartDesc = ViewBindings.findChildViewById(rootView, id);
+      if (tvQuickStartDesc == null) {
+        break missingId;
+      }
+
+      id = R.id.tvStrengthCount;
+      TextView tvStrengthCount = ViewBindings.findChildViewById(rootView, id);
+      if (tvStrengthCount == null) {
+        break missingId;
+      }
+
+      return new FragmentWorkoutBinding((CoordinatorLayout) rootView, btnQuickStart, btnSearch,
+          btnViewAllWorkouts, cardCardio, cardFlexibility, cardHiit, cardQuickStart, cardStrength,
+          layoutEmptyActivity, progressLoading, recyclerViewFeaturedWorkouts,
+          recyclerViewRecentActivity, tvCardioCount, tvFlexibilityCount, tvHiitCount,
+          tvQuickStartDesc, tvStrengthCount);
+>>>>>>> 818ab1f (Updated)
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

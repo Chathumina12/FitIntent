@@ -15,8 +15,13 @@ interface NutritionTipDao {
     @Query("SELECT * FROM nutrition_tips WHERE category = :category")
     fun getTipsByCategory(category: NutritionCategory): Flow<List<NutritionTip>>
 
+<<<<<<< HEAD
     @Query("SELECT * FROM nutrition_tips WHERE targetGoal = :goal OR targetGoal IS NULL")
     fun getTipsByGoal(goal: FitnessGoal): Flow<List<NutritionTip>>
+=======
+    @Query("SELECT * FROM nutrition_tips WHERE category = :category")
+    fun getTipsByGoal(category: NutritionCategory): Flow<List<NutritionTip>>
+>>>>>>> 818ab1f (Updated)
 
     @Query("SELECT * FROM nutrition_tips WHERE id = :tipId")
     suspend fun getTipById(tipId: Long): NutritionTip?
@@ -35,11 +40,16 @@ interface NutritionTipDao {
 
     @Query("""
         SELECT * FROM nutrition_tips
+<<<<<<< HEAD
         WHERE (title LIKE '%' || :query || '%' OR content LIKE '%' || :query || '%')
+=======
+        WHERE (title LIKE '%' || :query || '%' OR description LIKE '%' || :query || '%')
+>>>>>>> 818ab1f (Updated)
         ORDER BY createdAt DESC
     """)
     fun searchTips(query: String): Flow<List<NutritionTip>>
 
+<<<<<<< HEAD
     @Query("SELECT * FROM nutrition_tips WHERE isVegetarian = 1")
     fun getVegetarianTips(): Flow<List<NutritionTip>>
 
@@ -47,20 +57,38 @@ interface NutritionTipDao {
     fun getVeganTips(): Flow<List<NutritionTip>>
 
     @Query("SELECT * FROM nutrition_tips WHERE isGlutenFree = 1")
+=======
+    @Query("SELECT * FROM nutrition_tips WHERE tags LIKE '%vegetarian%'")
+    fun getVegetarianTips(): Flow<List<NutritionTip>>
+
+    @Query("SELECT * FROM nutrition_tips WHERE tags LIKE '%vegan%'")
+    fun getVeganTips(): Flow<List<NutritionTip>>
+
+    @Query("SELECT * FROM nutrition_tips WHERE tags LIKE '%gluten-free%'")
+>>>>>>> 818ab1f (Updated)
     fun getGlutenFreeTips(): Flow<List<NutritionTip>>
 
     @Query("""
         SELECT * FROM nutrition_tips
         WHERE category IN (:categories)
+<<<<<<< HEAD
         AND (targetGoal = :goal OR targetGoal IS NULL)
         ORDER BY RANDOM()
         LIMIT 1
     """)
     suspend fun getDailyTip(categories: List<NutritionCategory>, goal: FitnessGoal?): NutritionTip?
+=======
+        AND isActive = 1
+        ORDER BY RANDOM()
+        LIMIT 1
+    """)
+    suspend fun getDailyTip(categories: List<NutritionCategory>): NutritionTip?
+>>>>>>> 818ab1f (Updated)
 
     @Query("SELECT COUNT(*) FROM nutrition_tips")
     suspend fun getTipCount(): Int
 }
+<<<<<<< HEAD
 
 /**
  * Data Access Object for QuizAnswer operations
@@ -88,3 +116,5 @@ interface QuizAnswerDao {
     @Query("SELECT COUNT(*) FROM quiz_answers WHERE userId = :userId")
     suspend fun getAnswerCount(userId: Long): Int
 }
+=======
+>>>>>>> 818ab1f (Updated)

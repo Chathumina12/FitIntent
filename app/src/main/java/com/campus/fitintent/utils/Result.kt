@@ -52,9 +52,12 @@ sealed class Result<out T> {
         return if (this is Success) data else null
     }
 
+<<<<<<< HEAD
     fun getOrDefault(default: T): T {
         return if (this is Success) data else default
     }
+=======
+>>>>>>> 818ab1f (Updated)
 
     fun getOrThrow(): T {
         return when (this) {

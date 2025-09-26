@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_medium"
+    app:cardCornerRadius="@dimen/corner_radius_large"
+    app:cardElevation="@dimen/card_elevation"
+    app:strokeColor="@color/outline"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/spacing_large"
+        android:gravity="center_vertical">
+
+        <!-- Badge Icon -->
+        <FrameLayout
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginEnd="@dimen/spacing_medium">
+
+            <!-- Badge Background Circle -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardBadgeBackground"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                app:cardCornerRadius="28dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/surface_variant">
+
+                <ImageView
+                    android:id="@+id/imgBadgeIcon"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_trophy"
+                    app:tint="@color/on_surface_variant"
+                    android:contentDescription="@string/badge_icon"
+                    tools:src="@drawable/ic_trophy" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Progress Overlay -->
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/progressBadge"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:progress="65"
+                app:indicatorSize="56dp"
+                app:trackThickness="4dp"
+                app:indicatorColor="@color/orange_primary"
+                app:trackColor="@color/outline"
+                tools:progress="65" />
+
+            <!-- Rarity Indicator -->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipRarity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|end"
+                android:layout_marginTop="-6dp"
+                android:layout_marginEnd="-6dp"
+                android:text="EPIC"
+                style="@style/Widget.Material3.Chip.Assist"
+                android:textSize="8sp"
+                android:textColor="@color/on_primary"
+                app:chipBackgroundColor="@color/purple_primary"
+                app:chipStrokeWidth="0dp"
+                app:chipMinHeight="18dp"
+                app:chipStartPadding="6dp"
+                app:chipEndPadding="6dp"
+                app:ensureMinTouchTargetSize="false"
+                tools:text="EPIC" />
+
+        </FrameLayout>
+
+        <!-- Badge Info -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Badge Name -->
+            <TextView
+                android:id="@+id/tvBadgeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consistency King"
+                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                android:textColor="@color/on_background"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="Consistency King" />
+
+            <!-- Badge Description -->
+            <TextView
+                android:id="@+id/tvBadgeDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maintain a 90-day streak"
+                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                android:textColor="@color/on_surface_variant"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_marginTop="@dimen/spacing_tiny"
+                android:layout_marginBottom="@dimen/spacing_small"
+                tools:text="Maintain a 90-day streak" />
+
+            <!-- Progress Info -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tvProgressText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="58 / 90 days"
+                    android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+                    android:textColor="@color/on_background"
+                    tools:text="58 / 90 days" />
+
+                <TextView
+                    android:id="@+id/tvProgressPercentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="65%"
+                    android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+                    android:textColor="@color/orange_primary"
+                    android:textStyle="bold"
+                    tools:text="65%" />
+
+            </LinearLayout>
+
+            <!-- Progress Bar -->
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/progressLinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_small"
+                android:progress="65"
+                app:indicatorColor="@color/orange_primary"
+                app:trackColor="@color/outline"
+                app:trackThickness="6dp"
+                app:trackCornerRadius="3dp"
+                tools:progress="65" />
+
+        </LinearLayout>
+
+        <!-- Points Reward -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/spacing_medium">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_star"
+                app:tint="@color/yellow_primary"
+                android:layout_marginBottom="@dimen/spacing_tiny" />
+
+            <TextView
+                android:id="@+id/tvBadgePoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="350"
+                android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+                android:textColor="@color/on_background"
+                android:textStyle="bold"
+                tools:text="350" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/points"
+                android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+                android:textColor="@color/on_surface_variant" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

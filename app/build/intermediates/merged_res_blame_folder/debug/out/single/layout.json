@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "com.campus.fitintent.app-mergeDebugResources-56:/layout/activity_welcome.xml",
         "source": "com.campus.fitintent.app-main-59:/layout/activity_welcome.xml"
     },
@@ -46,5 +47,141 @@
     {
         "merged": "com.campus.fitintent.app-mergeDebugResources-56:/layout/fragment_welcome2.xml",
         "source": "com.campus.fitintent.app-main-59:/layout/fragment_welcome2.xml"
+=======
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_welcome2.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_welcome2.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\item_badge_compact.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_badge_compact.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\activity_edit_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-mergeDebugResources-58:/layout/fragment_signup.xml",
+        "source": "com.campus.fitintent.app-main-61:/layout/fragment_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_rewards.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_rewards.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_quiz1.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_quiz1.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_quiz4.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_quiz4.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_signup.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\item_workout_session.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_workout_session.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\item_workout_featured.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_workout_featured.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_nutrition.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_nutrition.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_welcome3.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_welcome3.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.campus.fitintent.app-mergeDebugResources-58:/layout/fragment_login.xml",
+        "source": "com.campus.fitintent.app-main-61:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\item_badge_progress.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_badge_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_quiz3.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_quiz3.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_quiz5.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_quiz5.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\item_workout_activity.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_workout_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\activity_onboarding_quiz.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_onboarding_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\item_nutrition_tip.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_nutrition_tip.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_quiz2.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_quiz2.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_workout.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_workout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\activity_auth.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\item_habit.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_habit.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\activity_onboarding.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\activity_notification_settings.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_notification_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_habit_tracking.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_habit_tracking.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\fragment_welcome1.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_welcome1.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-mergeDebugResources-58:\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_welcome.xml"
+>>>>>>> 818ab1f (Updated)
     }
 ]

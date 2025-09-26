@@ -109,7 +109,11 @@ data class Streak(
     val type: StreakType,
     val currentStreak: Int = 0,
     val longestStreak: Int = 0,
+<<<<<<< HEAD
     val lastActiveDate: Date? = null,
+=======
+    val lastActivityDate: Date? = null,
+>>>>>>> 818ab1f (Updated)
     val startDate: Date = Date(),
     val isActive: Boolean = true
 )
@@ -121,6 +125,7 @@ enum class StreakType {
     DAILY_GOALS,
     WATER_INTAKE,
     MEDITATION
+<<<<<<< HEAD
 }
 
 /**
@@ -180,4 +185,6 @@ enum class BadgeType {
     WATER_CHAMPION,
     CALORIE_CRUSHER,
     STEP_MASTER
+=======
+>>>>>>> 818ab1f (Updated)
 }

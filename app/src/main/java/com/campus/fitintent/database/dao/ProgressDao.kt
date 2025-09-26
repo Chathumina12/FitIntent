@@ -106,7 +106,11 @@ interface StreakDao {
         UPDATE streaks
         SET currentStreak = :current,
             longestStreak = MAX(longestStreak, :current),
+<<<<<<< HEAD
             lastActiveDate = :date
+=======
+            lastActivityDate = :date
+>>>>>>> 818ab1f (Updated)
         WHERE id = :streakId
     """)
     suspend fun updateStreakCount(streakId: Long, current: Int, date: Date)
@@ -122,6 +126,7 @@ interface StreakDao {
 }
 
 /**
+<<<<<<< HEAD
  * Data Access Object for Badge operations
  */
 @Dao
@@ -157,4 +162,60 @@ interface BadgeDao {
         ORDER BY earnedDate DESC
     """)
     fun getBadgesEarnedInRange(userId: Long, startDate: Date, endDate: Date): Flow<List<Badge>>
+=======
+ * Data Access Object for UserBadge operations (user progress on badges)
+ */
+@Dao
+interface UserBadgeDao {
+    @Query("SELECT * FROM user_badges WHERE userId = :userId ORDER BY unlockedAt DESC")
+    fun getUserBadgesByUser(userId: Long): Flow<List<UserBadge>>
+
+    // Alias method for ProgressRepository compatibility
+    @Query("SELECT b.* FROM badges b INNER JOIN user_badges ub ON b.id = ub.badgeId WHERE ub.userId = :userId ORDER BY ub.unlockedAt DESC")
+    fun getBadgesByUser(userId: Long): Flow<List<Badge>>
+
+    @Query("SELECT * FROM user_badges WHERE userId = :userId AND badgeId = :badgeId LIMIT 1")
+    suspend fun getUserBadgeByBadgeId(userId: Long, badgeId: Long): UserBadge?
+
+    // Method for getting user badge by badge type (using enum ordinal as badgeId)
+    suspend fun getBadgeByType(userId: Long, badgeType: BadgeType): UserBadge? {
+        return getUserBadgeByBadgeId(userId, badgeType.ordinal.toLong())
+    }
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insertUserBadge(userBadge: UserBadge): Long
+
+    @Update
+    suspend fun updateUserBadge(userBadge: UserBadge)
+
+    @Query("UPDATE user_badges SET currentProgress = :progress WHERE id = :userBadgeId")
+    suspend fun updateUserBadgeProgress(userBadgeId: Long, progress: Int)
+
+    // Method for updating badge progress with level (ignoring level parameter for now)
+    suspend fun updateBadgeProgress(userBadgeId: Long, level: Int, progress: Float) {
+        updateUserBadgeProgress(userBadgeId, progress.toInt())
+    }
+
+    @Query("SELECT COUNT(*) FROM user_badges WHERE userId = :userId AND isUnlocked = 1")
+    suspend fun getUnlockedBadgeCount(userId: Long): Int
+
+    // Count gold badges (assuming LEGENDARY rarity badges are "gold")
+    @Query("""
+        SELECT COUNT(*) FROM user_badges ub
+        INNER JOIN badges b ON ub.badgeId = b.id
+        WHERE ub.userId = :userId AND ub.isUnlocked = 1 AND b.rarity = 'LEGENDARY'
+    """)
+    suspend fun getGoldBadgeCount(userId: Long): Int
+
+    @Query("SELECT * FROM user_badges WHERE userId = :userId AND isUnlocked = 0")
+    suspend fun getLockedUserBadges(userId: Long): List<UserBadge>
+
+    @Query("""
+        SELECT * FROM user_badges
+        WHERE userId = :userId
+        AND unlockedAt BETWEEN :startDate AND :endDate
+        ORDER BY unlockedAt DESC
+    """)
+    fun getUserBadgesUnlockedInRange(userId: Long, startDate: Date, endDate: Date): Flow<List<UserBadge>>
+>>>>>>> 818ab1f (Updated)
 }

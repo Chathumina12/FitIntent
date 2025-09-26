@@ -34,13 +34,21 @@ class AuthViewModel(
         // Validate inputs
         val emailValidation = ValidationUtils.validateEmail(email)
         if (!emailValidation.isValid) {
+<<<<<<< HEAD
             _validationError.value = emailValidation.errorMessage
+=======
+            _validationError.value = emailValidation.message
+>>>>>>> 818ab1f (Updated)
             return
         }
 
         val passwordValidation = ValidationUtils.validatePassword(password)
         if (!passwordValidation.isValid) {
+<<<<<<< HEAD
             _validationError.value = passwordValidation.errorMessage
+=======
+            _validationError.value = passwordValidation.message
+>>>>>>> 818ab1f (Updated)
             return
         }
 
@@ -50,6 +58,7 @@ class AuthViewModel(
             try {
                 val user = userRepository.getUserByEmail(email)
                 if (user != null && BCrypt.checkpw(password, user.passwordHash)) {
+<<<<<<< HEAD
                     // Update last login
                     val updatedUser = user.copy(
                         lastLogin = java.util.Date(),
@@ -83,6 +92,20 @@ class AuthViewModel(
                 }
             } catch (e: Exception) {
                 _loginState.value = Result.Error(e)
+=======
+                    // Save session if remember me is checked
+                    if (rememberMe) {
+                        userRepository.saveUserSession(user)
+                    }
+
+                    _loginState.value = Result.Success(user)
+                } else {
+                    // Handle failed login
+                    _loginState.value = Result.Error("Invalid email or password")
+                }
+            } catch (e: Exception) {
+                _loginState.value = Result.Error(e.message ?: "Login failed")
+>>>>>>> 818ab1f (Updated)
             } finally {
                 _isLoading.value = false
             }
@@ -94,23 +117,37 @@ class AuthViewModel(
         _validationError.value = null
 
         // Validate name
+<<<<<<< HEAD
         val nameValidation = ValidationUtils.validateName(name)
         if (!nameValidation.isValid) {
             _validationError.value = nameValidation.errorMessage
+=======
+        val nameValidation = ValidationUtils.validateFullName(name)
+        if (!nameValidation.isValid) {
+            _validationError.value = nameValidation.message
+>>>>>>> 818ab1f (Updated)
             return
         }
 
         // Validate email
         val emailValidation = ValidationUtils.validateEmail(email)
         if (!emailValidation.isValid) {
+<<<<<<< HEAD
             _validationError.value = emailValidation.errorMessage
+=======
+            _validationError.value = emailValidation.message
+>>>>>>> 818ab1f (Updated)
             return
         }
 
         // Validate password
         val passwordValidation = ValidationUtils.validatePassword(password)
         if (!passwordValidation.isValid) {
+<<<<<<< HEAD
             _validationError.value = passwordValidation.errorMessage
+=======
+            _validationError.value = passwordValidation.message
+>>>>>>> 818ab1f (Updated)
             return
         }
 
@@ -133,6 +170,7 @@ class AuthViewModel(
                 // Check if email already exists
                 val existingUser = userRepository.getUserByEmail(email)
                 if (existingUser != null) {
+<<<<<<< HEAD
                     _signupState.value = Result.Error(Exception("An account with this email already exists"))
                     return@launch
                 }
@@ -159,6 +197,38 @@ class AuthViewModel(
                 _signupState.value = Result.Success(createdUser)
             } catch (e: Exception) {
                 _signupState.value = Result.Error(e)
+=======
+                    _signupState.value = Result.Error("An account with this email already exists")
+                    return@launch
+                }
+
+                // Create new user using repository method
+                val createUserResult = userRepository.createUser(
+                    email = email,
+                    password = password,
+                    username = email.substringBefore("@"),
+                    fullName = name
+                )
+
+                when (createUserResult) {
+                    is Result.Success -> {
+                        val createdUser = createUserResult.data
+
+                        // Auto login after successful signup
+                        userRepository.saveUserSession(createdUser)
+
+                        _signupState.value = Result.Success(createdUser)
+                    }
+                    is Result.Error -> {
+                        _signupState.value = Result.Error(createUserResult.message)
+                    }
+                    else -> {
+                        _signupState.value = Result.Error("Unknown error occurred during signup")
+                    }
+                }
+            } catch (e: Exception) {
+                _signupState.value = Result.Error(e.message ?: "Signup failed")
+>>>>>>> 818ab1f (Updated)
             } finally {
                 _isLoading.value = false
             }
