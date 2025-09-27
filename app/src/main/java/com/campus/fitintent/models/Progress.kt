@@ -109,11 +109,7 @@ data class Streak(
     val type: StreakType,
     val currentStreak: Int = 0,
     val longestStreak: Int = 0,
-<<<<<<< HEAD
-    val lastActiveDate: Date? = null,
-=======
     val lastActivityDate: Date? = null,
->>>>>>> 818ab1f (Updated)
     val startDate: Date = Date(),
     val isActive: Boolean = true
 )
@@ -125,66 +121,4 @@ enum class StreakType {
     DAILY_GOALS,
     WATER_INTAKE,
     MEDITATION
-<<<<<<< HEAD
-}
-
-/**
- * Achievement badges for gamification
- */
-@Entity(
-    tableName = "badges",
-    foreignKeys = [
-        ForeignKey(
-            entity = User::class,
-            parentColumns = ["id"],
-            childColumns = ["userId"],
-            onDelete = ForeignKey.CASCADE
-        )
-    ],
-    indices = [
-        Index("userId"),
-        Index(value = ["userId", "badgeType"], unique = true)
-    ]
-)
-data class Badge(
-    @PrimaryKey(autoGenerate = true)
-    val id: Long = 0,
-
-    val userId: Long,
-    val badgeType: BadgeType,
-    val earnedDate: Date = Date(),
-    val progress: Float = 100f, // For progressive badges
-    val level: Int = 1, // Bronze=1, Silver=2, Gold=3
-    val isUnlocked: Boolean = true
-)
-
-enum class BadgeType {
-    // Workout badges
-    FIRST_WORKOUT,
-    WORKOUT_WARRIOR, // 50 workouts
-    CENTURY_CLUB, // 100 workouts
-
-    // Streak badges
-    WEEK_WARRIOR, // 7-day streak
-    MONTH_MASTER, // 30-day streak
-    CONSISTENCY_KING, // 100-day streak
-
-    // Habit badges
-    HABIT_STARTER,
-    HABIT_BUILDER,
-    HABIT_MASTER,
-
-    // Goal badges
-    GOAL_GETTER,
-    PERFECT_WEEK,
-    PERFECT_MONTH,
-
-    // Special badges
-    EARLY_BIRD, // Morning workouts
-    NIGHT_OWL, // Evening workouts
-    WATER_CHAMPION,
-    CALORIE_CRUSHER,
-    STEP_MASTER
-=======
->>>>>>> 818ab1f (Updated)
 }

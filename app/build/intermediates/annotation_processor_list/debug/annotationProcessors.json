@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"room-compiler-2.6.1.jar (androidx.room:room-compiler:2.6.1)":"KSP_PROCESSOR","databinding-compiler-8.1.4.jar (androidx.databinding:databinding-compiler:8.1.4)":"INCREMENTAL_AP"}
-=======
-{"databinding-compiler-8.1.4.jar (androidx.databinding:databinding-compiler:8.1.4)":"INCREMENTAL_AP","room-compiler-2.6.1.jar (androidx.room:room-compiler:2.6.1)":"KSP_PROCESSOR","compiler-4.16.0.jar (com.github.bumptech.glide:compiler:4.16.0)":"INCREMENTAL_AP"}
->>>>>>> 818ab1f (Updated)
+{"databinding-compiler-8.1.4.jar (androidx.databinding:databinding-compiler:8.1.4)":"INCREMENTAL_AP","room-compiler-2.8.1.jar (androidx.room:room-compiler:2.8.1)":"KSP_PROCESSOR","compiler-5.0.5.jar (com.github.bumptech.glide:compiler:5.0.5)":"INCREMENTAL_AP"}

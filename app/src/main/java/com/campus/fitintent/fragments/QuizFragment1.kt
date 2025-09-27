@@ -10,11 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.campus.fitintent.FitIntentApplication
 import com.campus.fitintent.R
 import com.campus.fitintent.databinding.FragmentQuiz1Binding
-<<<<<<< HEAD
-import com.campus.fitintent.utils.ViewModelFactory
-=======
 import com.campus.fitintent.viewmodels.ViewModelFactory
->>>>>>> 818ab1f (Updated)
 import com.campus.fitintent.viewmodels.OnboardingViewModel
 
 class QuizFragment1 : Fragment() {
@@ -38,11 +34,7 @@ class QuizFragment1 : Fragment() {
 
         // Initialize ViewModel
         val app = requireActivity().application as FitIntentApplication
-<<<<<<< HEAD
-        val factory = ViewModelFactory(app.userRepository)
-=======
         val factory = ViewModelFactory.getInstance(app)
->>>>>>> 818ab1f (Updated)
         onboardingViewModel = ViewModelProvider(requireActivity(), factory)[OnboardingViewModel::class.java]
 
         setupClickListeners()

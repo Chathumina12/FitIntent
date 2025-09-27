@@ -6,10 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.campus.fitintent.models.*
 import com.campus.fitintent.repository.NutritionRepository
-<<<<<<< HEAD
-=======
 import java.util.Date
->>>>>>> 818ab1f (Updated)
 import kotlinx.coroutines.launch
 
 data class DailySummary(
@@ -43,8 +40,6 @@ class NutritionViewModel(
     private val _mealSuggestions = MutableLiveData<List<MealSuggestion>>()
     val mealSuggestions: LiveData<List<MealSuggestion>> = _mealSuggestions
 
-<<<<<<< HEAD
-=======
     // Additional properties expected by NutritionFragment
     private val _isLoading = MutableLiveData<Boolean>(false)
     val isLoading: LiveData<Boolean> = _isLoading
@@ -61,19 +56,15 @@ class NutritionViewModel(
     private val _error = MutableLiveData<String?>()
     val error: LiveData<String?> = _error
 
->>>>>>> 818ab1f (Updated)
     init {
         loadNutritionData()
     }
 
     private fun loadNutritionData() {
         viewModelScope.launch {
-<<<<<<< HEAD
-=======
             _isLoading.value = true
             _error.value = null
 
->>>>>>> 818ab1f (Updated)
             try {
                 // Load daily summary
                 loadDailySummary()
@@ -81,12 +72,6 @@ class NutritionViewModel(
                 // Load nutrition tips
                 loadNutritionTips()
 
-<<<<<<< HEAD
-                // Load meal suggestions
-                loadMealSuggestions()
-            } catch (e: Exception) {
-                // Handle error
-=======
                 // Load all tips for filtering
                 loadAllTips()
 
@@ -102,7 +87,6 @@ class NutritionViewModel(
                 _error.value = e.message ?: "An error occurred while loading nutrition data"
             } finally {
                 _isLoading.value = false
->>>>>>> 818ab1f (Updated)
             }
         }
     }
@@ -128,49 +112,28 @@ class NutritionViewModel(
                 id = 1,
                 title = "Hydration is Key",
                 description = "Drink at least 8 glasses of water daily for optimal performance",
-<<<<<<< HEAD
-                category = "Hydration",
-                imageResource = "ic_water",
-                relatedGoal = FitnessGoal.MAINTAIN_FITNESS,
-                createdAt = System.currentTimeMillis()
-=======
                 category = NutritionCategory.HYDRATION,
                 icon = "ic_water",
                 tags = "hydration,water,performance",
                 createdAt = java.util.Date(System.currentTimeMillis())
->>>>>>> 818ab1f (Updated)
             ),
             NutritionTip(
                 id = 2,
                 title = "Protein Power",
                 description = "Include protein in every meal to build and maintain muscle",
-<<<<<<< HEAD
-                category = "Protein",
-                imageResource = "ic_protein",
-                relatedGoal = FitnessGoal.GAIN_MUSCLE,
-                createdAt = System.currentTimeMillis()
-=======
                 category = NutritionCategory.PROTEIN,
                 icon = "ic_protein",
                 tags = "protein,muscle,nutrition",
                 createdAt = java.util.Date(System.currentTimeMillis())
->>>>>>> 818ab1f (Updated)
             ),
             NutritionTip(
                 id = 3,
                 title = "Balanced Breakfast",
                 description = "Start your day with a mix of complex carbs and protein",
-<<<<<<< HEAD
-                category = "Meals",
-                imageResource = "ic_breakfast",
-                relatedGoal = FitnessGoal.LOSE_WEIGHT,
-                createdAt = System.currentTimeMillis()
-=======
                 category = NutritionCategory.MEAL_TIMING,
                 icon = "ic_breakfast",
                 tags = "breakfast,carbs,protein",
                 createdAt = java.util.Date(System.currentTimeMillis())
->>>>>>> 818ab1f (Updated)
             )
         )
         _nutritionTips.value = mockTips
@@ -251,8 +214,6 @@ class NutritionViewModel(
     fun refreshNutritionData() {
         loadNutritionData()
     }
-<<<<<<< HEAD
-=======
 
     // Additional methods expected by NutritionFragment
     fun loadAllTips() {
@@ -347,5 +308,4 @@ class NutritionViewModel(
             }
         }
     }
->>>>>>> 818ab1f (Updated)
 }

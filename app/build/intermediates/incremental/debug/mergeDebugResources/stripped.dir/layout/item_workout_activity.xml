@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_medium"
+    app:cardCornerRadius="@dimen/corner_radius_medium"
+    app:cardElevation="@dimen/card_elevation"
+    app:strokeColor="@color/outline"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_medium">
+
+        <!-- Activity Icon -->
+        <ImageView
+            android:id="@+id/imgActivityIcon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_check_circle"
+            app:tint="@color/green_primary"
+            android:contentDescription="@string/workout_completed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:src="@drawable/ic_check_circle" />
+
+        <!-- Activity Content -->
+        <LinearLayout
+            android:id="@+id/layoutActivityContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/spacing_medium"
+            android:layout_marginEnd="@dimen/spacing_medium"
+            app:layout_constraintStart_toEndOf="@id/imgActivityIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvActivityTime"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <!-- Activity Title -->
+            <TextView
+                android:id="@+id/tvActivityTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Completed Full Body HIIT"
+                android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+                android:textColor="@color/on_background"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="Completed Full Body HIIT" />
+
+            <!-- Activity Details -->
+            <TextView
+                android:id="@+id/tvActivityDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="30 min • 360 calories burned"
+                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                android:textColor="@color/on_surface_variant"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="@dimen/spacing_tiny"
+                tools:text="30 min • 360 calories burned" />
+
+        </LinearLayout>
+
+        <!-- Activity Time -->
+        <TextView
+            android:id="@+id/tvActivityTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2h ago"
+            android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+            android:textColor="@color/on_surface_variant"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="2h ago" />
+
+        <!-- Achievement Badge (optional) -->
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipAchievement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Streak!"
+            style="@style/Widget.Material3.Chip.Assist"
+            android:textColor="@color/red_primary"
+            android:textSize="11sp"
+            app:chipBackgroundColor="@color/red_container"
+            app:chipStrokeWidth="0dp"
+            app:ensureMinTouchTargetSize="false"
+            android:layout_marginTop="@dimen/spacing_tiny"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/tvActivityTime"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="Streak!"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

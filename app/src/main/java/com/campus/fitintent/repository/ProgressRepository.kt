@@ -1,10 +1,6 @@
 package com.campus.fitintent.repository
 
-<<<<<<< HEAD
-import com.campus.fitintent.database.dao.BadgeDao
-=======
 import com.campus.fitintent.database.dao.UserBadgeDao
->>>>>>> 818ab1f (Updated)
 import com.campus.fitintent.database.dao.DailyGoalDao
 import com.campus.fitintent.database.dao.StreakDao
 import com.campus.fitintent.models.*
@@ -12,10 +8,7 @@ import com.campus.fitintent.utils.DateUtils
 import com.campus.fitintent.utils.Result
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
-<<<<<<< HEAD
-=======
 import kotlinx.coroutines.flow.map
->>>>>>> 818ab1f (Updated)
 import kotlinx.coroutines.withContext
 import java.util.Date
 
@@ -23,11 +16,7 @@ import java.util.Date
  * Repository for Progress tracking operations
  */
 class ProgressRepository(
-<<<<<<< HEAD
-    private val badgeDao: BadgeDao,
-=======
     private val userBadgeDao: UserBadgeDao,
->>>>>>> 818ab1f (Updated)
     private val streakDao: StreakDao,
     private val dailyGoalDao: DailyGoalDao
 ) {
@@ -136,22 +125,14 @@ class ProgressRepository(
                     type = type,
                     currentStreak = if (increment) 1 else 0,
                     longestStreak = if (increment) 1 else 0,
-<<<<<<< HEAD
-                    lastActiveDate = Date(),
-=======
                     lastActivityDate = Date(),
->>>>>>> 818ab1f (Updated)
                     startDate = Date(),
                     isActive = true
                 )
                 val streakId = streakDao.insertStreak(streak)
                 streak = streak.copy(id = streakId)
             } else {
-<<<<<<< HEAD
-                val lastDate = streak.lastActiveDate
-=======
                 val lastDate = streak.lastActivityDate
->>>>>>> 818ab1f (Updated)
                 val today = Date()
 
                 if (lastDate != null && DateUtils.isYesterday(lastDate)) {
@@ -162,11 +143,7 @@ class ProgressRepository(
                         streak = streak.copy(
                             currentStreak = newCount,
                             longestStreak = maxOf(streak.longestStreak, newCount),
-<<<<<<< HEAD
-                            lastActiveDate = today
-=======
                             lastActivityDate = today
->>>>>>> 818ab1f (Updated)
                         )
                     }
                 } else if (lastDate != null && DateUtils.isToday(lastDate)) {
@@ -178,11 +155,7 @@ class ProgressRepository(
                         streakDao.updateStreakCount(streak.id, 1, today)
                         streak = streak.copy(
                             currentStreak = 1,
-<<<<<<< HEAD
-                            lastActiveDate = today
-=======
                             lastActivityDate = today
->>>>>>> 818ab1f (Updated)
                         )
                     } else {
                         streakDao.breakStreak(streak.id)
@@ -204,12 +177,6 @@ class ProgressRepository(
     }
 
     /**
-<<<<<<< HEAD
-     * Get user badges
-     */
-    fun getUserBadges(userId: Long): Flow<List<Badge>> {
-        return badgeDao.getBadgesByUser(userId)
-=======
      * Get user badges (Badge objects with user's badge info)
      */
     fun getUserBadges(userId: Long): Flow<List<Badge>> {
@@ -300,7 +267,6 @@ class ProgressRepository(
         } catch (e: Exception) {
             Result.Error("Failed to add user points: ${e.message}")
         }
->>>>>>> 818ab1f (Updated)
     }
 
     /**
@@ -310,31 +276,6 @@ class ProgressRepository(
         userId: Long,
         badgeType: BadgeType,
         level: Int = 1
-<<<<<<< HEAD
-    ): Result<Badge> = withContext(Dispatchers.IO) {
-        try {
-            var badge = badgeDao.getBadgeByType(userId, badgeType)
-
-            if (badge == null) {
-                // Create new badge
-                badge = Badge(
-                    userId = userId,
-                    badgeType = badgeType,
-                    earnedDate = Date(),
-                    level = level,
-                    progress = 100f,
-                    isUnlocked = true
-                )
-                val badgeId = badgeDao.insertBadge(badge)
-                badge = badge.copy(id = badgeId)
-            } else if (badge.level < level) {
-                // Upgrade existing badge
-                badgeDao.updateBadgeProgress(badge.id, level, 100f)
-                badge = badge.copy(level = level, progress = 100f)
-            }
-
-            Result.Success(badge)
-=======
     ): Result<UserBadge> = withContext(Dispatchers.IO) {
         try {
             var userBadge = userBadgeDao.getBadgeByType(userId, badgeType)
@@ -363,7 +304,6 @@ class ProgressRepository(
             }
 
             Result.Success(userBadge)
->>>>>>> 818ab1f (Updated)
         } catch (e: Exception) {
             Result.Error("Failed to award badge: ${e.message}")
         }
@@ -435,13 +375,8 @@ class ProgressRepository(
      */
     suspend fun getProgressStats(userId: Long): Result<ProgressStats> = withContext(Dispatchers.IO) {
         try {
-<<<<<<< HEAD
-            val unlockedBadges = badgeDao.getUnlockedBadgeCount(userId)
-            val goldBadges = badgeDao.getGoldBadgeCount(userId)
-=======
             val unlockedBadges = userBadgeDao.getUnlockedBadgeCount(userId)
             val goldBadges = userBadgeDao.getGoldBadgeCount(userId)
->>>>>>> 818ab1f (Updated)
             val perfectDays = dailyGoalDao.getPerfectDaysCount(userId)
             val totalStreakDays = streakDao.getTotalActiveStreakDays(userId) ?: 0
 

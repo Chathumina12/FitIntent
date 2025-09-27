@@ -3,22 +3,14 @@ package com.campus.fitintent.activities
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-<<<<<<< HEAD
-import android.os.Handler
-import android.os.Looper
-=======
->>>>>>> 818ab1f (Updated)
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.campus.fitintent.FitIntentApplication
 import com.campus.fitintent.R
 import com.campus.fitintent.databinding.ActivitySplashBinding
-<<<<<<< HEAD
-=======
 import com.campus.fitintent.utils.Result
 import kotlinx.coroutines.delay
->>>>>>> 818ab1f (Updated)
 import kotlinx.coroutines.launch
 
 @SuppressLint("CustomSplashScreen")
@@ -61,20 +53,6 @@ class SplashActivity : AppCompatActivity() {
             val app = application as FitIntentApplication
             val userRepository = app.userRepository
 
-<<<<<<< HEAD
-            Handler(Looper.getMainLooper()).postDelayed({
-                val isLoggedIn = userRepository.isUserLoggedIn()
-                val currentUser = if (isLoggedIn) userRepository.getCurrentUser() else null
-
-                val isFirstLaunch = userRepository.isFirstLaunch()
-
-                val intent = when {
-                    currentUser != null && currentUser.isOnboardingComplete -> {
-                        // User is logged in and has completed onboarding
-                        Intent(this@SplashActivity, MainActivity::class.java)
-                    }
-                    currentUser != null && !currentUser.isOnboardingComplete -> {
-=======
             // Wait for splash duration
             delay(splashDuration)
 
@@ -89,7 +67,6 @@ class SplashActivity : AppCompatActivity() {
                         Intent(this@SplashActivity, MainActivity::class.java)
                     }
                     currentUserResult is Result.Success && !currentUserResult.data.isOnboardingComplete -> {
->>>>>>> 818ab1f (Updated)
                         // User is logged in but hasn't completed onboarding
                         Intent(this@SplashActivity, OnboardingActivity::class.java)
                     }
@@ -107,12 +84,6 @@ class SplashActivity : AppCompatActivity() {
                 startActivity(intent)
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
                 finish()
-<<<<<<< HEAD
-            }, splashDuration)
-        }
-    }
-
-=======
             } catch (e: Exception) {
                 // In case of any error, navigate to Auth screen
                 val intent = Intent(this@SplashActivity, AuthActivity::class.java)
@@ -124,7 +95,6 @@ class SplashActivity : AppCompatActivity() {
     }
 
     @Deprecated("Deprecated in Java")
->>>>>>> 818ab1f (Updated)
     override fun onBackPressed() {
         // Disable back button during splash screen
     }

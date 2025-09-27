@@ -4,104 +4,27 @@ package com.campus.fitintent.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-<<<<<<< HEAD
-import android.widget.LinearLayout;
-import android.widget.ProgressBar;
-import android.widget.ScrollView;
-import android.widget.TextView;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-=======
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
->>>>>>> 818ab1f (Updated)
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.campus.fitintent.R;
 import com.google.android.material.button.MaterialButton;
-<<<<<<< HEAD
-=======
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
 import com.google.android.material.progressindicator.CircularProgressIndicator;
->>>>>>> 818ab1f (Updated)
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class FragmentNutritionBinding implements ViewBinding {
   @NonNull
-<<<<<<< HEAD
-  private final ScrollView rootView;
-
-  @NonNull
-  public final MaterialButton addWaterButton;
-
-  @NonNull
-  public final ProgressBar calorieProgressBar;
-
-  @NonNull
-  public final TextView calorieProgressText;
-
-  @NonNull
-  public final TextView caloriesText;
-
-  @NonNull
-  public final RecyclerView mealsRecyclerView;
-
-  @NonNull
-  public final ProgressBar proteinProgressBar;
-
-  @NonNull
-  public final TextView proteinProgressText;
-
-  @NonNull
-  public final TextView proteinText;
-
-  @NonNull
-  public final RecyclerView tipsRecyclerView;
-
-  @NonNull
-  public final MaterialButton trackMealButton;
-
-  @NonNull
-  public final TextView viewAllMeals;
-
-  @NonNull
-  public final LinearLayout waterProgressLayout;
-
-  @NonNull
-  public final TextView waterText;
-
-  private FragmentNutritionBinding(@NonNull ScrollView rootView,
-      @NonNull MaterialButton addWaterButton, @NonNull ProgressBar calorieProgressBar,
-      @NonNull TextView calorieProgressText, @NonNull TextView caloriesText,
-      @NonNull RecyclerView mealsRecyclerView, @NonNull ProgressBar proteinProgressBar,
-      @NonNull TextView proteinProgressText, @NonNull TextView proteinText,
-      @NonNull RecyclerView tipsRecyclerView, @NonNull MaterialButton trackMealButton,
-      @NonNull TextView viewAllMeals, @NonNull LinearLayout waterProgressLayout,
-      @NonNull TextView waterText) {
-    this.rootView = rootView;
-    this.addWaterButton = addWaterButton;
-    this.calorieProgressBar = calorieProgressBar;
-    this.calorieProgressText = calorieProgressText;
-    this.caloriesText = caloriesText;
-    this.mealsRecyclerView = mealsRecyclerView;
-    this.proteinProgressBar = proteinProgressBar;
-    this.proteinProgressText = proteinProgressText;
-    this.proteinText = proteinText;
-    this.tipsRecyclerView = tipsRecyclerView;
-    this.trackMealButton = trackMealButton;
-    this.viewAllMeals = viewAllMeals;
-    this.waterProgressLayout = waterProgressLayout;
-    this.waterText = waterText;
-=======
   private final CoordinatorLayout rootView;
 
   @NonNull
@@ -196,16 +119,11 @@ public final class FragmentNutritionBinding implements ViewBinding {
     this.tvSectionTitle = tvSectionTitle;
     this.tvTodaysTipDescription = tvTodaysTipDescription;
     this.tvTodaysTipTitle = tvTodaysTipTitle;
->>>>>>> 818ab1f (Updated)
   }
 
   @Override
   @NonNull
-<<<<<<< HEAD
-  public ScrollView getRoot() {
-=======
   public CoordinatorLayout getRoot() {
->>>>>>> 818ab1f (Updated)
     return rootView;
   }
 
@@ -230,90 +148,6 @@ public final class FragmentNutritionBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-<<<<<<< HEAD
-      id = R.id.addWaterButton;
-      MaterialButton addWaterButton = ViewBindings.findChildViewById(rootView, id);
-      if (addWaterButton == null) {
-        break missingId;
-      }
-
-      id = R.id.calorieProgressBar;
-      ProgressBar calorieProgressBar = ViewBindings.findChildViewById(rootView, id);
-      if (calorieProgressBar == null) {
-        break missingId;
-      }
-
-      id = R.id.calorieProgressText;
-      TextView calorieProgressText = ViewBindings.findChildViewById(rootView, id);
-      if (calorieProgressText == null) {
-        break missingId;
-      }
-
-      id = R.id.caloriesText;
-      TextView caloriesText = ViewBindings.findChildViewById(rootView, id);
-      if (caloriesText == null) {
-        break missingId;
-      }
-
-      id = R.id.mealsRecyclerView;
-      RecyclerView mealsRecyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (mealsRecyclerView == null) {
-        break missingId;
-      }
-
-      id = R.id.proteinProgressBar;
-      ProgressBar proteinProgressBar = ViewBindings.findChildViewById(rootView, id);
-      if (proteinProgressBar == null) {
-        break missingId;
-      }
-
-      id = R.id.proteinProgressText;
-      TextView proteinProgressText = ViewBindings.findChildViewById(rootView, id);
-      if (proteinProgressText == null) {
-        break missingId;
-      }
-
-      id = R.id.proteinText;
-      TextView proteinText = ViewBindings.findChildViewById(rootView, id);
-      if (proteinText == null) {
-        break missingId;
-      }
-
-      id = R.id.tipsRecyclerView;
-      RecyclerView tipsRecyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (tipsRecyclerView == null) {
-        break missingId;
-      }
-
-      id = R.id.trackMealButton;
-      MaterialButton trackMealButton = ViewBindings.findChildViewById(rootView, id);
-      if (trackMealButton == null) {
-        break missingId;
-      }
-
-      id = R.id.viewAllMeals;
-      TextView viewAllMeals = ViewBindings.findChildViewById(rootView, id);
-      if (viewAllMeals == null) {
-        break missingId;
-      }
-
-      id = R.id.waterProgressLayout;
-      LinearLayout waterProgressLayout = ViewBindings.findChildViewById(rootView, id);
-      if (waterProgressLayout == null) {
-        break missingId;
-      }
-
-      id = R.id.waterText;
-      TextView waterText = ViewBindings.findChildViewById(rootView, id);
-      if (waterText == null) {
-        break missingId;
-      }
-
-      return new FragmentNutritionBinding((ScrollView) rootView, addWaterButton, calorieProgressBar,
-          calorieProgressText, caloriesText, mealsRecyclerView, proteinProgressBar,
-          proteinProgressText, proteinText, tipsRecyclerView, trackMealButton, viewAllMeals,
-          waterProgressLayout, waterText);
-=======
       id = R.id.btnFavoriteTodaysTip;
       MaterialButton btnFavoriteTodaysTip = ViewBindings.findChildViewById(rootView, id);
       if (btnFavoriteTodaysTip == null) {
@@ -440,7 +274,6 @@ public final class FragmentNutritionBinding implements ViewBinding {
           chipGroupCategories, chipTodaysTipCategory, imgTodaysTipIcon, layoutEmptyState,
           progressLoading, recyclerViewTips, tvFavoritesCount, tvSectionTitle,
           tvTodaysTipDescription, tvTodaysTipTitle);
->>>>>>> 818ab1f (Updated)
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

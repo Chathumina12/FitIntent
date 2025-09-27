@@ -4,76 +4,24 @@ package com.campus.fitintent.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-<<<<<<< HEAD
-import android.widget.ScrollView;
-import android.widget.TextView;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-=======
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
->>>>>>> 818ab1f (Updated)
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.campus.fitintent.R;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.card.MaterialCardView;
-<<<<<<< HEAD
-=======
 import com.google.android.material.progressindicator.CircularProgressIndicator;
->>>>>>> 818ab1f (Updated)
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class FragmentWorkoutBinding implements ViewBinding {
   @NonNull
-<<<<<<< HEAD
-  private final ScrollView rootView;
-
-  @NonNull
-  public final MaterialCardView cardioCard;
-
-  @NonNull
-  public final MaterialCardView flexibilityCard;
-
-  @NonNull
-  public final MaterialButton quickStartButton;
-
-  @NonNull
-  public final MaterialCardView quickStartCard;
-
-  @NonNull
-  public final RecyclerView recentActivityRecyclerView;
-
-  @NonNull
-  public final MaterialCardView strengthCard;
-
-  @NonNull
-  public final TextView viewAllWorkouts;
-
-  @NonNull
-  public final RecyclerView workoutsRecyclerView;
-
-  private FragmentWorkoutBinding(@NonNull ScrollView rootView, @NonNull MaterialCardView cardioCard,
-      @NonNull MaterialCardView flexibilityCard, @NonNull MaterialButton quickStartButton,
-      @NonNull MaterialCardView quickStartCard, @NonNull RecyclerView recentActivityRecyclerView,
-      @NonNull MaterialCardView strengthCard, @NonNull TextView viewAllWorkouts,
-      @NonNull RecyclerView workoutsRecyclerView) {
-    this.rootView = rootView;
-    this.cardioCard = cardioCard;
-    this.flexibilityCard = flexibilityCard;
-    this.quickStartButton = quickStartButton;
-    this.quickStartCard = quickStartCard;
-    this.recentActivityRecyclerView = recentActivityRecyclerView;
-    this.strengthCard = strengthCard;
-    this.viewAllWorkouts = viewAllWorkouts;
-    this.workoutsRecyclerView = workoutsRecyclerView;
-=======
   private final CoordinatorLayout rootView;
 
   @NonNull
@@ -155,16 +103,11 @@ public final class FragmentWorkoutBinding implements ViewBinding {
     this.tvHiitCount = tvHiitCount;
     this.tvQuickStartDesc = tvQuickStartDesc;
     this.tvStrengthCount = tvStrengthCount;
->>>>>>> 818ab1f (Updated)
   }
 
   @Override
   @NonNull
-<<<<<<< HEAD
-  public ScrollView getRoot() {
-=======
   public CoordinatorLayout getRoot() {
->>>>>>> 818ab1f (Updated)
     return rootView;
   }
 
@@ -189,59 +132,6 @@ public final class FragmentWorkoutBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-<<<<<<< HEAD
-      id = R.id.cardioCard;
-      MaterialCardView cardioCard = ViewBindings.findChildViewById(rootView, id);
-      if (cardioCard == null) {
-        break missingId;
-      }
-
-      id = R.id.flexibilityCard;
-      MaterialCardView flexibilityCard = ViewBindings.findChildViewById(rootView, id);
-      if (flexibilityCard == null) {
-        break missingId;
-      }
-
-      id = R.id.quickStartButton;
-      MaterialButton quickStartButton = ViewBindings.findChildViewById(rootView, id);
-      if (quickStartButton == null) {
-        break missingId;
-      }
-
-      id = R.id.quickStartCard;
-      MaterialCardView quickStartCard = ViewBindings.findChildViewById(rootView, id);
-      if (quickStartCard == null) {
-        break missingId;
-      }
-
-      id = R.id.recentActivityRecyclerView;
-      RecyclerView recentActivityRecyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (recentActivityRecyclerView == null) {
-        break missingId;
-      }
-
-      id = R.id.strengthCard;
-      MaterialCardView strengthCard = ViewBindings.findChildViewById(rootView, id);
-      if (strengthCard == null) {
-        break missingId;
-      }
-
-      id = R.id.viewAllWorkouts;
-      TextView viewAllWorkouts = ViewBindings.findChildViewById(rootView, id);
-      if (viewAllWorkouts == null) {
-        break missingId;
-      }
-
-      id = R.id.workoutsRecyclerView;
-      RecyclerView workoutsRecyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (workoutsRecyclerView == null) {
-        break missingId;
-      }
-
-      return new FragmentWorkoutBinding((ScrollView) rootView, cardioCard, flexibilityCard,
-          quickStartButton, quickStartCard, recentActivityRecyclerView, strengthCard,
-          viewAllWorkouts, workoutsRecyclerView);
-=======
       id = R.id.btnQuickStart;
       MaterialButton btnQuickStart = ViewBindings.findChildViewById(rootView, id);
       if (btnQuickStart == null) {
@@ -349,7 +239,6 @@ public final class FragmentWorkoutBinding implements ViewBinding {
           layoutEmptyActivity, progressLoading, recyclerViewFeaturedWorkouts,
           recyclerViewRecentActivity, tvCardioCount, tvFlexibilityCount, tvHiitCount,
           tvQuickStartDesc, tvStrengthCount);
->>>>>>> 818ab1f (Updated)
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

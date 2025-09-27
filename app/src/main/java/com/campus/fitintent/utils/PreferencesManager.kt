@@ -53,8 +53,6 @@ class PreferencesManager(context: Context) {
         }
     }
 
-<<<<<<< HEAD
-=======
     fun clearSession() {
         clearUserSession()
     }
@@ -67,7 +65,6 @@ class PreferencesManager(context: Context) {
         encryptedPrefs.edit().putInt(KEY_THEME, theme).apply()
     }
 
->>>>>>> 818ab1f (Updated)
     // App settings
     fun setNotificationsEnabled(enabled: Boolean) {
         encryptedPrefs.edit().putBoolean(KEY_NOTIFICATIONS_ENABLED, enabled).apply()
@@ -175,8 +172,6 @@ class PreferencesManager(context: Context) {
         return encryptedPrefs.getBoolean("feature_$feature", defaultValue)
     }
 
-<<<<<<< HEAD
-=======
     // Notification settings
     fun setAchievementNotificationsEnabled(enabled: Boolean) {
         encryptedPrefs.edit().putBoolean(KEY_ACHIEVEMENT_NOTIFICATIONS, enabled).apply()
@@ -226,7 +221,6 @@ class PreferencesManager(context: Context) {
         return encryptedPrefs.getBoolean(KEY_DAILY_REMINDER_ENABLED, true)
     }
 
->>>>>>> 818ab1f (Updated)
     companion object {
         private const val PREFS_NAME = "fitintent_secure_prefs"
 
@@ -238,10 +232,6 @@ class PreferencesManager(context: Context) {
         // Keys for app settings
         private const val KEY_NOTIFICATIONS_ENABLED = "notifications_enabled"
         private const val KEY_DARK_MODE = "dark_mode"
-<<<<<<< HEAD
-        private const val KEY_REMINDER_TIME = "reminder_time"
-        private const val KEY_METRIC_UNITS = "metric_units"
-=======
         private const val KEY_THEME = "theme"
         private const val KEY_REMINDER_TIME = "reminder_time"
         private const val KEY_METRIC_UNITS = "metric_units"
@@ -251,7 +241,6 @@ class PreferencesManager(context: Context) {
         private const val KEY_THEME_PREFERENCE = "theme_preference"
         private const val KEY_UNITS_PREFERENCE = "units_preference"
         private const val KEY_DAILY_REMINDER_ENABLED = "daily_reminder_enabled"
->>>>>>> 818ab1f (Updated)
 
         // Keys for daily goals
         private const val KEY_DAILY_CALORIE_GOAL = "daily_calorie_goal"
@@ -264,8 +253,6 @@ class PreferencesManager(context: Context) {
         private const val KEY_APP_OPEN_COUNT = "app_open_count"
         private const val KEY_LAST_OPEN_DATE = "last_open_date"
         private const val KEY_FIRST_LAUNCH = "first_launch"
-<<<<<<< HEAD
-=======
 
         // Static convenience methods for settings that need Context
         @JvmStatic
@@ -348,6 +335,5 @@ class PreferencesManager(context: Context) {
                 Pair(8, 0) // Default to 8:00 AM
             }
         }
->>>>>>> 818ab1f (Updated)
     }
 }

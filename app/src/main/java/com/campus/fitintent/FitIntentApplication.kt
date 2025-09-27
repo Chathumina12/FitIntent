@@ -66,11 +66,7 @@ class FitIntentApplication : Application() {
         )
         nutritionRepository = NutritionRepository(database.nutritionTipDao())
         progressRepository = ProgressRepository(
-<<<<<<< HEAD
-            database.badgeDao(),
-=======
             database.userBadgeDao(),
->>>>>>> 818ab1f (Updated)
             database.streakDao(),
             database.dailyGoalDao()
         )

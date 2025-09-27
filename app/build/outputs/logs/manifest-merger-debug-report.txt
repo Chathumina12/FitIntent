@@ -1,0 +1,535 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:2:1-108:12
+INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:2:1-108:12
+INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:2:1-108:12
+INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:2:1-108:12
+MERGED from [androidx.databinding:databinding-adapters:8.9.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\5e71995428c08899e7a1121895bcd510\transformed\databinding-adapters-8.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-ktx:8.9.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\f11a7e028f9d9795d42c8c07c9ad9d2e\transformed\databinding-ktx-8.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-runtime:8.9.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\969b604ca233ae57a7e8a7464a203e85\transformed\databinding-runtime-8.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:viewbinding:8.9.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\98b9cc98e5df6fe5ab43b6610890ac80\transformed\viewbinding-8.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fff57112a21e3ffd791493ec4f58bed5\transformed\navigation-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-android:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\06f349695acae7e20e46b34341c5265a\transformed\navigation-common-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\528bf8feb8c2d1ddba513d1c6417c5d7\transformed\navigation-fragment-2.9.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\53b7b09179c480e1f33e39c354665262\transformed\navigation-fragment-ktx-2.9.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\9863fff051c25ee7951ac065eb8e4dcf\transformed\navigation-ui-ktx-2.9.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\12f24a7a08fb8b0c161b7e999384997d\transformed\navigation-ui-2.9.5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8ad186fe3137539df7a2006a787291c8\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\18c8b03f281d56715469e29a2b8b9604\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\55b7a1b44587b87e2875a496503ff51e\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\33ac36dbd97facfccecc445e5f694e51\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\ab46e648ca132841bf7649efe40039f6\transformed\recyclerview-1.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\3d6852c16ada434e9684a04af200357e\transformed\viewpager2-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:5.0.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\5f107f4f3fe81d2238b500f1ed06ce86\transformed\glide-5.0.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e19c40ed8b9213e7c6144bae2d9f218\transformed\fragment-1.8.9\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.8.9] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\76e83fe3d98606782a89b593473bc914\transformed\fragment-ktx-1.8.9\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\a0f685c3f2e0f82c3cb81edfa93acc34\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\3e981c6ba60a9c470d4873e7610cc89c\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4f0f84c9ecb0a1f1df7ce7e324a54c21\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\eb510c654318fcca4764c991d8f83042\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\2b7360c4eabb9b1c6744e53ee2f92ba9\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\d3380d789f1b0ed12b3084b77f6193da\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\575eb594a4776ced8f9f59a9fc6fb912\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\959a0c5d5b6ccb742eedc5d6d2bb3b40\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\5146c56e9f01e6a9ca381d01cb9d4243\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\6a76c125d0fb20238ea2511914b471a3\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\56e6f579c8b616733d6e21b84bff65df\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\d4c5d4bb1b828a85d5734a77531eafab\transformed\activity-ktx-1.8.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cc2232c1a365939a15817271caac5c0e\transformed\activity-1.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\a7a25824a80e363b84a9bf59d0ed8287\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\13a37624f4d8169d9ae110358a427c1b\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\749b4ec8137385cb5bd8d1ffe5d906a1\transformed\graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\f68dafca08702fae5e6a4bf9931e86fb\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\119c8a36265d5aaff7525151acb1184d\transformed\savedstate-ktx-1.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.3.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\21b44446b0edf3290a100b25ae07cd44\transformed\savedstate-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\35e454b84d3e0fc5cffef063a23cd801\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\5abbab9c5a86e5032329c51b0090f72a\transformed\lifecycle-livedata-core-2.9.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\2e5fdff2f7b3a407c601b91a634ff9fd\transformed\lifecycle-viewmodel-2.9.4\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\f62c359c14b531cd09abac3c37c06265\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8e7950a84632244f8239dc50f280071b\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cf214da5d35e762963c68d8a7d2470e4\transformed\lifecycle-livedata-core-ktx-2.9.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\a6c84bc6afe2d53b7a1390db90640df9\transformed\lifecycle-service-2.9.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\580067df15d0bd27d8b99f8db15893fd\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\e23ee8a10577a882964d23fb14e24e01\transformed\lifecycle-livedata-2.9.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\2292a8b27a67ff826d67e87aeae34369\transformed\lifecycle-viewmodel-ktx-2.9.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\990d577e0421dd190d5e33e9ad358913\transformed\lifecycle-livedata-ktx-2.9.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\005768bada414edc768adc0338f0b5fb\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\11855c661a8008b78a76fad120bb2f32\transformed\core-ktx-1.17.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime-android:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc42f03a84defd691b6d0865fd2a1ccd\transformed\room-runtime\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0caa3c5ab23a12978410865c9ce26794\transformed\room-ktx-2.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mikhaellopez:circularprogressbar:3.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\b45254f926fbb31e72410f12a959dff6\transformed\circularprogressbar-3.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\02846b3b0b7d92bda0ef6cb5515179cc\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.5.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cd8e96edc9322d6a563642f5efeab541\transformed\annotation-experimental-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.security:security-crypto:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\9ba8ccf3b9be858ecf97f63ae0818c63\transformed\security-crypto-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\ced18a475b15c650ad849af76a343cab\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\2c907e67e2340679a7929acc291f52b8\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\925347141427e600f9da49cfc59d9df9\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:5.0.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cf4fd31ad53c8580a1db648f229ccf96\transformed\gifdecoder-5.0.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\d808ba0ceb6c9a94f548bfbcf884d36e\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8056c6632ad8d0a0babba0d0e66fabbf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\e1f8f9cc776394c1b1b0a820f4b42fbe\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cddac470fc8bb391ded86e3bcdc7d61c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\674ed81f00f134d34c94fc977216e262\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework-android:2.6.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\730d37c85231fb5c6866d8940c2a6ef3\transformed\sqlite-framework\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-android:2.6.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\482fb3074a98f86706d834431063ad90\transformed\sqlite\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:disklrucache:5.0.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\3a2ed018c4cb05ea6e233a73d85041a7\transformed\disklrucache-5.0.5\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:7:22-63
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:8:5-77
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:8:22-74
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:10:22-78
+application
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:12:5-106:19
+INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:12:5-106:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8ad186fe3137539df7a2006a787291c8\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8ad186fe3137539df7a2006a787291c8\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\18c8b03f281d56715469e29a2b8b9604\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\18c8b03f281d56715469e29a2b8b9604\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\13a37624f4d8169d9ae110358a427c1b\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\13a37624f4d8169d9ae110358a427c1b\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\580067df15d0bd27d8b99f8db15893fd\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\580067df15d0bd27d8b99f8db15893fd\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime-android:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc42f03a84defd691b6d0865fd2a1ccd\transformed\room-runtime\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime-android:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc42f03a84defd691b6d0865fd2a1ccd\transformed\room-runtime\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8056c6632ad8d0a0babba0d0e66fabbf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8056c6632ad8d0a0babba0d0e66fabbf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cddac470fc8bb391ded86e3bcdc7d61c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cddac470fc8bb391ded86e3bcdc7d61c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:18:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:16:9-54
+	android:roundIcon
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:19:9-54
+	tools:targetApi
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:22:9-29
+	android:icon
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:21:9-47
+	android:dataExtractionRules
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:15:9-65
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:13:9-45
+activity#com.campus.fitintent.activities.SplashActivity
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:25:9-34:20
+	android:screenOrientation
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:28:13-49
+	android:exported
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:27:13-36
+	android:theme
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:29:13-58
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:26:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:32:27-74
+activity#com.campus.fitintent.activities.WelcomeActivity
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:37:9-41:66
+	android:screenOrientation
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:40:13-49
+	android:exported
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:39:13-37
+	android:theme
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:41:13-63
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:38:13-55
+activity#com.campus.fitintent.activities.AuthActivity
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:44:9-48:58
+	android:screenOrientation
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:47:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:48:13-55
+	android:exported
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:45:13-52
+activity#com.campus.fitintent.activities.OnboardingActivity
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:51:9-54:52
+	android:screenOrientation
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:54:13-49
+	android:exported
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:52:13-58
+activity#com.campus.fitintent.activities.MainActivity
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:57:9-61:55
+	android:screenOrientation
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:60:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:61:13-52
+	android:exported
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:58:13-52
+activity#com.campus.fitintent.activities.WorkoutDetailActivity
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:64:9-67:52
+	android:screenOrientation
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:67:13-49
+	android:exported
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:65:13-61
+activity#com.campus.fitintent.activities.WorkoutTimerActivity
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:70:9-73:52
+	android:screenOrientation
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:73:13-49
+	android:exported
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:71:13-60
+activity#com.campus.fitintent.activities.EditProfileActivity
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:76:9-80:58
+	android:screenOrientation
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:79:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:80:13-55
+	android:exported
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:78:13-37
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:77:13-59
+activity#com.campus.fitintent.activities.NotificationSettingsActivity
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:83:9-86:52
+	android:screenOrientation
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:86:13-49
+	android:exported
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:84:13-68
+activity#com.campus.fitintent.activities.OnboardingQuizActivity
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:89:9-92:52
+	android:screenOrientation
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:92:13-49
+	android:exported
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:91:13-37
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:90:13-62
+receiver#com.campus.fitintent.utils.NotificationReceiver
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:95:9-98:40
+	android:enabled
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:97:13-35
+	android:exported
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:96:13-55
+receiver#com.campus.fitintent.utils.HabitReminderReceiver
+ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:101:9-104:40
+	android:enabled
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:103:13-35
+	android:exported
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:104:13-37
+	android:name
+		ADDED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml:102:13-56
+uses-sdk
+INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:8.9.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\5e71995428c08899e7a1121895bcd510\transformed\databinding-adapters-8.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-adapters:8.9.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\5e71995428c08899e7a1121895bcd510\transformed\databinding-adapters-8.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-ktx:8.9.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\f11a7e028f9d9795d42c8c07c9ad9d2e\transformed\databinding-ktx-8.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-ktx:8.9.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\f11a7e028f9d9795d42c8c07c9ad9d2e\transformed\databinding-ktx-8.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.9.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\969b604ca233ae57a7e8a7464a203e85\transformed\databinding-runtime-8.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.9.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\969b604ca233ae57a7e8a7464a203e85\transformed\databinding-runtime-8.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.9.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\98b9cc98e5df6fe5ab43b6610890ac80\transformed\viewbinding-8.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.9.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\98b9cc98e5df6fe5ab43b6610890ac80\transformed\viewbinding-8.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fff57112a21e3ffd791493ec4f58bed5\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fff57112a21e3ffd791493ec4f58bed5\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\06f349695acae7e20e46b34341c5265a\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\06f349695acae7e20e46b34341c5265a\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\528bf8feb8c2d1ddba513d1c6417c5d7\transformed\navigation-fragment-2.9.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\528bf8feb8c2d1ddba513d1c6417c5d7\transformed\navigation-fragment-2.9.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\53b7b09179c480e1f33e39c354665262\transformed\navigation-fragment-ktx-2.9.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\53b7b09179c480e1f33e39c354665262\transformed\navigation-fragment-ktx-2.9.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\9863fff051c25ee7951ac065eb8e4dcf\transformed\navigation-ui-ktx-2.9.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\9863fff051c25ee7951ac065eb8e4dcf\transformed\navigation-ui-ktx-2.9.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\12f24a7a08fb8b0c161b7e999384997d\transformed\navigation-ui-2.9.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.9.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\12f24a7a08fb8b0c161b7e999384997d\transformed\navigation-ui-2.9.5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8ad186fe3137539df7a2006a787291c8\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8ad186fe3137539df7a2006a787291c8\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\18c8b03f281d56715469e29a2b8b9604\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\18c8b03f281d56715469e29a2b8b9604\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\55b7a1b44587b87e2875a496503ff51e\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\55b7a1b44587b87e2875a496503ff51e\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\33ac36dbd97facfccecc445e5f694e51\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\33ac36dbd97facfccecc445e5f694e51\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\ab46e648ca132841bf7649efe40039f6\transformed\recyclerview-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\ab46e648ca132841bf7649efe40039f6\transformed\recyclerview-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\3d6852c16ada434e9684a04af200357e\transformed\viewpager2-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\3d6852c16ada434e9684a04af200357e\transformed\viewpager2-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:5.0.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\5f107f4f3fe81d2238b500f1ed06ce86\transformed\glide-5.0.5\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:5.0.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\5f107f4f3fe81d2238b500f1ed06ce86\transformed\glide-5.0.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e19c40ed8b9213e7c6144bae2d9f218\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.9] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e19c40ed8b9213e7c6144bae2d9f218\transformed\fragment-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.9] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\76e83fe3d98606782a89b593473bc914\transformed\fragment-ktx-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.9] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\76e83fe3d98606782a89b593473bc914\transformed\fragment-ktx-1.8.9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\a0f685c3f2e0f82c3cb81edfa93acc34\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\a0f685c3f2e0f82c3cb81edfa93acc34\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\3e981c6ba60a9c470d4873e7610cc89c\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\3e981c6ba60a9c470d4873e7610cc89c\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4f0f84c9ecb0a1f1df7ce7e324a54c21\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4f0f84c9ecb0a1f1df7ce7e324a54c21\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\eb510c654318fcca4764c991d8f83042\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\eb510c654318fcca4764c991d8f83042\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\2b7360c4eabb9b1c6744e53ee2f92ba9\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\2b7360c4eabb9b1c6744e53ee2f92ba9\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\d3380d789f1b0ed12b3084b77f6193da\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\d3380d789f1b0ed12b3084b77f6193da\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\575eb594a4776ced8f9f59a9fc6fb912\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\575eb594a4776ced8f9f59a9fc6fb912\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\959a0c5d5b6ccb742eedc5d6d2bb3b40\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\959a0c5d5b6ccb742eedc5d6d2bb3b40\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\5146c56e9f01e6a9ca381d01cb9d4243\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\5146c56e9f01e6a9ca381d01cb9d4243\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\6a76c125d0fb20238ea2511914b471a3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\6a76c125d0fb20238ea2511914b471a3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\56e6f579c8b616733d6e21b84bff65df\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\56e6f579c8b616733d6e21b84bff65df\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\d4c5d4bb1b828a85d5734a77531eafab\transformed\activity-ktx-1.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\d4c5d4bb1b828a85d5734a77531eafab\transformed\activity-ktx-1.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cc2232c1a365939a15817271caac5c0e\transformed\activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cc2232c1a365939a15817271caac5c0e\transformed\activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\a7a25824a80e363b84a9bf59d0ed8287\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\a7a25824a80e363b84a9bf59d0ed8287\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\13a37624f4d8169d9ae110358a427c1b\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\13a37624f4d8169d9ae110358a427c1b\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\749b4ec8137385cb5bd8d1ffe5d906a1\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\749b4ec8137385cb5bd8d1ffe5d906a1\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\f68dafca08702fae5e6a4bf9931e86fb\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\f68dafca08702fae5e6a4bf9931e86fb\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\119c8a36265d5aaff7525151acb1184d\transformed\savedstate-ktx-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\119c8a36265d5aaff7525151acb1184d\transformed\savedstate-ktx-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\21b44446b0edf3290a100b25ae07cd44\transformed\savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\21b44446b0edf3290a100b25ae07cd44\transformed\savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\35e454b84d3e0fc5cffef063a23cd801\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\35e454b84d3e0fc5cffef063a23cd801\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\5abbab9c5a86e5032329c51b0090f72a\transformed\lifecycle-livedata-core-2.9.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\5abbab9c5a86e5032329c51b0090f72a\transformed\lifecycle-livedata-core-2.9.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\2e5fdff2f7b3a407c601b91a634ff9fd\transformed\lifecycle-viewmodel-2.9.4\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\2e5fdff2f7b3a407c601b91a634ff9fd\transformed\lifecycle-viewmodel-2.9.4\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\f62c359c14b531cd09abac3c37c06265\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\f62c359c14b531cd09abac3c37c06265\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8e7950a84632244f8239dc50f280071b\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8e7950a84632244f8239dc50f280071b\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cf214da5d35e762963c68d8a7d2470e4\transformed\lifecycle-livedata-core-ktx-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cf214da5d35e762963c68d8a7d2470e4\transformed\lifecycle-livedata-core-ktx-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\a6c84bc6afe2d53b7a1390db90640df9\transformed\lifecycle-service-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\a6c84bc6afe2d53b7a1390db90640df9\transformed\lifecycle-service-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\580067df15d0bd27d8b99f8db15893fd\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\580067df15d0bd27d8b99f8db15893fd\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\e23ee8a10577a882964d23fb14e24e01\transformed\lifecycle-livedata-2.9.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\e23ee8a10577a882964d23fb14e24e01\transformed\lifecycle-livedata-2.9.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\2292a8b27a67ff826d67e87aeae34369\transformed\lifecycle-viewmodel-ktx-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\2292a8b27a67ff826d67e87aeae34369\transformed\lifecycle-viewmodel-ktx-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\990d577e0421dd190d5e33e9ad358913\transformed\lifecycle-livedata-ktx-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\990d577e0421dd190d5e33e9ad358913\transformed\lifecycle-livedata-ktx-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\005768bada414edc768adc0338f0b5fb\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\005768bada414edc768adc0338f0b5fb\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\11855c661a8008b78a76fad120bb2f32\transformed\core-ktx-1.17.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\11855c661a8008b78a76fad120bb2f32\transformed\core-ktx-1.17.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime-android:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc42f03a84defd691b6d0865fd2a1ccd\transformed\room-runtime\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime-android:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc42f03a84defd691b6d0865fd2a1ccd\transformed\room-runtime\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0caa3c5ab23a12978410865c9ce26794\transformed\room-ktx-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0caa3c5ab23a12978410865c9ce26794\transformed\room-ktx-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [com.mikhaellopez:circularprogressbar:3.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\b45254f926fbb31e72410f12a959dff6\transformed\circularprogressbar-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mikhaellopez:circularprogressbar:3.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\b45254f926fbb31e72410f12a959dff6\transformed\circularprogressbar-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\02846b3b0b7d92bda0ef6cb5515179cc\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\02846b3b0b7d92bda0ef6cb5515179cc\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.5.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cd8e96edc9322d6a563642f5efeab541\transformed\annotation-experimental-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.5.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cd8e96edc9322d6a563642f5efeab541\transformed\annotation-experimental-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.security:security-crypto:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\9ba8ccf3b9be858ecf97f63ae0818c63\transformed\security-crypto-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\9ba8ccf3b9be858ecf97f63ae0818c63\transformed\security-crypto-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\ced18a475b15c650ad849af76a343cab\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\ced18a475b15c650ad849af76a343cab\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\2c907e67e2340679a7929acc291f52b8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\2c907e67e2340679a7929acc291f52b8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\925347141427e600f9da49cfc59d9df9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\925347141427e600f9da49cfc59d9df9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:5.0.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cf4fd31ad53c8580a1db648f229ccf96\transformed\gifdecoder-5.0.5\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:5.0.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cf4fd31ad53c8580a1db648f229ccf96\transformed\gifdecoder-5.0.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\d808ba0ceb6c9a94f548bfbcf884d36e\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\d808ba0ceb6c9a94f548bfbcf884d36e\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8056c6632ad8d0a0babba0d0e66fabbf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8056c6632ad8d0a0babba0d0e66fabbf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\e1f8f9cc776394c1b1b0a820f4b42fbe\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\e1f8f9cc776394c1b1b0a820f4b42fbe\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cddac470fc8bb391ded86e3bcdc7d61c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\cddac470fc8bb391ded86e3bcdc7d61c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\674ed81f00f134d34c94fc977216e262\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\674ed81f00f134d34c94fc977216e262\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.6.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\730d37c85231fb5c6866d8940c2a6ef3\transformed\sqlite-framework\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.6.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\730d37c85231fb5c6866d8940c2a6ef3\transformed\sqlite-framework\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.6.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\482fb3074a98f86706d834431063ad90\transformed\sqlite\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.6.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\482fb3074a98f86706d834431063ad90\transformed\sqlite\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:disklrucache:5.0.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\3a2ed018c4cb05ea6e233a73d85041a7\transformed\disklrucache-5.0.5\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:disklrucache:5.0.5] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\3a2ed018c4cb05ea6e233a73d85041a7\transformed\disklrucache-5.0.5\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\CHATHUMINA\Downloads\New folder (7)\FitIntent\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\580067df15d0bd27d8b99f8db15893fd\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\580067df15d0bd27d8b99f8db15893fd\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8056c6632ad8d0a0babba0d0e66fabbf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\8056c6632ad8d0a0babba0d0e66fabbf\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\0e51a91b0b349b4bd84808f412e05e5f\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\13a37624f4d8169d9ae110358a427c1b\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\13a37624f4d8169d9ae110358a427c1b\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\13a37624f4d8169d9ae110358a427c1b\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\13a37624f4d8169d9ae110358a427c1b\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\13a37624f4d8169d9ae110358a427c1b\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\13a37624f4d8169d9ae110358a427c1b\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+permission#com.campus.fitintent.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+uses-permission#com.campus.fitintent.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc512bc8307cc4b7c7cb99b3de16ec9d\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\580067df15d0bd27d8b99f8db15893fd\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\580067df15d0bd27d8b99f8db15893fd\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\580067df15d0bd27d8b99f8db15893fd\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime-android:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc42f03a84defd691b6d0865fd2a1ccd\transformed\room-runtime\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime-android:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc42f03a84defd691b6d0865fd2a1ccd\transformed\room-runtime\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime-android:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc42f03a84defd691b6d0865fd2a1ccd\transformed\room-runtime\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime-android:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc42f03a84defd691b6d0865fd2a1ccd\transformed\room-runtime\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime-android:2.8.1] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\fc42f03a84defd691b6d0865fd2a1ccd\transformed\room-runtime\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\CHATHUMINA\.gradle\caches\8.11.1\transforms\4b1e722eb275f5f7547cca03454cba92\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

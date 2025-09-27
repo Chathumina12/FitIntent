@@ -136,8 +136,6 @@ object DateUtils {
     }
 
     /**
-<<<<<<< HEAD
-=======
      * Format date in short format
      */
     fun formatDateShort(date: Date): String {
@@ -146,7 +144,6 @@ object DateUtils {
     }
 
     /**
->>>>>>> 818ab1f (Updated)
      * Format time for display
      */
     fun formatTime(date: Date): String {

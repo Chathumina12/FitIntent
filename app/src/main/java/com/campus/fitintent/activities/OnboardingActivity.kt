@@ -3,16 +3,6 @@ package com.campus.fitintent.activities
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-<<<<<<< HEAD
-import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.campus.fitintent.FitIntentApplication
-import com.campus.fitintent.databinding.ActivityOnboardingBinding
-import com.campus.fitintent.fragments.*
-import com.campus.fitintent.utils.ViewModelFactory
-=======
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
@@ -26,7 +16,6 @@ import com.campus.fitintent.R
 import com.campus.fitintent.databinding.ActivityOnboardingBinding
 import com.campus.fitintent.fragments.*
 import com.campus.fitintent.viewmodels.ViewModelFactory
->>>>>>> 818ab1f (Updated)
 import com.campus.fitintent.viewmodels.OnboardingViewModel
 
 class OnboardingActivity : AppCompatActivity() {
@@ -42,11 +31,7 @@ class OnboardingActivity : AppCompatActivity() {
 
         // Initialize ViewModel
         val app = application as FitIntentApplication
-<<<<<<< HEAD
-        val factory = ViewModelFactory(app.userRepository)
-=======
         val factory = ViewModelFactory.getInstance(app)
->>>>>>> 818ab1f (Updated)
         onboardingViewModel = ViewModelProvider(this, factory)[OnboardingViewModel::class.java]
 
         setupViewPager()
@@ -60,10 +45,6 @@ class OnboardingActivity : AppCompatActivity() {
             isUserInputEnabled = false // Disable swiping, use buttons for navigation
         }
 
-<<<<<<< HEAD
-        // Setup progress indicator
-        binding.dotsIndicator.setViewPager2(binding.viewPager)
-=======
         // Setup dots indicator
         setupDotsIndicator()
         updateDotsIndicator(0) // Initialize with first position
@@ -76,7 +57,6 @@ class OnboardingActivity : AppCompatActivity() {
                 updateButtons(position)
             }
         })
->>>>>>> 818ab1f (Updated)
 
         // Skip button
         binding.skipButton.setOnClickListener {
@@ -97,8 +77,6 @@ class OnboardingActivity : AppCompatActivity() {
         }
     }
 
-<<<<<<< HEAD
-=======
     private fun setupDotsIndicator() {
         val totalPages = pagerAdapter.itemCount
         binding.dotsIndicator.removeAllViews()
@@ -129,7 +107,6 @@ class OnboardingActivity : AppCompatActivity() {
         }
     }
 
->>>>>>> 818ab1f (Updated)
     private fun observeViewModel() {
         onboardingViewModel.onboardingComplete.observe(this) { isComplete ->
             if (isComplete) {

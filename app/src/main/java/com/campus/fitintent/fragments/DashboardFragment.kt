@@ -9,11 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.campus.fitintent.FitIntentApplication
 import com.campus.fitintent.databinding.FragmentDashboardBinding
-<<<<<<< HEAD
-import com.campus.fitintent.utils.ViewModelFactory
-=======
 import com.campus.fitintent.viewmodels.ViewModelFactory
->>>>>>> 818ab1f (Updated)
 import com.campus.fitintent.viewmodels.DashboardViewModel
 import java.util.Calendar
 
@@ -37,11 +33,7 @@ class DashboardFragment : Fragment() {
 
         // Initialize ViewModel
         val app = requireActivity().application as FitIntentApplication
-<<<<<<< HEAD
-        val factory = ViewModelFactory(app.userRepository)
-=======
         val factory = ViewModelFactory.getInstance(app)
->>>>>>> 818ab1f (Updated)
         dashboardViewModel = ViewModelProvider(this, factory)[DashboardViewModel::class.java]
 
         setupUI()
@@ -70,17 +62,9 @@ class DashboardFragment : Fragment() {
     }
 
     private fun observeViewModel() {
-<<<<<<< HEAD
-        // Observe user data
-        dashboardViewModel.currentUser.observe(viewLifecycleOwner) { user ->
-            user?.let {
-                binding.userNameText.text = it.name
-            }
-=======
         // Observe user name
         dashboardViewModel.name.observe(viewLifecycleOwner) { userName ->
             binding.userNameText.text = userName
->>>>>>> 818ab1f (Updated)
         }
 
         // Observe daily progress

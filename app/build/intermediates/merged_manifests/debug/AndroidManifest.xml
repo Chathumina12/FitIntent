@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="34" />
+        android:targetSdkVersion="36" />
 
     <!-- Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -33,10 +33,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-<<<<<<< HEAD
         android:testOnly="true"
-=======
->>>>>>> 818ab1f (Updated)
         android:theme="@style/Theme.FitIntent" >
 
         <!-- Splash Screen Activity -->
@@ -91,8 +88,6 @@
             android:exported="false"
             android:screenOrientation="portrait" />
 
-<<<<<<< HEAD
-=======
         <!-- Edit Profile Activity -->
         <activity
             android:name="com.campus.fitintent.activities.EditProfileActivity"
@@ -112,7 +107,6 @@
             android:exported="false"
             android:screenOrientation="portrait" />
 
->>>>>>> 818ab1f (Updated)
         <!-- Notification Receiver -->
         <receiver
             android:name="com.campus.fitintent.utils.NotificationReceiver"

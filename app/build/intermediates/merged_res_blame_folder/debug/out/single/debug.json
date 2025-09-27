@@ -1,723 +1,594 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "com.campus.fitintent.app-merged_res-57:/layout_activity_splash.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/layout/activity_splash.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_fitness.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_fitness.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_gradient_background.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/drawable/gradient_background.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/anim_slide_out_right.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/anim/slide_out_right.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_workout.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/layout/fragment_workout.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_launcher.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_launcher.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_welcome2.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/layout/fragment_welcome2.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_tips.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_tips.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_nutrition.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/layout/fragment_nutrition.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_settings.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_settings.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_google.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/drawable/ic_google.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_bread.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_bread.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_lock.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/drawable/ic_lock.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_item_workout_activity.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/item_workout_activity.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/anim_slide_out_left.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/anim/slide_out_left.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_rewards.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_rewards.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/anim_fade_in.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/anim/fade_in.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_settings.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_settings.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_fitintent_logo.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/drawable/ic_fitintent_logo.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_today.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_today.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_person.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/drawable/ic_person.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_sweat_drop.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_sweat_drop.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_welcome3.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/layout/fragment_welcome3.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/xml_data_extraction_rules.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/anim_slide_in_right.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/anim/slide_in_right.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_dumbbell.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_dumbbell.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/anim_slide_out_right.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/anim/slide_out_right.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_grain.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_grain.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_quiz1.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/layout/fragment_quiz1.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_fitness_center.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_fitness_center.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/anim_fade_in_scale.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/anim/fade_in_scale.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_timer.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_timer.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_welcome1.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/layout/fragment_welcome1.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_quiz3.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_quiz3.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_signup.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/layout/fragment_signup.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_play.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_play.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/layout_activity_welcome.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/layout/activity_welcome.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_quiz.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_quiz.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_visibility_off.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/drawable/ic_visibility_off.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_mineral.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_mineral.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_email.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/drawable/ic_email.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_trending_up.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_trending_up.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/layout_activity_auth.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/layout/activity_auth.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_nutrition.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_nutrition.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_visibility.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/drawable/ic_visibility.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_item_workout_featured.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/item_workout_featured.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_dot_inactive.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/drawable/dot_inactive.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_yoga.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_yoga.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/anim_slide_in_left.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/anim/slide_in_left.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_item_workout_session.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/item_workout_session.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_dashboard.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/layout/fragment_dashboard.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_dot_active.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/dot_active.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_check_circle.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/drawable/ic_check_circle.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/anim_slide_out_left.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/anim/slide_out_left.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_dot_active.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/drawable/dot_active.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/anim_fade_in_scale.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/anim/fade_in_scale.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/layout_fragment_login.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/layout/fragment_login.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_privacy.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_privacy.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-57:/drawable_ic_arrow_forward.xml.flat",
-        "source": "com.campus.fitintent.app-main-59:/drawable/ic_arrow_forward.xml"
-=======
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_add.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_add.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_launcher_round.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_footsteps.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_footsteps.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_app_info.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_app_info.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_delete.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_delete.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_muscle.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_muscle.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_habit_tracking.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_habit_tracking.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_warning.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_warning.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_edit.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_edit.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_quiz4.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_quiz4.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_leaderboard.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_leaderboard.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_calendar_check.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_calendar_check.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_item_habit.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_habit.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_leaderboard.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_leaderboard.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_activity_onboarding.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_onboarding.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_level_up.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_level_up.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_lightning.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_lightning.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_dot_inactive.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/dot_inactive.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\mipmap-hdpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\mipmap-hdpi\\ic_launcher_round.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_activity_onboarding_quiz.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/activity_onboarding_quiz.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_gradient_background.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\gradient_background.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_scale.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_scale.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_sports.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_sports.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_login.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_habits_empty.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_habits_empty.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_dashboard.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_fire.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_fire.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_profile.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_logout.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_logout.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_activity_welcome.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/activity_welcome.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_nutrition.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_nutrition.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_add.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_add.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_activity_welcome.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_welcome.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/anim_slide_in_right.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/anim/slide_in_right.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_muscle.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_muscle.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_item_badge_progress.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/item_badge_progress.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\xml\\data_extraction_rules.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_circle_background_primary.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/circle_background_primary.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\color_bottom_nav_color_selector.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\color\\bottom_nav_color_selector.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/menu/bottom_navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\mipmap-hdpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\mipmap-hdpi\\ic_launcher.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_logout.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_logout.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_calendar.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_calendar.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_notification.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_notification.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_dot_indicator.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\dot_indicator.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/mipmap-hdpi/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_avocado.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_avocado.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_bottom_sheet_background.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/bottom_sheet_background.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_moon.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_moon.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_circle_background.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/circle_background.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_more_vert.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_more_vert.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_edit.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_edit.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_quiz.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_quiz.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_lightning.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_lightning.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\xml\\backup_rules.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_habit_tracking.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_habit_tracking.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_pause.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_pause.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/anim_slide_in_left.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/anim/slide_in_left.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_search.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_search.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/font_roboto_bold.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/font/roboto_bold.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\anim_fade_in_scale.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\anim\\fade_in_scale.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_calendar.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_calendar.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_item_badge_progress.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_badge_progress.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_egg.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_egg.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_splash.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_avocado.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_avocado.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_calendar_check.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_calendar_check.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_visibility_off.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_visibility_off.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_vitamin.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_vitamin.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_activity_splash.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_activity_auth.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_auth.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_open.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_open.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_check_circle.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_check_circle.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_delete.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_delete.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_settings.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_settings.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_activity_edit_profile.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/activity_edit_profile.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_favorite_border.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_favorite_border.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/mipmap-hdpi/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_item_workout_session.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_workout_session.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_download.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_download.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_trophy.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_trophy.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_quiz2.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_quiz2.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_visibility.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_visibility.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_activity_auth.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/activity_auth.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_expand_more.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_expand_more.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_quiz5.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_quiz5.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_calendar_week.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_calendar_week.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_spa.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_spa.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_custom_progress_drawable.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\custom_progress_drawable.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_crown.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_crown.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_notifications.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_notifications.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_play_arrow.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_play_arrow.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\menu_habit_item_menu.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\menu\\habit_item_menu.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_water_drop.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_water_drop.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_fitness_center.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_fitness_center.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_person.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_person.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_tips.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_tips.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_welcome3.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_welcome3.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_google.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_google.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_vitamin.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_vitamin.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\anim_slide_out_right.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\anim\\slide_out_right.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_expand_less.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_expand_less.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\mipmap-mdpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\mipmap-mdpi\\ic_launcher_round.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_item_habit.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/item_habit.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_item_nutrition_tip.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_nutrition_tip.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_transform.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_transform.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_main.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_item_badge_compact.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/item_badge_compact.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_quiz5.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_quiz5.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_check_circle.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_check_circle.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/anim_fade_in.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/anim/fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_profile.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_chevron_right.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_chevron_right.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_play.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_play.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_welcome1.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_welcome1.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_app_info.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_app_info.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_expand_more.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_expand_more.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_star.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_star.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/menu_habit_item_menu.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/menu/habit_item_menu.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_crown.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_crown.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_signup.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_signup.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_today.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_today.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/font_roboto.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/font/roboto.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\mipmap-mdpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\mipmap-mdpi\\ic_launcher.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_streak.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_streak.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_warning.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_warning.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/mipmap-mdpi/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_pause_circle.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_pause_circle.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_more_vert.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_more_vert.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_run.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_run.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_activity_notification_settings.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/activity_notification_settings.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_launcher_round.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_kitchen.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_kitchen.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_dot_active.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\dot_active.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_palette.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_palette.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_trending_up.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_trending_up.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_trophy.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_trophy.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_notification.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_notification.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/font_roboto_medium.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/font/roboto_medium.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_stretch.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_stretch.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/xml_backup_rules.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_chevron_right.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_chevron_right.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_workout.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_workout.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_workout.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_workout.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_footsteps.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_footsteps.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\anim_slide_in_right.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\anim\\slide_in_right.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_activity_onboarding.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/activity_onboarding.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_timer.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_timer.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_gradient_background.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/gradient_background.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_grain.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_grain.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_pause.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_pause.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_dot_inactive.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\dot_inactive.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_arrow_forward.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_arrow_forward.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_sweat_drop.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_sweat_drop.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_info.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_info.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_visibility_off.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_visibility_off.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_shuffle.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_shuffle.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_pills.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_pills.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_splash_background.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/splash_background.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_activity_notification_settings.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_notification_settings.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_moon.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_moon.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_target.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_target.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_habits_empty.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_habits_empty.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_circle_background_primary.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\circle_background_primary.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_stretch.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_stretch.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_item_workout_featured.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_workout_featured.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_activity_main.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_item_badge_compact.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_badge_compact.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_run.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_run.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_quiz2.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_quiz2.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_check.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_check.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_egg.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_egg.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_welcome2.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_welcome2.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_nutrition.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_nutrition.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_lock.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_lock.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_360.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_360.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_activity_onboarding_quiz.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_onboarding_quiz.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_visibility.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_visibility.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_badge.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_badge.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_calendar_week.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_calendar_week.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_item_workout_activity.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\item_workout_activity.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_fire.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_fire.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_bread.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_bread.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_notifications.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_download.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_download.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_schedule.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_schedule.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_open.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_open.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_item_nutrition_tip.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/item_nutrition_tip.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_shuffle.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_shuffle.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_self_improvement.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_self_improvement.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_play_arrow.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_play_arrow.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_welcome2.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_welcome2.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_quiz3.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_quiz3.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_fitintent_logo.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_fitintent_logo.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_sunrise.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_sunrise.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_search.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_search.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_settings.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_settings.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/mipmap-mdpi/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_fitintent_logo.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_fitintent_logo.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_target.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_target.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_kitchen.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_kitchen.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_sports.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_sports.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_welcome1.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_welcome1.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_email.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_email.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_arrow_forward.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_arrow_forward.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/layout_fragment_quiz1.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/layout/fragment_quiz1.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_circle_background.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\circle_background.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_share.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_share.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_yoga.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_yoga.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_badge.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_badge.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_360.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_360.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_star.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_star.xml"
     },
     {
-        "merged": "com.campus.fitintent.app-merged_res-59:/layout_fragment_signup.xml.flat",
-        "source": "com.campus.fitintent.app-main-61:/layout/fragment_signup.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_dot_indicator.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/dot_indicator.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_water_drop.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_water_drop.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_favorite_border.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_favorite_border.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_dumbbell.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_dumbbell.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_google.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_google.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_expand_less.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_expand_less.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_heart.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_heart.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_launcher.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_pills.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_pills.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_spa.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_spa.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_custom_progress_drawable.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/custom_progress_drawable.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_check.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_check.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_pause_circle.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_pause_circle.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_scale.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_scale.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_favorite.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_activity_edit_profile.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\activity_edit_profile.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/color_bottom_nav_color_selector.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/color/bottom_nav_color_selector.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_palette.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_palette.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_sunrise.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_sunrise.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_quiz4.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_quiz4.xml"
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_ruler.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_ruler.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\anim_fade_in.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\anim\\fade_in.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_fitness.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_fitness.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\font_roboto.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\font\\roboto.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_rewards.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_rewards.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_dashboard.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_dashboard.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\font_roboto_medium.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\font\\roboto_medium.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_transform.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_transform.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_email.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_email.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_self_improvement.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_self_improvement.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_splash_background.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\splash_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_level_up.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_level_up.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_streak.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_streak.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_person.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_person.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_info.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_info.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_nutrition.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_nutrition.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_welcome3.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_welcome3.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_mineral.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_mineral.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_schedule.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_schedule.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_privacy.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_privacy.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_heart.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_heart.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\anim_slide_out_left.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\anim\\slide_out_left.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\anim_slide_in_left.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\anim\\slide_in_left.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_share.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_share.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_favorite.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_favorite.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_signup.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_signup.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\menu_bottom_navigation_menu.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\menu\\bottom_navigation_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\font_roboto_bold.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\font\\roboto_bold.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_bottom_sheet_background.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\bottom_sheet_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\drawable_ic_ruler.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\drawable\\ic_ruler.xml"
-    },
-    {
-        "merged": "com.campus.fitintent.app-merged_res-59:/layout_fragment_login.xml.flat",
-        "source": "com.campus.fitintent.app-main-61:/layout/fragment_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-merged_res-59:\\layout_fragment_quiz1.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.9\\com.campus.fitintent.app-main-61:\\layout\\fragment_quiz1.xml"
->>>>>>> 818ab1f (Updated)
+        "merged": "com.campus.fitintent.app-merged_res-58:/drawable_ic_lock.xml.flat",
+        "source": "com.campus.fitintent.app-main-60:/drawable/ic_lock.xml"
     }
 ]

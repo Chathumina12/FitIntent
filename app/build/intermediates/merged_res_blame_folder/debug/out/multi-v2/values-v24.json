@@ -1,17 +1,20 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "com.campus.fitintent.app-mergeDebugResources-55:/values-v24/values-v24.xml",
+            "outputFile": "com.campus.fitintent.app-mergeDebugResources-56:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CHATHUMINA\\.gradle\\caches\\8.9\\transforms\\e09b2ace94f40a4e8017d7685f0b75bd\\transformed\\material-1.11.0\\res\\values-v24\\values-v24.xml",
-=======
-            "outputFile": "com.campus.fitintent.app-mergeDebugResources-57:/values-v24/values-v24.xml",
-            "map": [
+                    "source": "C:\\Users\\CHATHUMINA\\.gradle\\caches\\8.9\\transforms\\39107e6543bf764e2a19dd39dc1d67ba\\transformed\\appcompat-1.7.1\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
                 {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.9\\transforms\\e09b2ace94f40a4e8017d7685f0b75bd\\transformed\\material-1.11.0\\res\\values-v24\\values-v24.xml",
->>>>>>> 818ab1f (Updated)
+                    "source": "C:\\Users\\CHATHUMINA\\.gradle\\caches\\8.9\\transforms\\611e1888c2ac28aff094bf2d7b76961a\\transformed\\material-1.13.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -27,20 +30,6 @@
                         "endLines": "4,5,6,7,10,13,16,19",
                         "endColumns": "84,98,86,100,10,10,10,10",
                         "endOffsets": "427,526,613,714,913,1126,1327,1542"
-                    }
-                },
-                {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\CHATHUMINA\\.gradle\\caches\\8.9\\transforms\\c2ea66cc51e40882bf0a63f8fa7f78ca\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
-=======
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.9\\transforms\\c2ea66cc51e40882bf0a63f8fa7f78ca\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
->>>>>>> 818ab1f (Updated)
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
                     }
                 }
             ]

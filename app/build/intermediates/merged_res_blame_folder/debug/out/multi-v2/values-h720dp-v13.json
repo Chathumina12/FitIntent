@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "com.campus.fitintent.app-mergeDebugResources-55:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.campus.fitintent.app-mergeDebugResources-56:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CHATHUMINA\\.gradle\\caches\\8.9\\transforms\\c2ea66cc51e40882bf0a63f8fa7f78ca\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
-=======
-            "outputFile": "com.campus.fitintent.app-mergeDebugResources-57:/values-h720dp-v13/values-h720dp-v13.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.9\\transforms\\c2ea66cc51e40882bf0a63f8fa7f78ca\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
->>>>>>> 818ab1f (Updated)
+                    "source": "C:\\Users\\CHATHUMINA\\.gradle\\caches\\8.9\\transforms\\39107e6543bf764e2a19dd39dc1d67ba\\transformed\\appcompat-1.7.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

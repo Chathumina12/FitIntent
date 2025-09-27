@@ -106,11 +106,7 @@ interface StreakDao {
         UPDATE streaks
         SET currentStreak = :current,
             longestStreak = MAX(longestStreak, :current),
-<<<<<<< HEAD
-            lastActiveDate = :date
-=======
             lastActivityDate = :date
->>>>>>> 818ab1f (Updated)
         WHERE id = :streakId
     """)
     suspend fun updateStreakCount(streakId: Long, current: Int, date: Date)
@@ -126,43 +122,6 @@ interface StreakDao {
 }
 
 /**
-<<<<<<< HEAD
- * Data Access Object for Badge operations
- */
-@Dao
-interface BadgeDao {
-    @Query("SELECT * FROM badges WHERE userId = :userId ORDER BY earnedDate DESC")
-    fun getBadgesByUser(userId: Long): Flow<List<Badge>>
-
-    @Query("SELECT * FROM badges WHERE userId = :userId AND badgeType = :type LIMIT 1")
-    suspend fun getBadgeByType(userId: Long, type: BadgeType): Badge?
-
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insertBadge(badge: Badge): Long
-
-    @Update
-    suspend fun updateBadge(badge: Badge)
-
-    @Query("UPDATE badges SET level = :level, progress = :progress WHERE id = :badgeId")
-    suspend fun updateBadgeProgress(badgeId: Long, level: Int, progress: Float)
-
-    @Query("SELECT COUNT(*) FROM badges WHERE userId = :userId AND isUnlocked = 1")
-    suspend fun getUnlockedBadgeCount(userId: Long): Int
-
-    @Query("SELECT COUNT(*) FROM badges WHERE userId = :userId AND level = 3")
-    suspend fun getGoldBadgeCount(userId: Long): Int
-
-    @Query("SELECT * FROM badges WHERE userId = :userId AND isUnlocked = 0")
-    suspend fun getLockedBadges(userId: Long): List<Badge>
-
-    @Query("""
-        SELECT * FROM badges
-        WHERE userId = :userId
-        AND earnedDate BETWEEN :startDate AND :endDate
-        ORDER BY earnedDate DESC
-    """)
-    fun getBadgesEarnedInRange(userId: Long, startDate: Date, endDate: Date): Flow<List<Badge>>
-=======
  * Data Access Object for UserBadge operations (user progress on badges)
  */
 @Dao
@@ -217,5 +176,4 @@ interface UserBadgeDao {
         ORDER BY unlockedAt DESC
     """)
     fun getUserBadgesUnlockedInRange(userId: Long, startDate: Date, endDate: Date): Flow<List<UserBadge>>
->>>>>>> 818ab1f (Updated)
 }

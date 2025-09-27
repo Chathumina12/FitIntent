@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/spacing_medium"
+    app:cardCornerRadius="@dimen/corner_radius_large"
+    app:cardElevation="@dimen/card_elevation"
+    app:strokeColor="@color/outline"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_medium"
+        android:gravity="center">
+
+        <!-- Badge Icon -->
+        <FrameLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="@dimen/spacing_small">
+
+            <!-- Badge Background Circle -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardBadgeBackground"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/orange_primary">
+
+                <ImageView
+                    android:id="@+id/imgBadgeIcon"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_trophy"
+                    app:tint="@color/on_primary"
+                    android:contentDescription="@string/badge_icon"
+                    tools:src="@drawable/ic_trophy" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Rarity Indicator -->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipRarity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|end"
+                android:layout_marginTop="-4dp"
+                android:layout_marginEnd="-4dp"
+                android:text="RARE"
+                style="@style/Widget.Material3.Chip.Assist"
+                android:textSize="8sp"
+                android:textColor="@color/on_primary"
+                app:chipBackgroundColor="@color/purple_primary"
+                app:chipStrokeWidth="0dp"
+                app:chipMinHeight="16dp"
+                app:chipStartPadding="4dp"
+                app:chipEndPadding="4dp"
+                app:ensureMinTouchTargetSize="false"
+                tools:text="RARE" />
+
+        </FrameLayout>
+
+        <!-- Badge Name -->
+        <TextView
+            android:id="@+id/tvBadgeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Step"
+            android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+            android:textColor="@color/on_background"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginBottom="@dimen/spacing_tiny"
+            tools:text="First Step" />
+
+        <!-- Badge Description -->
+        <TextView
+            android:id="@+id/tvBadgeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complete your first habit"
+            android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+            android:textColor="@color/on_surface_variant"
+            android:gravity="center"
+            android:maxLines="2"
+            android:ellipsize="end"
+            tools:text="Complete your first habit" />
+
+        <!-- Unlock Date (for unlocked badges) -->
+        <TextView
+            android:id="@+id/tvUnlockDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unlocked 2 days ago"
+            android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+            android:textColor="@color/green_primary"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/spacing_tiny"
+            android:visibility="gone"
+            tools:text="Unlocked 2 days ago"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

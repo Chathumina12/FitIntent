@@ -64,14 +64,11 @@
         <item name="android:background">@drawable/bottom_sheet_background</item>
     </style>
 
-<<<<<<< HEAD
-=======
     <!-- NoActionBar Theme -->
     <style name="Theme.FitIntent.NoActionBar" parent="Theme.FitIntent">
         <!-- Inherits all properties from base theme -->
     </style>
 
->>>>>>> 818ab1f (Updated)
     <!-- Text Styles -->
     <style name="TextAppearance.FitIntent.Headline1" parent="TextAppearance.Material3.HeadlineLarge">
         <item name="android:textSize">32sp</item>
@@ -186,8 +183,6 @@
         <item name="buttonTint">@color/primary</item>
         <item name="android:textColor">@color/text_primary</item>
     </style>
-<<<<<<< HEAD
-=======
 
     <!-- Authentication Styles -->
     <style name="Widget.FitIntent.Auth.TextInputLayout" parent="Widget.Material3.TextInputLayout.FilledBox">
@@ -230,5 +225,4 @@
         <item name="cardElevation">0dp</item>
         <item name="strokeWidth">0dp</item>
     </style>
->>>>>>> 818ab1f (Updated)
 </resources>

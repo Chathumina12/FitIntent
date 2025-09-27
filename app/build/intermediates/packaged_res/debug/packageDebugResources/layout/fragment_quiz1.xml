@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="@dimen/padding_large">
+
+    <!-- Question Title -->
+    <TextView
+        android:id="@+id/questionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's your main goal?"
+        android:textSize="24sp"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/spacing_xxlarge"
+        android:layout_marginBottom="@dimen/spacing_xlarge" />
+
+    <!-- Option 1: Lose Weight -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/option1Card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        app:cardCornerRadius="@dimen/corner_radius_medium"
+        app:cardElevation="0dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="@color/divider"
+        app:cardBackgroundColor="@color/surface">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lose Weight"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_primary" />
+
+            <ImageView
+                android:id="@+id/option1Check"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_check_circle"
+                android:visibility="gone"
+                android:contentDescription="Selected" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Option 2: Gain Strength -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/option2Card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        app:cardCornerRadius="@dimen/corner_radius_medium"
+        app:cardElevation="0dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="@color/divider"
+        app:cardBackgroundColor="@color/surface">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Gain Strength"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_primary" />
+
+            <ImageView
+                android:id="@+id/option2Check"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_check_circle"
+                android:visibility="gone"
+                android:contentDescription="Selected" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Option 3: Stay Active -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/option3Card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="@dimen/spacing_xlarge"
+        app:cardCornerRadius="@dimen/corner_radius_medium"
+        app:cardElevation="0dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="@color/divider"
+        app:cardBackgroundColor="@color/surface">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Stay Active"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_primary" />
+
+            <ImageView
+                android:id="@+id/option3Check"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_check_circle"
+                android:visibility="gone"
+                android:contentDescription="Selected" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Next Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/primary"
+        android:enabled="false"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        app:cornerRadius="@dimen/corner_radius_medium" />
+
+    <!-- Skip Question Text -->
+    <TextView
+        android:id="@+id/skipQuestionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip this question"
+        android:textColor="@color/text_secondary"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:background="?attr/selectableItemBackground"
+        android:padding="@dimen/padding_small" />
+
+</LinearLayout>

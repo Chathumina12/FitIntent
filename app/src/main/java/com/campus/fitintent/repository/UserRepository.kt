@@ -2,12 +2,9 @@ package com.campus.fitintent.repository
 
 import com.campus.fitintent.database.dao.UserDao
 import com.campus.fitintent.models.User
-<<<<<<< HEAD
-=======
 import com.campus.fitintent.models.Gender
 import com.campus.fitintent.models.ActivityLevel
 import com.campus.fitintent.models.FitnessGoal
->>>>>>> 818ab1f (Updated)
 import com.campus.fitintent.utils.PreferencesManager
 import com.campus.fitintent.utils.Result
 import com.campus.fitintent.utils.ValidationUtils
@@ -282,8 +279,6 @@ class UserRepository(
     fun isOnboardingComplete(): Boolean {
         return preferencesManager.isOnboardingComplete()
     }
-<<<<<<< HEAD
-=======
 
     /**
      * Get user by email address
@@ -332,5 +327,4 @@ class UserRepository(
             false
         }
     }
->>>>>>> 818ab1f (Updated)
 }

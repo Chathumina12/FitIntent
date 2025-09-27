@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true"
+    tools:context=".fragments.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_medium">
+
+        <!-- User Header Section -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardUserHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elevation"
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/card_padding">
+
+                <!-- Profile Avatar -->
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imgUserAvatar"
+                    android:layout_width="@dimen/avatar_size_xlarge"
+                    android:layout_height="@dimen/avatar_size_xlarge"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/surface_variant"
+                    android:contentDescription="@string/profile_picture"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_person"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+                    app:strokeColor="@color/primary"
+                    app:strokeWidth="2dp" />
+
+                <!-- User Info Container -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_toEndOf="@id/imgUserAvatar"
+                    android:layout_toStartOf="@id/btnEditProfile"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvUserName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_primary"
+                        android:textSize="@dimen/text_size_xxlarge"
+                        android:textStyle="bold"
+                        tools:text="John Doe" />
+
+                    <TextView
+                        android:id="@+id/tvUserEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_tiny"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="@dimen/text_size_medium"
+                        tools:text="john.doe@email.com" />
+
+                    <TextView
+                        android:id="@+id/tvMemberSince"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="@dimen/text_size_small"
+                        tools:text="Member since Jan 2024" />
+
+                </LinearLayout>
+
+                <!-- Edit Profile Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnEditProfile"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/edit_profile"
+                    android:textColor="@color/primary"
+                    app:strokeColor="@color/primary"
+                    app:icon="@drawable/ic_edit"
+                    app:iconTint="@color/primary" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Progress Overview Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:text="@string/progress_overview"
+            android:textColor="@color/text_primary"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <!-- Progress Cards Grid -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:orientation="vertical">
+
+            <!-- First Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_medium"
+                android:orientation="horizontal">
+
+                <!-- Total Workouts Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardTotalWorkouts"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardCornerRadius="@dimen/card_corner_radius"
+                    app:cardElevation="@dimen/card_elevation"
+                    app:strokeColor="@color/divider"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/card_padding">
+
+                        <ImageView
+                            android:layout_width="@dimen/icon_size_large"
+                            android:layout_height="@dimen/icon_size_large"
+                            android:layout_marginBottom="@dimen/margin_small"
+                            android:contentDescription="@string/total_workouts"
+                            android:src="@drawable/ic_fitness"
+                            app:tint="@color/primary" />
+
+                        <TextView
+                            android:id="@+id/tvTotalWorkouts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_primary"
+                            android:textSize="@dimen/text_size_headline"
+                            android:textStyle="bold"
+                            tools:text="42" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/total_workouts"
+                            android:textColor="@color/text_secondary"
+                            android:textSize="@dimen/text_size_small" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Current Streak Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardCurrentStreak"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_small"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardCornerRadius="@dimen/card_corner_radius"
+                    app:cardElevation="@dimen/card_elevation"
+                    app:strokeColor="@color/divider"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/card_padding">
+
+                        <ImageView
+                            android:layout_width="@dimen/icon_size_large"
+                            android:layout_height="@dimen/icon_size_large"
+                            android:layout_marginBottom="@dimen/margin_small"
+                            android:contentDescription="@string/current_streak"
+                            android:src="@drawable/ic_streak"
+                            app:tint="@color/warning" />
+
+                        <TextView
+                            android:id="@+id/tvCurrentStreak"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_primary"
+                            android:textSize="@dimen/text_size_headline"
+                            android:textStyle="bold"
+                            tools:text="7" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/days_streak"
+                            android:textColor="@color/text_secondary"
+                            android:textSize="@dimen/text_size_small" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            <!-- Second Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Points Earned Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardPointsEarned"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardCornerRadius="@dimen/card_corner_radius"
+                    app:cardElevation="@dimen/card_elevation"
+                    app:strokeColor="@color/divider"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/card_padding">
+
+                        <ImageView
+                            android:layout_width="@dimen/icon_size_large"
+                            android:layout_height="@dimen/icon_size_large"
+                            android:layout_marginBottom="@dimen/margin_small"
+                            android:contentDescription="@string/points_earned"
+                            android:src="@drawable/ic_star"
+                            app:tint="@color/badge_gold" />
+
+                        <TextView
+                            android:id="@+id/tvPointsEarned"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_primary"
+                            android:textSize="@dimen/text_size_headline"
+                            android:textStyle="bold"
+                            tools:text="1,250" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/total_points"
+                            android:textColor="@color/text_secondary"
+                            android:textSize="@dimen/text_size_small" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Days Active Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardDaysActive"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_small"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardCornerRadius="@dimen/card_corner_radius"
+                    app:cardElevation="@dimen/card_elevation"
+                    app:strokeColor="@color/divider"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/card_padding">
+
+                        <ImageView
+                            android:layout_width="@dimen/icon_size_large"
+                            android:layout_height="@dimen/icon_size_large"
+                            android:layout_marginBottom="@dimen/margin_small"
+                            android:contentDescription="@string/days_active"
+                            android:src="@drawable/ic_calendar"
+                            app:tint="@color/success" />
+
+                        <TextView
+                            android:id="@+id/tvDaysActive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_primary"
+                            android:textSize="@dimen/text_size_headline"
+                            android:textStyle="bold"
+                            tools:text="92" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/days_active"
+                            android:textColor="@color/text_secondary"
+                            android:textSize="@dimen/text_size_small" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Quiz Results Section -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardQuizResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elevation"
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/card_padding">
+
+                <!-- Header with expand/collapse -->
+                <LinearLayout
+                    android:id="@+id/layoutQuizHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingVertical="@dimen/padding_small">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size_medium"
+                        android:layout_height="@dimen/icon_size_medium"
+                        android:layout_marginEnd="@dimen/margin_medium"
+                        android:contentDescription="@string/fitness_preferences"
+                        android:src="@drawable/ic_quiz"
+                        app:tint="@color/primary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/fitness_preferences"
+                        android:textColor="@color/text_primary"
+                        android:textSize="@dimen/text_size_large"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imgQuizExpand"
+                        android:layout_width="@dimen/icon_size_medium"
+                        android:layout_height="@dimen/icon_size_medium"
+                        android:contentDescription="@string/expand_collapse"
+                        android:src="@drawable/ic_expand_more"
+                        app:tint="@color/text_secondary" />
+
+                </LinearLayout>
+
+                <!-- Quiz Results Content (Initially Hidden) -->
+                <LinearLayout
+                    android:id="@+id/layoutQuizContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    tools:visibility="visible">
+
+                    <!-- Primary Goal -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/primary_goal"
+                            android:textColor="@color/text_secondary"
+                            android:textSize="@dimen/text_size_medium" />
+
+                        <TextView
+                            android:id="@+id/tvPrimaryGoal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_primary"
+                            android:textSize="@dimen/text_size_medium"
+                            android:textStyle="bold"
+                            tools:text="Lose Weight" />
+
+                    </LinearLayout>
+
+                    <!-- Fitness Level -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/fitness_level"
+                            android:textColor="@color/text_secondary"
+                            android:textSize="@dimen/text_size_medium" />
+
+                        <TextView
+                            android:id="@+id/tvFitnessLevel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_primary"
+                            android:textSize="@dimen/text_size_medium"
+                            android:textStyle="bold"
+                            tools:text="Beginner" />
+
+                    </LinearLayout>
+
+                    <!-- Preferred Workout -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/preferred_workout"
+                            android:textColor="@color/text_secondary"
+                            android:textSize="@dimen/text_size_medium" />
+
+                        <TextView
+                            android:id="@+id/tvPreferredWorkout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_primary"
+                            android:textSize="@dimen/text_size_medium"
+                            android:textStyle="bold"
+                            tools:text="Cardio" />
+
+                    </LinearLayout>
+
+                    <!-- Time Availability -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_medium"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/time_availability"
+                            android:textColor="@color/text_secondary"
+                            android:textSize="@dimen/text_size_medium" />
+
+                        <TextView
+                            android:id="@+id/tvTimeAvailability"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_primary"
+                            android:textSize="@dimen/text_size_medium"
+                            android:textStyle="bold"
+                            tools:text="30-45 minutes" />
+
+                    </LinearLayout>
+
+                    <!-- Edit Preferences Button -->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnEditPreferences"
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:text="@string/edit_preferences"
+                        android:textColor="@color/primary"
+                        app:strokeColor="@color/primary"
+                        app:icon="@drawable/ic_edit"
+                        app:iconTint="@color/primary" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Settings Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:text="@string/settings"
+            android:textColor="@color/text_primary"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <!-- Settings Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elevation"
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Notifications Setting -->
+                <LinearLayout
+                    android:id="@+id/layoutNotifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/card_padding">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size_medium"
+                        android:layout_height="@dimen/icon_size_medium"
+                        android:layout_marginEnd="@dimen/margin_medium"
+                        android:contentDescription="@string/notifications"
+                        android:src="@drawable/ic_notifications"
+                        app:tint="@color/text_secondary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/notifications"
+                        android:textColor="@color/text_primary"
+                        android:textSize="@dimen/text_size_medium" />
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size_small"
+                        android:layout_height="@dimen/icon_size_small"
+                        android:contentDescription="@string/navigate_forward"
+                        android:src="@drawable/ic_chevron_right"
+                        app:tint="@color/text_secondary" />
+
+                </LinearLayout>
+
+                <!-- Divider -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <!-- Theme Setting -->
+                <LinearLayout
+                    android:id="@+id/layoutTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/card_padding">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size_medium"
+                        android:layout_height="@dimen/icon_size_medium"
+                        android:layout_marginEnd="@dimen/margin_medium"
+                        android:contentDescription="@string/theme"
+                        android:src="@drawable/ic_palette"
+                        app:tint="@color/text_secondary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/theme"
+                        android:textColor="@color/text_primary"
+                        android:textSize="@dimen/text_size_medium" />
+
+                    <TextView
+                        android:id="@+id/tvCurrentTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin_small"
+                        android:text="@string/dark"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="@dimen/text_size_small" />
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size_small"
+                        android:layout_height="@dimen/icon_size_small"
+                        android:contentDescription="@string/navigate_forward"
+                        android:src="@drawable/ic_chevron_right"
+                        app:tint="@color/text_secondary" />
+
+                </LinearLayout>
+
+                <!-- Divider -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <!-- Data Export -->
+                <LinearLayout
+                    android:id="@+id/layoutDataExport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/card_padding">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size_medium"
+                        android:layout_height="@dimen/icon_size_medium"
+                        android:layout_marginEnd="@dimen/margin_medium"
+                        android:contentDescription="@string/export_data"
+                        android:src="@drawable/ic_download"
+                        app:tint="@color/text_secondary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/export_data"
+                        android:textColor="@color/text_primary"
+                        android:textSize="@dimen/text_size_medium" />
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size_small"
+                        android:layout_height="@dimen/icon_size_small"
+                        android:contentDescription="@string/navigate_forward"
+                        android:src="@drawable/ic_chevron_right"
+                        app:tint="@color/text_secondary" />
+
+                </LinearLayout>
+
+                <!-- Divider -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <!-- About App -->
+                <LinearLayout
+                    android:id="@+id/layoutAbout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/card_padding">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size_medium"
+                        android:layout_height="@dimen/icon_size_medium"
+                        android:layout_marginEnd="@dimen/margin_medium"
+                        android:contentDescription="@string/about_app"
+                        android:src="@drawable/ic_info"
+                        app:tint="@color/text_secondary" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/about_app"
+                        android:textColor="@color/text_primary"
+                        android:textSize="@dimen/text_size_medium" />
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_size_small"
+                        android:layout_height="@dimen/icon_size_small"
+                        android:contentDescription="@string/navigate_forward"
+                        android:src="@drawable/ic_chevron_right"
+                        app:tint="@color/text_secondary" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Account Actions -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogout"
+            style="@style/Widget.Material3.Button.UnelevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_large"
+            android:layout_marginBottom="@dimen/margin_xlarge"
+            android:backgroundTint="@color/error"
+            android:text="@string/logout"
+            android:textColor="@color/white"
+            app:icon="@drawable/ic_logout"
+            app:iconTint="@color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

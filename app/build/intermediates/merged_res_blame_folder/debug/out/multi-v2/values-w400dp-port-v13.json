@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "com.campus.fitintent.app-mergeDebugResources-55:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
+            "outputFile": "com.campus.fitintent.app-mergeDebugResources-56:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CHATHUMINA\\.gradle\\caches\\8.9\\transforms\\e09b2ace94f40a4e8017d7685f0b75bd\\transformed\\material-1.11.0\\res\\values-w400dp-port-v13\\values-w400dp-port-v13.xml",
-=======
-            "outputFile": "com.campus.fitintent.app-mergeDebugResources-57:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.9\\transforms\\e09b2ace94f40a4e8017d7685f0b75bd\\transformed\\material-1.11.0\\res\\values-w400dp-port-v13\\values-w400dp-port-v13.xml",
->>>>>>> 818ab1f (Updated)
+                    "source": "C:\\Users\\CHATHUMINA\\.gradle\\caches\\8.9\\transforms\\611e1888c2ac28aff094bf2d7b76961a\\transformed\\material-1.13.0\\res\\values-w400dp-port-v13\\values-w400dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -2,8 +2,6 @@ package com.campus.fitintent.fragments
 
 import android.content.Intent
 import android.os.Bundle
-import android.text.method.HideReturnsTransformationMethod
-import android.text.method.PasswordTransformationMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -17,11 +15,7 @@ import com.campus.fitintent.activities.MainActivity
 import com.campus.fitintent.activities.OnboardingActivity
 import com.campus.fitintent.databinding.FragmentLoginBinding
 import com.campus.fitintent.utils.Result
-<<<<<<< HEAD
-import com.campus.fitintent.utils.ViewModelFactory
-=======
 import com.campus.fitintent.viewmodels.ViewModelFactory
->>>>>>> 818ab1f (Updated)
 import com.campus.fitintent.viewmodels.AuthViewModel
 import com.google.android.material.snackbar.Snackbar
 
@@ -30,7 +24,6 @@ class LoginFragment : Fragment() {
     private var _binding: FragmentLoginBinding? = null
     private val binding get() = _binding!!
     private lateinit var authViewModel: AuthViewModel
-    private var isPasswordVisible = false
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -46,11 +39,7 @@ class LoginFragment : Fragment() {
 
         // Initialize ViewModel
         val app = requireActivity().application as FitIntentApplication
-<<<<<<< HEAD
-        val factory = ViewModelFactory(app.userRepository)
-=======
         val factory = ViewModelFactory.getInstance(app)
->>>>>>> 818ab1f (Updated)
         authViewModel = ViewModelProvider(this, factory)[AuthViewModel::class.java]
 
         setupUI()
@@ -58,24 +47,14 @@ class LoginFragment : Fragment() {
     }
 
     private fun setupUI() {
-        // Password visibility toggle
-        binding.passwordVisibilityToggle.setOnClickListener {
-            togglePasswordVisibility()
-        }
-
-        // Login button
-        binding.loginButton.setOnClickListener {
+        // Continue button (main login button)
+        binding.continueButton.setOnClickListener {
             performLogin()
         }
 
         // Sign up link
-        binding.signupLink.setOnClickListener {
+        binding.signUpLink.setOnClickListener {
             (requireActivity() as AuthActivity).showSignupFragment()
-        }
-
-        // Forgot password link
-        binding.forgotPasswordLink.setOnClickListener {
-            showForgotPasswordDialog()
         }
 
         // Google Sign-In button (placeholder)
@@ -100,9 +79,8 @@ class LoginFragment : Fragment() {
     private fun observeViewModel() {
         // Loading state
         authViewModel.isLoading.observe(viewLifecycleOwner) { isLoading ->
-            binding.loginButton.isEnabled = !isLoading
-            binding.progressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
-            binding.loginButton.text = if (isLoading) "" else getString(R.string.login)
+            binding.continueButton.isEnabled = !isLoading
+            binding.continueButton.text = if (isLoading) "Loading..." else "Continue"
         }
 
         // Validation errors
@@ -136,11 +114,7 @@ class LoginFragment : Fragment() {
                     requireActivity().finish()
                 }
                 is Result.Error -> {
-<<<<<<< HEAD
-                    val errorMessage = result.exception.message ?: getString(R.string.error_login_failed)
-=======
                     val errorMessage = result.exception?.message ?: getString(R.string.error_login_failed)
->>>>>>> 818ab1f (Updated)
                     Snackbar.make(binding.root, errorMessage, Snackbar.LENGTH_LONG)
                         .setAction(getString(R.string.retry)) { performLogin() }
                         .show()
@@ -155,7 +129,7 @@ class LoginFragment : Fragment() {
     private fun performLogin() {
         val email = binding.emailInput.text.toString().trim()
         val password = binding.passwordInput.text.toString()
-        val rememberMe = binding.rememberMeCheckbox.isChecked
+        val stayLoggedIn = binding.stayLoggedInCheckbox.isChecked
 
         // Clear previous errors
         binding.emailInputLayout.error = null
@@ -173,30 +147,9 @@ class LoginFragment : Fragment() {
         }
 
         // Perform login
-        authViewModel.login(email, password, rememberMe)
+        authViewModel.login(email, password, stayLoggedIn)
     }
 
-    private fun togglePasswordVisibility() {
-        isPasswordVisible = !isPasswordVisible
-        if (isPasswordVisible) {
-            binding.passwordInput.transformationMethod = HideReturnsTransformationMethod.getInstance()
-            binding.passwordVisibilityToggle.setImageResource(R.drawable.ic_visibility_off)
-        } else {
-            binding.passwordInput.transformationMethod = PasswordTransformationMethod.getInstance()
-            binding.passwordVisibilityToggle.setImageResource(R.drawable.ic_visibility)
-        }
-        // Move cursor to end
-        binding.passwordInput.setSelection(binding.passwordInput.text?.length ?: 0)
-    }
-
-    private fun showForgotPasswordDialog() {
-        // TODO: Implement password reset functionality
-        Snackbar.make(
-            binding.root,
-            "Password reset feature coming soon!",
-            Snackbar.LENGTH_SHORT
-        ).show()
-    }
 
     override fun onDestroyView() {
         super.onDestroyView()

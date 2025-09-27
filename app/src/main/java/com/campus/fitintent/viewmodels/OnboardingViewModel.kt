@@ -61,28 +61,6 @@ class OnboardingViewModel(
 
     fun setTimeAvailability(time: String) {
         timeAvailability = time
-<<<<<<< HEAD
-        completeOnboarding()
-    }
-
-    private fun completeOnboarding() {
-        viewModelScope.launch {
-            try {
-                val currentUser = userRepository.getCurrentUser()
-                currentUser?.let { user ->
-                    // Update user with quiz answers
-                    val updatedUser = user.copy(
-                        primaryGoal = mapFitnessGoal(fitnessGoal),
-                        activityLevel = mapActivityLevel(exerciseFrequency),
-                        isOnboardingComplete = true
-                    )
-                    userRepository.updateUser(updatedUser)
-
-                    // Generate personalized plan based on answers
-                    generatePersonalizedPlan()
-
-                    _onboardingComplete.value = true
-=======
         finishOnboarding()
     }
 
@@ -140,7 +118,6 @@ class OnboardingViewModel(
                         // This shouldn't happen
                         _onboardingComplete.value = false
                     }
->>>>>>> 818ab1f (Updated)
                 }
             } catch (e: Exception) {
                 // Handle error
@@ -167,13 +144,8 @@ class OnboardingViewModel(
     private fun mapActivityLevel(frequency: String?): com.campus.fitintent.models.ActivityLevel? {
         return when (frequency) {
             "rarely" -> com.campus.fitintent.models.ActivityLevel.SEDENTARY
-<<<<<<< HEAD
-            "1-2_week" -> com.campus.fitintent.models.ActivityLevel.LIGHTLY_ACTIVE
-            "3-5_week" -> com.campus.fitintent.models.ActivityLevel.MODERATELY_ACTIVE
-=======
             "1_2_times_week" -> com.campus.fitintent.models.ActivityLevel.LIGHTLY_ACTIVE
             "3_5_times_week" -> com.campus.fitintent.models.ActivityLevel.MODERATELY_ACTIVE
->>>>>>> 818ab1f (Updated)
             "daily" -> com.campus.fitintent.models.ActivityLevel.VERY_ACTIVE
             else -> null
         }

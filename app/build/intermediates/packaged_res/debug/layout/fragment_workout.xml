@@ -1,39 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true"
-    android:background="@color/background">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="@dimen/padding_medium">
-
-        <!-- Header -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Workouts"
-            android:textSize="@dimen/text_size_headline"
-            android:textColor="@color/text_primary"
-            android:textStyle="bold"
-            android:layout_marginBottom="@dimen/spacing_small" />
-
-        <!-- Quick Start Section -->
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/quickStartCard"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/spacing_large"
-            app:cardCornerRadius="@dimen/corner_radius_large"
-            app:cardElevation="@dimen/elevation_small"
-            app:cardBackgroundColor="@color/accent">
-
-=======
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -53,80 +18,10 @@
             android:padding="@dimen/spacing_medium">
 
             <!-- Header -->
->>>>>>> 818ab1f (Updated)
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-<<<<<<< HEAD
-                android:padding="@dimen/padding_large"
-                android:gravity="center_vertical">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Quick Start"
-                        android:textSize="@dimen/text_size_large"
-                        android:textColor="@android:color/white"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Continue your last workout"
-                        android:textSize="@dimen/text_size_medium"
-                        android:textColor="@android:color/white"
-                        android:alpha="0.9"
-                        android:layout_marginTop="@dimen/spacing_tiny" />
-
-                </LinearLayout>
-
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/quickStartButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Start"
-                    style="@style/Widget.MaterialComponents.Button"
-                    android:backgroundTint="@android:color/white"
-                    android:textColor="@color/accent"
-                    app:cornerRadius="@dimen/corner_radius_medium" />
-
-            </LinearLayout>
-
-        </com.google.android.material.card.MaterialCardView>
-
-        <!-- Workout Categories -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Categories"
-            android:textSize="@dimen/text_size_large"
-            android:textColor="@color/text_primary"
-            android:textStyle="bold"
-            android:layout_marginBottom="@dimen/spacing_medium" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="@dimen/spacing_large">
-
-            <!-- Strength Card -->
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/strengthCard"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginEnd="@dimen/spacing_small"
-                app:cardCornerRadius="@dimen/corner_radius_medium"
-                app:cardElevation="@dimen/elevation_small">
-=======
                 android:gravity="center_vertical"
                 android:layout_marginBottom="@dimen/spacing_large">
 
@@ -160,38 +55,10 @@
                 app:cardElevation="@dimen/card_elevation"
                 app:cardBackgroundColor="@color/red_primary"
                 app:strokeWidth="0dp">
->>>>>>> 818ab1f (Updated)
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-<<<<<<< HEAD
-                    android:orientation="vertical"
-                    android:padding="@dimen/padding_medium"
-                    android:gravity="center">
-
-                    <ImageView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:src="@drawable/ic_fitness"
-                        android:contentDescription="Strength" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Strength"
-                        android:textSize="@dimen/text_size_medium"
-                        android:textColor="@color/text_primary"
-                        android:textStyle="bold"
-                        android:layout_marginTop="@dimen/spacing_small" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="12 workouts"
-                        android:textSize="@dimen/text_size_small"
-                        android:textColor="@color/text_secondary" />
-=======
                     android:orientation="horizontal"
                     android:padding="@dimen/spacing_large"
                     android:gravity="center_vertical">
@@ -233,159 +100,11 @@
                         app:cornerRadius="@dimen/corner_radius_medium"
                         app:icon="@drawable/ic_play_arrow"
                         app:iconTint="@color/red_primary" />
->>>>>>> 818ab1f (Updated)
 
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
 
-<<<<<<< HEAD
-            <!-- Cardio Card -->
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardioCard"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginStart="@dimen/spacing_small"
-                android:layout_marginEnd="@dimen/spacing_small"
-                app:cardCornerRadius="@dimen/corner_radius_medium"
-                app:cardElevation="@dimen/elevation_small">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="@dimen/padding_medium"
-                    android:gravity="center">
-
-                    <ImageView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:src="@drawable/ic_run"
-                        android:contentDescription="Cardio" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Cardio"
-                        android:textSize="@dimen/text_size_medium"
-                        android:textColor="@color/text_primary"
-                        android:textStyle="bold"
-                        android:layout_marginTop="@dimen/spacing_small" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="8 workouts"
-                        android:textSize="@dimen/text_size_small"
-                        android:textColor="@color/text_secondary" />
-
-                </LinearLayout>
-
-            </com.google.android.material.card.MaterialCardView>
-
-            <!-- Flexibility Card -->
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/flexibilityCard"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginStart="@dimen/spacing_small"
-                app:cardCornerRadius="@dimen/corner_radius_medium"
-                app:cardElevation="@dimen/elevation_small">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="@dimen/padding_medium"
-                    android:gravity="center">
-
-                    <ImageView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:src="@drawable/ic_yoga"
-                        android:contentDescription="Flexibility" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Flexibility"
-                        android:textSize="@dimen/text_size_medium"
-                        android:textColor="@color/text_primary"
-                        android:textStyle="bold"
-                        android:layout_marginTop="@dimen/spacing_small" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="6 workouts"
-                        android:textSize="@dimen/text_size_small"
-                        android:textColor="@color/text_secondary" />
-
-                </LinearLayout>
-
-            </com.google.android.material.card.MaterialCardView>
-
-        </LinearLayout>
-
-        <!-- Featured Workouts -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
-            android:layout_marginBottom="@dimen/spacing_medium">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Featured Workouts"
-                android:textSize="@dimen/text_size_large"
-                android:textColor="@color/text_primary"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/viewAllWorkouts"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="View All"
-                android:textSize="@dimen/text_size_medium"
-                android:textColor="@color/primary"
-                android:background="?attr/selectableItemBackground"
-                android:padding="@dimen/padding_small" />
-
-        </LinearLayout>
-
-        <!-- Workouts RecyclerView -->
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/workoutsRecyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/spacing_large"
-            android:nestedScrollingEnabled="false" />
-
-        <!-- Recent Activity -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Recent Activity"
-            android:textSize="@dimen/text_size_large"
-            android:textColor="@color/text_primary"
-            android:textStyle="bold"
-            android:layout_marginBottom="@dimen/spacing_medium" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recentActivityRecyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:nestedScrollingEnabled="false" />
-
-    </LinearLayout>
-
-</ScrollView>
-=======
             <!-- Workout Categories -->
             <TextView
                 android:layout_width="wrap_content"
@@ -725,4 +444,3 @@
         app:trackColor="@color/outline" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
->>>>>>> 818ab1f (Updated)

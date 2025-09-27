@@ -72,8 +72,6 @@
             android:exported="false"
             android:screenOrientation="portrait" />
 
-<<<<<<< HEAD
-=======
         <!-- Edit Profile Activity -->
         <activity
             android:name=".activities.EditProfileActivity"
@@ -93,7 +91,6 @@
             android:exported="false"
             android:screenOrientation="portrait" />
 
->>>>>>> 818ab1f (Updated)
         <!-- Notification Receiver -->
         <receiver
             android:name=".utils.NotificationReceiver"
